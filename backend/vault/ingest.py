@@ -75,35 +75,75 @@ def scan_vault():
     }
 
 
-# --------------------
-# keyword fallback
-# --------------------
+import re
+from collections import defaultdict
+
+MIN_SCORE = 0.2   # ← relevance threshold (important)
+
+
+def tokenize(text: str) -> set[str]:
+    return set(re.findall(r"[a-zA-Z0-9]+", text.lower()))
+
+
+def keyword_score(query: str, text: str) -> float:
+    q = tokenize(query)
+    t = tokenize(text)
+    if not q or not t:
+        return 0.0
+    return len(q & t) / len(q)
+
+
+def extract_text(item):
+    if isinstance(item, str):
+        return item
+    if isinstance(item, dict):
+        return item.get("chunk") or item.get("text") or ""
+    return ""
+
+
+def extract_score(item):
+    if isinstance(item, dict):
+        return float(item.get("score", 1.0))
+    return 1.0
+
 
 def retrieve_relevant_chunks(query: str, vault_data: dict, limit: int = 3):
-    matches = []
+    scored = defaultdict(float)
 
-    query_words = normalize(query).split()
+    # -------------------------
+    # 1. Semantic search
+    # -------------------------
+    semantic_results = vector_store.search(query, k=limit * 3)
 
+    for r in semantic_results:
+        text = extract_text(r)
+        if not text:
+            continue
+        scored[text] += 0.7 * extract_score(r)
+
+    # -------------------------
+    # 2. Keyword overlap (FIXED)
+    # -------------------------
     for file in vault_data.get("files", []):
         for chunk in file.get("chunks", []):
-            chunk_text = normalize(chunk)
+            if not isinstance(chunk, str):
+                continue
 
-            # score = number of query words found in chunk
-            score = sum(1 for word in query_words if word in chunk_text)
+            ks = keyword_score(query, chunk)
+            if ks > 0:
+                scored[chunk] += 0.3 * ks
 
-            # 🔥 IMPORTANT: ignore weak matches
-            if score >= 2:
-                matches.append((score, chunk, file["name"]))
+    # -------------------------
+    # 3. Filter + rank
+    # -------------------------
+    ranked = sorted(
+        scored.items(),
+        key=lambda x: x[1],
+        reverse=True,
+    )
 
-    # sort by relevance (highest score first)
-    matches.sort(key=lambda x: x[0], reverse=True)
-
-    # return top results
     return [
-        {
-            "file": name,
-            "chunk": chunk,
-            "score": score
-        }
-        for score, chunk, name in matches[:limit]
-    ]
+        {"chunk": text, "score": score}
+        for text, score in ranked
+        if score >= MIN_SCORE
+    ][:limit]
