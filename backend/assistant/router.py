@@ -87,7 +87,10 @@ def ask(req: AskRequest):
                 prompt=f'''The user is asking for information you don't have.
                   Tell them you don't know yet and suggest adding files to the vault so you can sync and help.
                     Keep it friendly and short.Be casual and honest.No excitement.
-                    No “happy to help”.Sound like a normal person.\n\nUser: {question}''',
+                    No “happy to help”.Sound like a normal person.Language:
+                    - Respond in English only.
+                    - Never use any other language.
+                    \n\nUser: {question}''',
                 options={"temperature": 0.5, "num_predict": 80}
             )
             return {"answer": refusal_response["response"].strip()}
