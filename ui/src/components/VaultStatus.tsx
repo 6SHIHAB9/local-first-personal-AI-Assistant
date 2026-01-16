@@ -52,9 +52,5 @@ const VaultStatus = () => {
   );
 };
 
-export default VaultStatus;
-
-  );
-};
 
 export default VaultStatus;
