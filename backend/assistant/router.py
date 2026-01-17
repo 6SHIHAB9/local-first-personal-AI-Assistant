@@ -3,9 +3,8 @@ from pydantic import BaseModel
 import ollama
 import re
 
-from vault.ingest import scan_vault, retrieve_relevant_chunks, vector_store
+from vault.ingest import scan_vault, retrieve_relevant_chunks
 from config import VAULT_PATH
-from memory.memory import load_memory
 from memory.context import get_context_block, update_context
 from memory.extractor import extract_context_facts
 
@@ -25,10 +24,6 @@ router = APIRouter()
 # =========================
 class AskRequest(BaseModel):
     question: str
-
-class QuizRequest(BaseModel):
-    topic: str
-    answer: str | None = None
 
 
 # =========================
@@ -303,58 +298,3 @@ ANSWER:
     except Exception as e:
         print("ERROR:", e)
         return {"answer": "My brain just lagged. Say that again?"}
-
-
-
-
-# =========================
-# Summarize (stub)
-# =========================
-@router.post("/summarize")
-def summarize():
-    return {"summary": "Summarize mode response (stub)"}
-
-
-# =========================
-# Teach Mode
-# =========================
-@router.post("/teach")
-def teach(req: AskRequest):
-    scan_vault()
-    memory = load_memory()
-    context = vector_store.search(req.question)
-    return {
-        "mode": "teach",
-        "question": req.question,
-        "explanation_style": memory.get("learning_style"),
-        "steps": [
-            "First, let's understand the core idea.",
-            "Then we'll look at an example.",
-            "Finally, I'll ask you a question to check understanding.",
-        ],
-        "context": context,
-    }
-
-
-# =========================
-# Quiz Mode
-# =========================
-@router.post("/quiz")
-def quiz(req: QuizRequest):
-    scan_vault()
-    context = vector_store.search(req.topic)
-
-    if req.answer is None:
-        return {
-            "mode": "quiz",
-            "question": f"Can you explain: {req.topic}?",
-            "context_hint": context[:1],
-            
-        }
-
-    return {
-        "mode": "quiz",
-        "your_answer": req.answer,
-        "feedback": "Good attempt. Here's what matters most:",
-        "reference": context[:1],
-    }
