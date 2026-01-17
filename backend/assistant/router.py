@@ -226,9 +226,11 @@ Response:
 
         # 5. Anchor check - ensure the primary subject (first/most specific token) exists
         # This prevents false positives from generic words like "operating", "systems"
-        primary_subject = subjects[0]  # First extracted subject is usually most specific
-        if primary_subject not in vault_text:
-            return {"answer": "I don't have that information in my vault yet."}
+
+        if intent == "factual":
+            primary_subject = subjects[0]
+            if primary_subject not in vault_text:
+                return {"answer": "I don't have that information in my vault yet."}
 
 
         # 6. Sentence grounding

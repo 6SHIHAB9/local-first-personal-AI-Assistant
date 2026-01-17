@@ -75,7 +75,7 @@ const ChatArea = () => {
   return (
     <div className="flex flex-col h-screen bg-background">
       {/* Enhanced Header */}
-      <header className="relative flex-shrink-0 border-b border-white/5 bg-gradient-to-b from-slate-900/50 to-slate-950/50 backdrop-blur-xl px-6 py-5 overflow-hidden">
+      <header className="relative flex-shrink-0 border-b border-white/5 bg-gradient-to-b from-slate-900/50 to-slate-950/50 backdrop-blur-xl px-6 py-3 overflow-hidden">
         {/* Animated gradient mesh background */}
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-emerald-500/10 rounded-full mix-blend-screen filter blur-3xl animate-pulse" style={{ animationDuration: '4s' }} />
