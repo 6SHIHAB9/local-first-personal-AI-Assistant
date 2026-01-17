@@ -1,6 +1,7 @@
 import { FolderOpen, RefreshCw, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { syncVault } from "../App";
+import { syncVault } from "@/lib/backend";
+
 
 
 const VaultStatus = () => {

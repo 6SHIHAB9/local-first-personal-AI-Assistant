@@ -1,7 +1,7 @@
 import Sidebar from "@/components/Sidebar";
 import ChatArea from "@/components/ChatArea";
 
-const Index = () => {
+export default function Index() {
   return (
     <div className="flex min-h-screen w-full">
       <Sidebar />
@@ -10,6 +10,4 @@ const Index = () => {
       </main>
     </div>
   );
-};
-
-export default Index;
+}
