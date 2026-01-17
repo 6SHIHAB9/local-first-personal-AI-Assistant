@@ -140,12 +140,15 @@ def ask(req: AskRequest):
 
         question = req.question.strip()
         
-        # DEBUG: Check context at start
-        print(f"DEBUG: Context at request start: {get_context_block()}")
-
+        # Global declaration must come first
+        global active_subject_cache
+        
         # 1. Intent
         intent = classify_intent(question)
-        print(f"DEBUG: Intent classified as: {intent}")
+        
+        # Clear cache for new factual queries to avoid cross-conversation pollution
+        if intent == "factual":
+            active_subject_cache = None
 
         # 2. Casual
         if intent == "casual":
@@ -168,11 +171,9 @@ Response:
         retrieval_query = question
         if intent == "continuation":
             active_subj = get_active_subject()
-            print(f"DEBUG: Active subject from context: {active_subj}")
             if active_subj:
                 retrieval_query = active_subj
         
-        print(f"DEBUG: Retrieval query: {retrieval_query}")
         results = retrieve_relevant_chunks(retrieval_query, current_vault_data, limit=5)
         if not results:
             return {"answer": "I don't have that information in my vault yet."}
@@ -182,31 +183,40 @@ Response:
 
         # 4. Subject resolution
         subjects = extract_subject_tokens(question)
-        print(f"DEBUG: Extracted subjects: {subjects}")
 
         # Helper function for anchor checking
         def subject_anchored(subject: str, vault_text: str) -> bool:
+            # For multi-word subjects, check if they appear as a phrase (within 2 words)
             words = subject.split()
-            return all(w in vault_text for w in words)
+            if len(words) == 1:
+                # Single word: just check if it exists
+                return words[0] in vault_text
+            else:
+                # Multi-word: check if words appear close together (phrase matching)
+                # This prevents false positives like "algorithm" and "mention" scattered in text
+                vault_tokens = vault_text.split()
+                for i in range(len(vault_tokens) - len(words) + 1):
+                    # Check if all subject words appear within a window
+                    window = vault_tokens[i:i + len(words) + 2]  # Allow 2 extra words gap
+                    if all(w in window for w in words):
+                        return True
+                return False
 
         # FIX: Try continuation if intent suggests it AND extracted subjects don't anchor
         if intent == "continuation":
             # Check if current subjects actually anchor to vault
             if not any(subject_anchored(s, vault_text) for s in subjects):
-                print(f"DEBUG: Extracted subjects don't anchor, trying active_subject")
                 last = get_active_subject()
-                print(f"DEBUG: Got active_subject: {last}")
                 if last:
                     subjects = [last]
-                    print(f"DEBUG: Using active_subject, subjects now: {subjects}")
 
-        print(f"DEBUG: Final subjects for processing: {subjects}")
-        
         if not subjects:
             return {"answer": "I don't have that information in my vault yet."}
 
-        # 5. Anchor check (SIMPLE + SAFE)
-        if not any(subject_anchored(s, vault_text) for s in subjects):
+        # 5. Anchor check - ensure the primary subject (first/most specific token) exists
+        # This prevents false positives from generic words like "operating", "systems"
+        primary_subject = subjects[0]  # First extracted subject is usually most specific
+        if primary_subject not in vault_text:
             return {"answer": "I don't have that information in my vault yet."}
 
 
@@ -263,16 +273,20 @@ ANSWER:
         answer = response["response"].strip()
 
         # 8. Context memory
-        global active_subject_cache
+        # Save the subject based on what was actually discussed
+        # Priority: query subjects (if they anchored as phrase) > allowed_subjects > None
         
-        # Save the subject based on what was actually discussed in allowed sentences
-        # This captures what the answer is ABOUT, not just query noise words
-        if allowed_subjects:
-            # Use first 2 meaningful tokens from the actual answer content
-            active_subject = " ".join(allowed_subjects[:2])
-        elif subjects:
-            # Fall back to query subjects if we can't extract from answer
+        # Check if query subjects actually anchored to vault as a meaningful phrase
+        # We need the full subject phrase to anchor, not just individual words
+        query_subject_phrase = " ".join(subjects) if subjects else ""
+        query_subjects_anchored = query_subject_phrase and subject_anchored(query_subject_phrase, vault_text)
+        
+        if query_subjects_anchored:
+            # Use the query subjects since they successfully matched the vault
             active_subject = " ".join(subjects)
+        elif allowed_subjects:
+            # Query subjects were noise words, use what was actually in the answer
+            active_subject = " ".join(allowed_subjects[:2])
         else:
             active_subject = None
         
@@ -280,7 +294,6 @@ ANSWER:
         ctx = {"active_subject": active_subject}
         if isinstance(facts, dict):
             ctx.update(facts)
-        print(f"DEBUG: Saving context with active_subject: {active_subject} (from allowed_subjects: {allowed_subjects[:3] if allowed_subjects else None})")
         update_context(ctx)
         # Also cache it globally as a backup
         active_subject_cache = active_subject
@@ -336,6 +349,7 @@ def quiz(req: QuizRequest):
             "mode": "quiz",
             "question": f"Can you explain: {req.topic}?",
             "context_hint": context[:1],
+            
         }
 
     return {
