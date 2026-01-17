@@ -92,11 +92,20 @@ def get_latest_vault_mtime():
 
 
 def vault_has_changed():
+    """Check if vault has changed since last sync"""
     global last_vault_mtime
     latest = get_latest_vault_mtime()
+    
+    # First time check
     if last_vault_mtime is None:
         return True
-    return latest != last_vault_mtime
+    
+    # No vault directory
+    if latest is None:
+        return False
+    
+    # Compare modification times
+    return latest > last_vault_mtime
 
 
 # =========================
@@ -235,14 +244,23 @@ Response:
         for chunk in chunks:
             for sent in re.split(r'(?<=[.!?])\s+', chunk):
                 sent_l = sent.lower()
-                sent_words = set(tokenize(sent_l))
+                sent_words = tokenize(sent_l)
                 
                 # Check if any subject's words appear in the sentence
                 for s in subjects:
                     subject_words = tokenize(s)
+                    # All subject words must be present
                     if all(w in sent_words for w in subject_words):
-                        allowed.append(sent.strip())
-                        break
+                        # For multi-word subjects, require words to appear early/prominently
+                        # (within first 10 words) to avoid tangential mentions
+                        if len(subject_words) > 1:
+                            first_positions = [sent_words.index(w) for w in subject_words if w in sent_words]
+                            if first_positions and min(first_positions) < 10:
+                                allowed.append(sent.strip())
+                                break
+                        else:
+                            allowed.append(sent.strip())
+                            break
         
         allowed = list(dict.fromkeys(allowed))
         if not allowed:
@@ -302,7 +320,15 @@ ANSWER:
         if active_subject:
             context_manager.set_active_subject(active_subject)
 
-        return {"answer": answer}
+        return {
+            "answer": answer,
+            "vault_status": {
+                "file_count": current_vault_data.get("file_count", 0),
+                "indexed_files": current_vault_data.get("indexed_files", []),
+                "empty_files": current_vault_data.get("empty_files", []),
+                "last_indexed": last_vault_mtime
+            }
+        }
 
     except Exception as e:
         print("ERROR:", e)
