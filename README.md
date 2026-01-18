@@ -48,8 +48,6 @@ If no valid grounding exists, the assistant responds with:
 
 I don't have that information in my vault yet.
 
-yaml
-Copy code
 
 No fallback answers are generated.
 
