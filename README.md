@@ -96,8 +96,6 @@ If a valid answer cannot be produced, the assistant responds with:
 
 I don't have that information in my vault yet.
 
-yaml
-Copy code
 
 ---
 
