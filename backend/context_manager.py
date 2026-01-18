@@ -38,10 +38,34 @@ class ConversationContext:
         self.sessions[session_id]["active_subject"] = subject
         self.sessions[session_id]["last_updated"] = time.time()
     
+    def get_previous_question(self, session_id: str = "default") -> Optional[str]:
+        """Get the previous question for a session"""
+        self._cleanup_expired()
+        session = self.sessions.get(session_id, {})
+        return session.get("previous_question")
+    
+    def set_previous_question(self, question: str, session_id: str = "default"):
+        """Set the previous question for a session"""
+        self._cleanup_expired()
+        
+        if session_id not in self.sessions:
+            self.sessions[session_id] = {}
+        
+        self.sessions[session_id]["previous_question"] = question
+        self.sessions[session_id]["last_updated"] = time.time()
+    
     def clear_session(self, session_id: str = "default"):
-        """Clear a specific session"""
+        """Clear active subject but preserve previous question for continuations"""
         if session_id in self.sessions:
+            # Preserve previous_question if it exists
+            prev_q = self.sessions[session_id].get("previous_question")
             del self.sessions[session_id]
+            # Restore previous_question after clearing
+            if prev_q:
+                self.sessions[session_id] = {
+                    "previous_question": prev_q,
+                    "last_updated": time.time()
+            }
     
     def get_context(self, session_id: str = "default") -> Dict[str, Any]:
         """Get full context for a session"""
