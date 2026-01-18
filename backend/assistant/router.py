@@ -518,56 +518,41 @@ Response:
         is_how_continuation = False
         if intent == "continuation":
             previous_q = context_manager.get_previous_question()
-            print(f"DEBUG: Previous question = {previous_q}")
             if previous_q:
                 prev_lower = previous_q.lower()
                 is_why_continuation = prev_lower.startswith("why")
                 is_how_continuation = prev_lower.startswith("how")
-                print(f"DEBUG: is_why_continuation = {is_why_continuation}")
-        
-        print(f"DEBUG: Subjects to match = {subjects}")
-        print(f"DEBUG: Number of chunks = {len(chunks)}")
         
         # Define explanatory/causal keywords
         explanatory_words = {"because", "since", "as", "due", "by", "through", "allows", "enables", "eliminates", "reduces", "prevents", "causes", "results", "leads", "means", "so", "thus", "therefore"}
         
-        for chunk_idx, chunk in enumerate(chunks):
-            print(f"DEBUG: Processing chunk {chunk_idx}: {chunk[:100]}...")
-            for sent_idx, sent in enumerate(re.split(r'(?<=[.!?])\s+', chunk)):
+        for chunk in chunks:
+            for sent in re.split(r'(?<=[.!?])\s+', chunk):
                 sent_l = sent.lower()
                 sent_words = tokenize(sent_l)
-                
-                print(f"DEBUG:   Sentence {sent_idx}: {sent[:80]}...")
                 
                 # Check if any subject's words appear in the sentence
                 for s in subjects:
                     subject_words = tokenize(s)
-                    print(f"DEBUG:     Checking subject '{s}' (words: {subject_words})")
                     
                     # STRENGTHENED MATCHING: Require majority of subject words to be present
                     matching_count = sum(1 for w in subject_words if w in sent_words)
                     required_match_count = max(1, len(subject_words) // 2 + 1)  # Majority
                     
-                    print(f"DEBUG:     Matching count: {matching_count}/{required_match_count}")
-                    
                     if matching_count >= required_match_count:
                         # For multi-word subjects, require words to appear early/prominently
                         if len(subject_words) > 1:
                             first_positions = [sent_words.index(w) for w in subject_words if w in sent_words]
-                            print(f"DEBUG:     Multi-word subject, first positions: {first_positions}")
                             if not first_positions or min(first_positions) >= 10:
-                                print(f"DEBUG:     SKIPPED - words not early enough")
                                 continue  # Skip this sentence
                         else:
                             # Single word: also check it appears early (within first 15 words)
                             if subject_words[0] not in sent_words[:15]:
-                                print(f"DEBUG:     SKIPPED - single word not in first 15")
                                 continue  # Skip this sentence
                         
                         # INTENT FILTERING: For WHY/HOW continuations, be more selective
                         if is_why_continuation or is_how_continuation:
                             has_explanation = any(word in sent_words for word in explanatory_words)
-                            print(f"DEBUG:     Has explanation words: {has_explanation}")
                             
                             # Check for pure definition pattern (stricter check)
                             is_pure_definition = False
@@ -578,34 +563,22 @@ Response:
                                 pattern2 = f"{subj_word} is an "
                                 if sent_text_lower.startswith(pattern1) or sent_text_lower.startswith(pattern2):
                                     is_pure_definition = True
-                                    print(f"DEBUG:     PURE DEFINITION detected: starts with '{pattern1}' or '{pattern2}'")
                                     break
-                            
-                            print(f"DEBUG:     Is pure definition: {is_pure_definition}")
                             
                             # Accept if has explanation OR is not a pure definition
                             if has_explanation or not is_pure_definition:
                                 # Prioritize explanatory sentences
                                 if has_explanation:
-                                    print(f"DEBUG:     ADDED (high priority - has explanation)")
                                     allowed.insert(0, sent.strip())
                                 else:
-                                    print(f"DEBUG:     ADDED (low priority - not definition)")
                                     allowed.append(sent.strip())
                                 break
-                            else:
-                                print(f"DEBUG:     SKIPPED - no explanation and is definition")
                         else:
                             # For non-WHY/HOW queries, accept all matching sentences
-                            print(f"DEBUG:     ADDED (non-WHY/HOW query)")
                             allowed.append(sent.strip())
                             break
         
         allowed = list(dict.fromkeys(allowed))  # Remove duplicates while preserving order
-        
-        print(f"DEBUG: Final allowed sentences count: {len(allowed)}")
-        for idx, a in enumerate(allowed):
-            print(f"DEBUG: Allowed[{idx}]: {a[:100]}...")
 
         # ABSOLUTE RULE: If no grounded sentences, refuse immediately - DO NOT call LLM
         # This prevents hallucination on out-of-vault topics (e.g., quantum tunneling)
@@ -667,6 +640,26 @@ RULES:
 
 ALLOWED SENTENCES:
 {allowed_text}
+
+ADDITIONAL TRANSFORM RULES:
+
+- You MAY rephrase, merge, and simplify the allowed sentences.
+- You do NOT need to preserve the original wording from the vault.
+
+STRICT CONSTRAINTS:
+- You MUST NOT introduce any information that is not explicitly present in the allowed sentences.
+- Every fact in the answer must be directly supported by the allowed sentences.
+
+CLEANUP RULES:
+- Remove partial phrases, list headers, or sentence fragments.
+- Do NOT include dangling words or prefixes (e.g. "Circular wait", "Techniques include:").
+- Merge related sentences into clean, complete statements.
+
+QUALITY RULES:
+- Do NOT repeat the question in the answer.
+- Do NOT add disclaimers if a complete answer is produced.
+- If the allowed sentences do not clearly answer the question, respond exactly with:
+  "I don't have that information in my vault yet."
 
 QUESTION:
 {question}

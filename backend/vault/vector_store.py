@@ -1,9 +1,9 @@
 import faiss
-from sentence_transformers import SentenceTransformer
+import ollama
 
 class VectorStore:
-    def __init__(self, model_name="all-MiniLM-L6-v2"):
-        self.model = SentenceTransformer(model_name)
+    def __init__(self, model_name="nomic-embed-text:latest"):
+        self.model_name = model_name
         self.index = None
         self.chunks = []
 
@@ -11,7 +11,13 @@ class VectorStore:
         if not chunks:
             return
 
-        embeddings = self.model.encode(chunks, convert_to_numpy=True)
+        embeddings = []
+        for chunk in chunks:
+            response = ollama.embeddings(model=self.model_name, prompt=chunk)
+            embeddings.append(response['embedding'])
+
+        import numpy as np
+        embeddings = np.array(embeddings, dtype='float32')
 
         dim = embeddings.shape[1]
         self.index = faiss.IndexFlatL2(dim)
@@ -23,7 +29,12 @@ class VectorStore:
         if self.index is None:
             return []
 
-        query_vec = self.model.encode([query], convert_to_numpy=True)
+        response = ollama.embeddings(model=self.model_name, prompt=query)
+        query_vec = [response['embedding']]
+        
+        import numpy as np
+        query_vec = np.array(query_vec, dtype='float32')
+        
         distances, indices = self.index.search(query_vec, k)
 
         results = []
