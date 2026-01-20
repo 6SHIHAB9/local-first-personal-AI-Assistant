@@ -16,7 +16,7 @@ def read_text_file(path: Path) -> str:
         return ""
 
 
-def chunk_text(text: str, chunk_size: int = 300):
+def chunk_text(text: str, chunk_size: int = 600):
     words = text.split()
     chunks = []
 
