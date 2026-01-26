@@ -1,22 +1,35 @@
 # =========================
-# Python virtual envs
+# Python virtual environments
 # =========================
 venv/
+venv311/
 .env/
 .env.*
+.venv/
 
 # =========================
-# Python cache files
+# Python cache / bytecode
 # =========================
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 
-# Ignore __pycache__ in all subfolders
-**/__pycache__/
+# =========================
+# PyTorch / ML artifacts
+# =========================
+*.pt
+*.pth
+*.onnx
+
+# HuggingFace / Transformers cache
+.cache/
+hf_cache/
+transformers_cache/
+sentence_transformers/
 
 # =========================
-# Test / coverage
+# Tests / coverage
 # =========================
 .pytest_cache/
 .coverage
@@ -26,6 +39,9 @@ htmlcov/
 # Logs
 # =========================
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # =========================
 # OS / Editor junk
@@ -40,20 +56,23 @@ Thumbs.db
 # =========================
 *.pid
 
-# Node
+# =========================
+# Node / frontend
+# =========================
 node_modules/
 
-# Build
+# =========================
+# Build artifacts
+# =========================
 dist/
 build/
 
-# Env
-.env
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# =========================
+# Trained model artifacts (future)
+# =========================
+*.pt
+*.safetensors
 
-# OS junk
-.DS_Store
+backend/models/**/checkpoints/
+backend/models/**/final/
