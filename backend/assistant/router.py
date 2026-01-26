@@ -4,6 +4,7 @@ from typing import Optional
 import ollama
 import re
 import time
+import os
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import torch
 from models.reference_models.reference_ranker.loader import ReferenceRanker
@@ -12,6 +13,7 @@ from vault.ingest import scan_vault, retrieve_relevant_chunks
 from config import VAULT_PATH
 from context_manager import context_manager
 
+from models.grounding_models.loader import GroundingScorer
 # =========================
 # Global vault state
 # =========================
@@ -31,12 +33,15 @@ INTENT_LABEL_MAP = {
 
 intent_device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+intent_model_path = os.path.abspath("models/intent_models/intent_model/final")
 intent_model = AutoModelForSequenceClassification.from_pretrained(
-    "models/intent_models/intent_model/final"
+    intent_model_path,
+    local_files_only=True
 ).to(intent_device)
 
 intent_tokenizer = AutoTokenizer.from_pretrained(
-    "models/intent_models/intent_model/final"
+    intent_model_path,
+    local_files_only=True
 )
 
 intent_model.eval()
@@ -47,6 +52,14 @@ intent_model.eval()
 reference_ranker = ReferenceRanker(
     "models/reference_models/reference_ranker"
 )
+
+# =========================
+# Model 3: Grounding Scorer
+# =========================
+grounding_scorer = GroundingScorer(
+    "models/grounding_models/grounding_model"
+)
+
 
 # =========================
 # Models
@@ -81,6 +94,14 @@ def rerank_chunks(question: str, chunks: list[str], top_k: int = 5) -> list[str]
     return [chunk for _, chunk in scored[:top_k]]
 
 
+def split_into_sentences(chunks: list[str]) -> list[str]:
+    sentences = []
+    for chunk in chunks:
+        parts = re.split(r'(?<=[.!?])\s+', chunk)
+        sentences.extend([p.strip() for p in parts if len(p.strip()) >= 10])
+    return sentences
+
+
 # =========================
 # Intent Classification
 # =========================
@@ -102,7 +123,6 @@ def classify_intent(question: str) -> str:
     return INTENT_LABEL_MAP.get(f"LABEL_{pred_id}", "factual")
 
 
-
 # =========================
 # ML BASED RETRIEVAL
 # =========================
@@ -117,84 +137,34 @@ def retrieve_for_question(question: str, intent: str, vault_data: dict) -> list[
     return chunks[:5]
 
 
-
 # =========================
-# LLM-BASED GROUNDING
+# ML-BASED GROUNDING
 # =========================
-def llm_ground_sentences(question: str, chunks: list[str], intent: str) -> list[str]:
-    """
-    Use LLM to extract relevant sentences from chunks.
-    This is more reliable than keyword matching.
-    """
+def ml_ground_sentences(
+    question: str,
+    chunks: list[str],
+    top_k: int = 6,
+    min_score: float = 0.52  # 🔥 threshold
+) -> list[str]:
     if not chunks:
         return []
-    
-    # Build context for the LLM
-    context_instruction = ""
-    if intent == "continuation":
-        previous_q = context_manager.get_previous_question()
-        if previous_q:
-            context_instruction = f"""CONTEXT: This is a follow-up question.
-PREVIOUS QUESTION: {previous_q}
 
-The current question refers to the topic from the previous question.
-- Pronouns like "it", "that", "this" refer to the previous topic
-- Extract sentences that help answer the current question about that topic
-"""
-    
-    # Combine chunks
-    chunks_text = "\n\n".join(f"CHUNK {i+1}:\n{chunk}" for i, chunk in enumerate(chunks[:5]))
-    
-    res = ollama.generate(
-        model="qwen2.5:7b",
-        prompt=f"""You are extracting relevant sentences from text chunks to answer a question.
-
-{context_instruction}
-
-CURRENT QUESTION:
-{question}
-
-TEXT CHUNKS:
-{chunks_text}
-
-INSTRUCTIONS:
-Extract ALL sentences that could help answer the question.
-
-Be INCLUSIVE and INTERPRETIVE:
-- Include sentences that DIRECTLY answer the question
-- Include sentences that INDIRECTLY answer the question (through implications, benefits, consequences, examples)
-- Include sentences that provide necessary CONTEXT for understanding the answer
-- When in doubt, INCLUDE rather than exclude
-
-Think broadly about relevance:
-- A question about "importance" can be answered by sentences about benefits, outcomes, or effects
-- A question about "why" can be answered by sentences about causes, purposes, or consequences  
-- A question about "how" can be answered by sentences about processes, mechanisms, or methods
-- A question about symbolism can be answered by descriptive sentences
-
-OUTPUT FORMAT:
-Return ONLY the relevant sentences, one per line.
-Do NOT add explanations or commentary.
-If absolutely no relevant sentences found, output: NONE
-
-Relevant sentences:
-""",
-        options={"temperature": 0.0, "num_predict": 300},
-    )
-    
-    output = res["response"].strip()
-    
-    if output == "NONE" or not output:
+    sentences = split_into_sentences(chunks)
+    if not sentences:
         return []
-    
-    # Split into sentences and clean
-    sentences = [s.strip() for s in output.split('\n') if s.strip()]
-    
-    # Remove any numbering or bullets
-    sentences = [re.sub(r'^[\d\-\*\.]+\s*', '', s) for s in sentences]
-    
-    # Remove duplicates
-    return list(dict.fromkeys([s for s in sentences if len(s) > 10]))
+
+    scored = []
+    for sentence in sentences:
+        score = grounding_scorer.score(question, sentence)
+        if score >= min_score:  # 🚫 filter weak sentences
+            scored.append((score, sentence))
+
+    if not scored:
+        return []
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+    return [sentence for _, sentence in scored[:top_k]]
+
 
 
 # =========================
@@ -273,14 +243,18 @@ def ask(req: AskRequest):
 
         question = req.question.strip()
         
+        print(f"\n📝 QUESTION: {question}")
+        
         # 1. Intent Classification
         intent = classify_intent(question)
+        print(f"🎯 INTENT: {intent}")
         
         # Prevent continuation without context
         if intent == "continuation":
             previous_q = context_manager.get_previous_question()
             if not previous_q:
                 return {"answer": "I don't have that information in my vault yet."}
+            print(f"🔗 PREVIOUS Q: {previous_q}")
         
         # Clear session for new factual questions (will add to history after answer)
         if intent == "factual":
@@ -307,6 +281,7 @@ Response:
 
         # 3. RETRIEVAL - Use full question or previous question
         chunks = retrieve_for_question(question, intent, current_vault_data)
+        print(f"📦 CHUNKS RETRIEVED: {len(chunks)}")
         
         if not chunks:
             response_data = {"answer": "I don't have that information in my vault yet."}
@@ -314,14 +289,21 @@ Response:
                 response_data["sync_performed"] = sync_info
             return response_data
 
-        # 4. LLM-BASED GROUNDING - Let LLM extract relevant sentences
-        allowed = llm_ground_sentences(question, chunks, intent)
+        # 4. ML-BASED GROUNDING
+        allowed = ml_ground_sentences(question, chunks)
+        print(f"✅ SENTENCES GROUNDED: {len(allowed)}")
 
+        # 🔒 HARD REFUSAL - Check BEFORE trying to answer
         if not allowed:
+            print("❌ NO GROUNDED SENTENCES - REFUSING")
             response_data = {"answer": "I don't have that information in my vault yet."}
             if sync_info:
                 response_data["sync_performed"] = sync_info
             return response_data
+
+        print(f"📄 ALLOWED SENTENCES:")
+        for i, s in enumerate(allowed, 1):
+            print(f"  {i}. {s}")
 
         allowed_text = "\n".join(f"- {s}" for s in allowed)
 
@@ -332,12 +314,18 @@ Response:
             previous_q = context_manager.get_previous_question()
             if previous_q:
                 prev_lower = previous_q.lower()
-                if prev_lower.startswith("why"):
-                    context_instruction = "CONTEXT: The original question asked WHY. Focus on explaining the REASON or CAUSE.\n"
+                if prev_lower.startswith(("why", "what happens", "why is")):
+                    context_instruction = (
+                        "CONTEXT: This is a WHY follow-up.\n"
+                        "Explain CONSEQUENCES, IMPACTS, or RISKS.\n"
+                        "Do NOT restate the original fact.\n"
+                    )
                 elif prev_lower.startswith("how"):
-                    context_instruction = "CONTEXT: The original question asked HOW. Focus on explaining the PROCESS or MECHANISM.\n"
-                else:
-                    context_instruction = f"CONTEXT: This is a follow-up to: {previous_q}\n"
+                    context_instruction = (
+                        "CONTEXT: This is a HOW follow-up.\n"
+                        "Explain the MECHANISM or PROCESS.\n"
+                    )
+
         
         response = ollama.generate(
             model="qwen2.5:7b",
@@ -345,23 +333,27 @@ Response:
 
 RULES:
 - Use ONLY the allowed sentences below
-- You MAY rephrase, combine, and simplify them
-- Do NOT add information not in the sentences
-- Do NOT wrap answer in quotes
-- Keep the answer clear and direct
+- You MAY rephrase and COMBINE them
+- If the question asks "why", "why is that an issue", or "what happens if":
+  → EXPLAIN CONSEQUENCES or IMPACTS implied by the sentences
+  → Do NOT simply restate the sentences
+- Do NOT add external facts
+- Keep the answer concise and explanatory
+
 {context_instruction}
+
 ALLOWED SENTENCES:
 {allowed_text}
 
 QUESTION:
 {question}
 
-ANSWER:
-""",
+ANSWER:""",
             options={"temperature": 0.0, "top_p": 0.1, "num_predict": 150},
         )
 
         answer = response["response"].strip()
+        print(f"💬 ANSWER: {answer}")
 
         # 6. Store Q&A in conversation history
         if answer != "I don't have that information in my vault yet.":
