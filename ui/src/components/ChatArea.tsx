@@ -36,7 +36,16 @@ const ChatArea = ({ setVaultStatus }: ChatAreaProps) => {
       const res = await sendMessage(userText);
       const answer = res?.answer ?? "No response from assistant.";
 
-      // ✅ Update vault status from response
+      // ✅ NEW: Check for auto-sync performed
+      if (res?.sync_performed && setVaultStatus) {
+        console.log("✅ Vault auto-synced:", res.sync_performed);
+        setVaultStatus(res.sync_performed);
+        
+        // Optional: Show a toast/notification to user
+        // You can add a toast library or just log it
+      }
+
+      // ✅ KEEP: Update vault status from manual response (backward compatible)
       if (res?.vault_status && setVaultStatus) {
         setVaultStatus(res.vault_status);
       }

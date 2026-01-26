@@ -259,23 +259,38 @@ def vault_has_changed():
 
 
 # =========================
-# Sync Vault
+# Sync Vault (Internal)
 # =========================
-@router.post("/sync")
-def sync_vault():
+def _internal_sync():
+    """Internal sync function that returns sync info"""
     global current_vault_data, last_vault_mtime
 
+    print("🔄 SYNCING VAULT...")  # Terminal feedback
+    
     current_vault_data = scan_vault()
     last_vault_mtime = get_latest_vault_mtime()
     indexed_at = time.time()
 
-    return {
-        "vault_path": current_vault_data["vault_path"],
+    sync_info = {
+        "vault_path": str(current_vault_data["vault_path"]),
         "file_count": current_vault_data["file_count"],
         "empty_files": current_vault_data["empty_files"],
         "indexed_files": current_vault_data["indexed_files"],
         "last_indexed": indexed_at
     }
+    
+    print(f"✅ VAULT SYNCED: {sync_info['indexed_files']} files indexed")  # Terminal feedback
+    
+    return sync_info
+
+
+# =========================
+# Sync Vault (API Endpoint)
+# =========================
+@router.post("/sync")
+def sync_vault():
+    """Manual sync endpoint"""
+    return _internal_sync()
 
 
 # =========================
@@ -286,9 +301,10 @@ def ask(req: AskRequest):
     global current_vault_data
 
     try:
-        # 0. Sync
+        # 0. Sync and track if it happened
+        sync_info = None
         if current_vault_data is None or vault_has_changed():
-            sync_vault()
+            sync_info = _internal_sync()
 
         question = req.question.strip()
         
@@ -308,7 +324,7 @@ def ask(req: AskRequest):
         # 2. Casual Chat
         if intent == "casual":
             res = ollama.generate(
-                model="mistral:7b-instruct",
+                model="qwen2.5:7b",
                 prompt=f"""You are a friendly conversational assistant.
 Keep it casual and short.
 
@@ -319,19 +335,28 @@ Response:
 """,
                 options={"temperature": 0.7, "num_predict": 80},
             )
-            return {"answer": res["response"].strip()}
+            response_data = {"answer": res["response"].strip()}
+            if sync_info:
+                response_data["sync_performed"] = sync_info
+            return response_data
 
         # 3. RETRIEVAL - Use full question or previous question
         chunks = retrieve_for_question(question, intent, current_vault_data)
         
         if not chunks:
-            return {"answer": "I don't have that information in my vault yet."}
+            response_data = {"answer": "I don't have that information in my vault yet."}
+            if sync_info:
+                response_data["sync_performed"] = sync_info
+            return response_data
 
         # 4. LLM-BASED GROUNDING - Let LLM extract relevant sentences
         allowed = llm_ground_sentences(question, chunks, intent)
 
         if not allowed:
-            return {"answer": "I don't have that information in my vault yet."}
+            response_data = {"answer": "I don't have that information in my vault yet."}
+            if sync_info:
+                response_data["sync_performed"] = sync_info
+            return response_data
 
         allowed_text = "\n".join(f"- {s}" for s in allowed)
 
@@ -378,7 +403,8 @@ ANSWER:
             if intent == "factual":
                 context_manager.add_turn(question, answer)
 
-        return {
+        # 7. Build response with sync info
+        response_data = {
             "answer": answer,
             "metadata": {
                 "chunks_retrieved": len(chunks),
@@ -386,6 +412,12 @@ ANSWER:
                 "intent": intent
             }
         }
+        
+        # Add sync info if sync was performed
+        if sync_info:
+            response_data["sync_performed"] = sync_info
+
+        return response_data
 
     except Exception as e:
         print("ERROR:", e)
