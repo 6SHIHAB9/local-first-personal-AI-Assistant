@@ -1,867 +1,560 @@
-{"text":"What are the downsides of encryption?","label":0}
-{"text":"Why is that an issue?","label":1}
-{"text":"sup bro","label":2}
-{"text":"Explain encryption","label":0}
-{"text":"How does that work?","label":1}
-{"text":"hey","label":2}
-{"text":"What is key management?","label":0}
-{"text":"Why does this matter?","label":1}
-{"text":"hello","label":2}
-{"text":"How does AES work?","label":0}
-{"text":"Can you explain that?","label":1}
-{"text":"what's up","label":2}
-{"text":"What is hashing?","label":0}
-{"text":"Why though?","label":1}
-{"text":"how's it going","label":2}
-{"text":"Define database normalization","label":0}
-{"text":"What does that mean?","label":1}
-{"text":"lol","label":2}
-{"text":"What is SQL injection?","label":0}
-{"text":"How is that a problem?","label":1}
-{"text":"yo","label":2}
-{"text":"Explain REST APIs","label":0}
-{"text":"Why is this important?","label":1}
-{"text":"haha","label":2}
-{"text":"What are microservices?","label":0}
-{"text":"Explain that again","label":1}
-{"text":"nice","label":2}
-{"text":"How does OAuth work?","label":0}
-{"text":"Can you elaborate?","label":1}
-{"text":"cool","label":2}
-{"text":"What is Docker?","label":0}
-{"text":"What's the reasoning behind that?","label":1}
-{"text":"awesome","label":2}
-{"text":"Explain Kubernetes","label":0}
-{"text":"Why is that the case?","label":1}
-{"text":"thanks","label":2}
-{"text":"What is CI/CD?","label":0}
-{"text":"Can you break that down further?","label":1}
-{"text":"ok","label":2}
-{"text":"Define machine learning","label":0}
-{"text":"What are the implications of that?","label":1}
-{"text":"got it","label":2}
-{"text":"What is deep learning?","label":0}
-{"text":"How do you figure?","label":1}
-{"text":"sure","label":2}
-{"text":"Explain neural networks","label":0}
-{"text":"What makes that significant?","label":1}
-{"text":"yep","label":2}
-{"text":"What is blockchain?","label":0}
-{"text":"Could you provide more context?","label":1}
-{"text":"alright","label":2}
-{"text":"How does Bitcoin work?","label":0}
-{"text":"In what way does that apply?","label":1}
-{"text":"sounds good","label":2}
-{"text":"What is Ethereum?","label":0}
-{"text":"What is the logic there?","label":1}
-{"text":"makes sense","label":2}
-{"text":"Explain smart contracts","label":0}
-{"text":"Why should I care about that?","label":1}
-{"text":"interesting","label":2}
-{"text":"What is NFT?","label":0}
-{"text":"How does that follow?","label":1}
-{"text":"oh wow","label":2}
-{"text":"Define version control","label":0}
-{"text":"What is the point of that?","label":1}
-{"text":"I see","label":2}
-{"text":"What is Git?","label":0}
-{"text":"Can you clarify the importance?","label":1}
-{"text":"right","label":2}
-{"text":"Explain branching in Git","label":0}
-{"text":"Why is this a concern?","label":1}
-{"text":"understood","label":2}
-{"text":"What is a merge conflict?","label":0}
-{"text":"What leads to that conclusion?","label":1}
-{"text":"okay then","label":2}
-{"text":"What are design patterns?","label":0}
-{"text":"Why is that necessary?","label":1}
-{"text":"fair enough","label":2}
-{"text":"Explain singleton pattern","label":0}
-{"text":"How does that solve it?","label":1}
-{"text":"absolutely","label":2}
-{"text":"What is factory pattern?","label":0}
-{"text":"What's the catch?","label":1}
-{"text":"definitely","label":2}
-{"text":"Define observer pattern","label":0}
-{"text":"Why go that route?","label":1}
-{"text":"totally","label":2}
-{"text":"What is MVC architecture?","label":0}
-{"text":"How do you justify that?","label":1}
-{"text":"exactly","label":2}
-{"text":"Explain SOLID principles","label":0}
-{"text":"What's the underlying cause?","label":1}
-{"text":"agreed","label":2}
-{"text":"What is dependency injection?","label":0}
-{"text":"Why is that relevant here?","label":1}
-{"text":"for sure","label":2}
-{"text":"Define polymorphism","label":0}
-{"text":"Can you simplify that?","label":1}
-{"text":"indeed","label":2}
-{"text":"What is encapsulation?","label":0}
-{"text":"What change does that make?","label":1}
-{"text":"true that","label":2}
-{"text":"Explain inheritance","label":0}
-{"text":"Why is this the priority?","label":1}
-{"text":"word","label":2}
-{"text":"What is abstraction?","label":0}
-{"text":"How does that affect the outcome?","label":1}
-{"text":"bet","label":2}
-{"text":"Define interface","label":0}
-{"text":"What is the purpose of this step?","label":1}
-{"text":"no doubt","label":2}
-{"text":"What is an abstract class?","label":0}
-{"text":"Why do we need to know this?","label":1}
-{"text":"no cap","label":2}
-{"text":"Explain garbage collection","label":0}
-{"text":"How is that different?","label":1}
-{"text":"facts","label":2}
-{"text":"What is memory management?","label":0}
-{"text":"What happens if we don't?","label":1}
-{"text":"fr fr","label":2}
-{"text":"Define stack vs heap","label":0}
-{"text":"Why is that a requirement?","label":1}
-{"text":"ight","label":2}
-{"text":"What is a pointer?","label":0}
-{"text":"How does this connect?","label":1}
-{"text":"aight","label":2}
-{"text":"Explain reference counting","label":0}
-{"text":"What is the basis for that?","label":1}
-{"text":"kk","label":2}
-{"text":"What is multithreading?","label":0}
-{"text":"Why focus on this specifically?","label":1}
-{"text":"k","label":2}
-{"text":"Define concurrency","label":0}
-{"text":"How does that impact the result?","label":1}
-{"text":"mhm","label":2}
-{"text":"What is parallelism?","label":0}
-{"text":"Tell me more","label":1}
-{"text":"uh huh","label":2}
-{"text":"Explain race conditions","label":0}
-{"text":"Go on","label":1}
-{"text":"yeah yeah","label":2}
-{"text":"What is deadlock?","label":0}
-{"text":"And then what?","label":1}
-{"text":"mmm","label":2}
-{"text":"Define mutex","label":0}
-{"text":"What happened next?","label":1}
-{"text":"hmm","label":2}
-{"text":"What is semaphore?","label":0}
-{"text":"Continue","label":1}
-{"text":"oh","label":2}
-{"text":"Explain thread pool","label":0}
-{"text":"Keep going","label":1}
-{"text":"ah","label":2}
-{"text":"What is asynchronous programming?","label":0}
-{"text":"So what?","label":1}
-{"text":"ooh","label":2}
-{"text":"Define callback","label":0}
-{"text":"Meaning?","label":1}
-{"text":"whoa","label":2}
-{"text":"What is a promise?","label":0}
-{"text":"Such as?","label":1}
-{"text":"damn","label":2}
-{"text":"Explain async/await","label":0}
-{"text":"Like what?","label":1}
-{"text":"sheesh","label":2}
-{"text":"What is event loop?","label":0}
-{"text":"For example?","label":1}
-{"text":"bruh","label":2}
-{"text":"Define recursion","label":0}
-{"text":"Which ones?","label":1}
-{"text":"dude","label":2}
-{"text":"What is tail recursion?","label":0}
-{"text":"Where exactly?","label":1}
-{"text":"man","label":2}
-{"text":"Explain dynamic programming","label":0}
-{"text":"When did this happen?","label":1}
-{"text":"bro","label":2}
-{"text":"What is memoization?","label":0}
-{"text":"Who said that?","label":1}
-{"text":"mate","label":2}
-{"text":"Define Big O notation","label":0}
-{"text":"How so?","label":1}
-{"text":"buddy","label":2}
-{"text":"What is time complexity?","label":0}
-{"text":"In what sense?","label":1}
-{"text":"pal","label":2}
-{"text":"Explain space complexity","label":0}
-{"text":"Compared to what?","label":1}
-{"text":"friend","label":2}
-{"text":"What is binary search?","label":0}
-{"text":"Why not?","label":1}
-{"text":"chief","label":2}
-{"text":"Define sorting algorithms","label":0}
-{"text":"What about it?","label":1}
-{"text":"boss","label":2}
-{"text":"What is quicksort?","label":0}
-{"text":"How come?","label":1}
-{"text":"cap","label":2}
-{"text":"Explain merge sort","label":0}
-{"text":"Says who?","label":1}
-{"text":"lowkey","label":2}
-{"text":"What is bubble sort?","label":0}
-{"text":"Based on what?","label":1}
-{"text":"highkey","label":2}
-{"text":"Define insertion sort","label":0}
-{"text":"According to whom?","label":1}
-{"text":"ngl","label":2}
-{"text":"What is selection sort?","label":0}
-{"text":"What evidence?","label":1}
-{"text":"tbh","label":2}
-{"text":"Explain heap sort","label":0}
-{"text":"How do you know?","label":1}
-{"text":"rn","label":2}
-{"text":"What is a hash table?","label":0}
-{"text":"Are you sure?","label":1}
-{"text":"fr","label":2}
-{"text":"Define collision resolution","label":0}
-{"text":"Really?","label":1}
-{"text":"imo","label":2}
-{"text":"What is linked list?","label":0}
-{"text":"Is that so?","label":1}
-{"text":"btw","label":2}
-{"text":"Explain doubly linked list","label":0}
-{"text":"What makes you say that?","label":1}
-{"text":"fyi","label":2}
+{"text":"What is a microservice?","label":0}
+{"text":"Define horizontal scaling.","label":0}
+{"text":"What does API mean?","label":0}
+{"text":"What is a load balancer?","label":0}
+{"text":"Define a database schema.","label":0}
+{"text":"What does SQL mean?","label":0}
+{"text":"What is a reverse proxy?","label":0}
+{"text":"Define latency.","label":0}
+{"text":"What does CRUD mean?","label":0}
+{"text":"What is a deadlock?","label":0}
+{"text":"Define idempotency.","label":0}
+{"text":"What does JWT mean?","label":0}
+{"text":"What is a message queue?","label":0}
+{"text":"Define sharding.","label":0}
+{"text":"What does REST mean?","label":0}
+{"text":"What is a cache?","label":0}
+{"text":"Define a container.","label":0}
+{"text":"What does CORS mean?","label":0}
+{"text":"What is a webhook?","label":0}
+{"text":"Define a syscall.","label":0}
+{"text":"What does ACID mean?","label":0}
+{"text":"What is a thread?","label":0}
+{"text":"Define a semaphore.","label":0}
+{"text":"What does DNS mean?","label":0}
+{"text":"What is a handshake?","label":0}
+{"text":"Define a mutex.","label":0}
+{"text":"What does TLS mean?","label":0}
+{"text":"What is a gateway?","label":0}
+{"text":"Define serialization.","label":0}
+{"text":"What does JSON mean?","label":0}
+{"text":"What is a dockerfile?","label":0}
+{"text":"Define an index.","label":0}
+{"text":"What does SSH mean?","label":0}
+{"text":"What is a firewall?","label":0}
+{"text":"Define a socket.","label":0}
+{"text":"What does TCP mean?","label":0}
+{"text":"What is a kernel?","label":0}
+{"text":"Define virtualization.","label":0}
+{"text":"What does UDP mean?","label":0}
+{"text":"What is a namespace?","label":0}
+{"text":"Define replication.","label":0}
+{"text":"What does CI mean?","label":0}
+{"text":"What is a monolith?","label":0}
+{"text":"Define an endpoint.","label":0}
+{"text":"What does CD mean?","label":0}
+{"text":"What is a cluster?","label":0}
+{"text":"Define partitioning.","label":0}
+{"text":"What does SDK mean?","label":0}
+{"text":"What is a shell?","label":0}
+{"text":"Define a packet.","label":0}
+{"text":"What does gRPC mean?","label":0}
+{"text":"What is a cursor?","label":0}
+{"text":"Define an inode.","label":0}
+{"text":"What does HTTP mean?","label":0}
+{"text":"What is a saga?","label":0}
+{"text":"Define a heartbeat.","label":0}
+{"text":"What does ETL mean?","label":0}
+{"text":"What is a salt?","label":0}
+{"text":"Define a hash.","label":0}
+{"text":"What does IAM mean?","label":0}
+{"text":"What is a secret?","label":0}
+{"text":"Define a token.","label":0}
+{"text":"What does IDE mean?","label":0}
+{"text":"What is a pod?","label":0}
+{"text":"Define a registry.","label":0}
+{"text":"What does CLI mean?","label":0}
+{"text":"What is a bug?","label":0}
+{"text":"Define a commit.","label":0}
+{"text":"What does VCS mean?","label":0}
+{"text":"What is a branch?","label":0}
+{"text":"Define a merge.","label":0}
+{"text":"What does SSH mean?","label":0}
+{"text":"What is a cron?","label":0}
+{"text":"Define a daemon.","label":0}
+{"text":"What does GUI mean?","label":0}
+{"text":"What is a ping?","label":0}
+{"text":"Define a port.","label":0}
+{"text":"What does IP mean?","label":0}
+{"text":"What is a subnet?","label":0}
+{"text":"Define a route.","label":0}
+{"text":"What does LAN mean?","label":0}
+{"text":"What is a bridge?","label":0}
+{"text":"Define a driver.","label":0}
+{"text":"What does OS mean?","label":0}
+{"text":"What is a process?","label":0}
+{"text":"Define a script.","label":0}
+{"text":"What does XML mean?","label":0}
+{"text":"What is a log?","label":0}
+{"text":"Define a backup.","label":0}
+{"text":"What does HA mean?","label":0}
+{"text":"What is a node?","label":0}
+{"text":"Define a link.","label":0}
+{"text":"What does CPU mean?","label":0}
+{"text":"What is a bus?","label":0}
+{"text":"Define a block.","label":0}
+{"text":"What does RAM mean?","label":0}
+{"text":"What is a disk?","label":0}
+{"text":"Define a file.","label":0}
+{"text":"What does FTP mean?","label":0}
+{"text":"What is a tunnel?","label":0}
+{"text":"Define a mask.","label":0}
+{"text":"What does SMTP mean?","label":0}
+{"text":"What is a pipe?","label":0}
+{"text":"Define a signal.","label":0}
+{"text":"What does SSL mean?","label":0}
+{"text":"What is a key?","label":0}
+{"text":"Define a cert.","label":0}
+{"text":"What does PEM mean?","label":0}
+{"text":"What is a vault?","label":0}
+{"text":"Define an actor.","label":0}
+{"text":"What does VM mean?","label":0}
+{"text":"What is a host?","label":0}
+{"text":"Define a client.","label":0}
+{"text":"What does URI mean?","label":0}
+{"text":"What is a server?","label":0}
+{"text":"Define a state.","label":0}
+{"text":"What does CSV mean?","label":0}
 {"text":"What is a stack?","label":0}
-{"text":"Why do you think that?","label":1}
-{"text":"lmao","label":2}
-{"text":"Define queue","label":0}
-{"text":"How did you reach that conclusion?","label":1}
-{"text":"rofl","label":2}
-{"text":"What is priority queue?","label":0}
-{"text":"What's the source?","label":1}
-{"text":"lmfao","label":2}
-{"text":"Explain binary tree","label":0}
-{"text":"Where did you hear that?","label":1}
-{"text":"omg","label":2}
-{"text":"What is BST?","label":0}
-{"text":"Who told you?","label":1}
-{"text":"omfg","label":2}
-{"text":"Define AVL tree","label":0}
-{"text":"How did that happen?","label":1}
-{"text":"wtf","label":2}
-{"text":"What is red-black tree?","label":0}
-{"text":"What caused it?","label":1}
-{"text":"wth","label":2}
-{"text":"Explain B-tree","label":0}
-{"text":"Why did that occur?","label":1}
-{"text":"smh","label":2}
+{"text":"Define a heap.","label":0}
+{"text":"What does FIFO mean?","label":0}
+{"text":"What is a queue?","label":0}
+{"text":"Define a tree.","label":0}
+{"text":"What does LIFO mean?","label":0}
 {"text":"What is a graph?","label":0}
-{"text":"What was the reason?","label":1}
-{"text":"fml","label":2}
-{"text":"Define directed graph","label":0}
-{"text":"How did it start?","label":1}
-{"text":"ikr","label":2}
-{"text":"What is undirected graph?","label":0}
-{"text":"What triggered it?","label":1}
-{"text":"idk","label":2}
-{"text":"Explain graph traversal","label":0}
-{"text":"Why would that be?","label":1}
-{"text":"idc","label":2}
-{"text":"What is BFS?","label":0}
-{"text":"How could that be?","label":1}
-{"text":"gtg","label":2}
-{"text":"Define DFS","label":0}
-{"text":"What does that entail?","label":1}
-{"text":"brb","label":2}
-{"text":"What is Dijkstra's algorithm?","label":0}
-{"text":"What does that involve?","label":1}
-{"text":"ttyl","label":2}
-{"text":"Explain A* algorithm","label":0}
-{"text":"What are the steps?","label":1}
-{"text":"asap","label":2}
-{"text":"What is minimum spanning tree?","label":0}
-{"text":"How does the process work?","label":1}
-{"text":"afk","label":2}
-{"text":"Define Kruskal's algorithm","label":0}
-{"text":"What's the mechanism?","label":1}
-{"text":"np","label":2}
-{"text":"What is Prim's algorithm?","label":0}
-{"text":"How does it function?","label":1}
-{"text":"yw","label":2}
-{"text":"Explain topological sort","label":0}
-{"text":"What's the procedure?","label":1}
-{"text":"ty","label":2}
-{"text":"What is dynamic array?","label":0}
-{"text":"How is it done?","label":1}
-{"text":"thx","label":2}
-{"text":"Define amortized analysis","label":0}
-{"text":"What's the method?","label":1}
-{"text":"pls","label":2}
-{"text":"What is trie?","label":0}
-{"text":"How do you do it?","label":1}
-{"text":"plz","label":2}
-{"text":"Explain suffix tree","label":0}
-{"text":"What's involved?","label":1}
-{"text":"gonna","label":2}
-{"text":"What is segment tree?","label":0}
-{"text":"What are the requirements?","label":1}
-{"text":"wanna","label":2}
-{"text":"Define Fenwick tree","label":0}
-{"text":"What do you need?","label":1}
-{"text":"gotta","label":2}
-{"text":"What is union-find?","label":0}
-{"text":"What's needed?","label":1}
-{"text":"kinda","label":2}
-{"text":"Explain disjoint set","label":0}
-{"text":"What are the prerequisites?","label":1}
-{"text":"sorta","label":2}
-{"text":"What is backtracking?","label":0}
-{"text":"What comes first?","label":1}
-{"text":"dunno","label":2}
-{"text":"Define greedy algorithm","label":0}
-{"text":"Then what?","label":1}
-{"text":"gonna","label":2}
-{"text":"What is divide and conquer?","label":0}
-{"text":"After that?","label":1}
-{"text":"lemme","label":2}
-{"text":"Explain branch and bound","label":0}
-{"text":"What follows?","label":1}
-{"text":"gimme","label":2}
-{"text":"What is NP-complete?","label":0}
-{"text":"What's the next step?","label":1}
-{"text":"gotta go","label":2}
-{"text":"Define P vs NP","label":0}
-{"text":"And after?","label":1}
-{"text":"see ya","label":2}
-{"text":"What is reduction?","label":0}
-{"text":"What comes next?","label":1}
-{"text":"later","label":2}
-{"text":"Explain SAT problem","label":0}
-{"text":"What happens then?","label":1}
-{"text":"bye","label":2}
-{"text":"What is traveling salesman?","label":0}
-{"text":"What's the result?","label":1}
-{"text":"peace","label":2}
-{"text":"Define knapsack problem","label":0}
-{"text":"What's the outcome?","label":1}
-{"text":"cya","label":2}
-{"text":"What is approximation algorithm?","label":0}
-{"text":"What happens in the end?","label":1}
-{"text":"adios","label":2}
-{"text":"Explain randomized algorithm","label":0}
-{"text":"How does it end?","label":1}
-{"text":"catch you later","label":2}
-{"text":"What is Monte Carlo method?","label":0}
-{"text":"What's the final result?","label":1}
-{"text":"take care","label":2}
-{"text":"Define Las Vegas algorithm","label":0}
-{"text":"What's the conclusion?","label":1}
-{"text":"good night","label":2}
-{"text":"What is probabilistic analysis?","label":0}
-{"text":"So the end result is?","label":1}
-{"text":"good morning","label":2}
-{"text":"Explain expected value","label":0}
-{"text":"And the outcome?","label":1}
-{"text":"good afternoon","label":2}
-{"text":"What is Markov chain?","label":0}
-{"text":"What about the consequences?","label":1}
-{"text":"good evening","label":2}
-{"text":"Define state machine","label":0}
-{"text":"What are the effects?","label":1}
-{"text":"howdy","label":2}
-{"text":"What is automata theory?","label":0}
-{"text":"What impact does it have?","label":1}
-{"text":"greetings","label":2}
-{"text":"Explain finite automaton","label":0}
-{"text":"How does it affect things?","label":1}
-{"text":"salutations","label":2}
-{"text":"What is regular expression?","label":0}
-{"text":"What difference does it make?","label":1}
-{"text":"hi there","label":2}
-{"text":"Define context-free grammar","label":0}
-{"text":"Why is it significant?","label":1}
-{"text":"hello there","label":2}
-{"text":"What is pushdown automaton?","label":0}
-{"text":"What's the importance?","label":1}
-{"text":"what's good","label":2}
-{"text":"Explain Turing machine","label":0}
-{"text":"Why does it matter?","label":1}
-{"text":"what's new","label":2}
-{"text":"What is computability?","label":0}
-{"text":"What's the big deal?","label":1}
-{"text":"what's happening","label":2}
-{"text":"Define decidability","label":0}
-{"text":"Why care?","label":1}
-{"text":"sup dude","label":2}
-{"text":"What is halting problem?","label":0}
-{"text":"So what's the point?","label":1}
-{"text":"hey man","label":2}
-{"text":"Explain Church-Turing thesis","label":0}
-{"text":"What's the takeaway?","label":1}
-{"text":"hey buddy","label":2}
-{"text":"What is lambda calculus?","label":0}
-{"text":"What should I learn from this?","label":1}
-{"text":"hey pal","label":2}
-{"text":"Define functional programming","label":0}
-{"text":"What's the lesson?","label":1}
-{"text":"hey friend","label":2}
-{"text":"What is pure function?","label":0}
-{"text":"What's the key insight?","label":1}
-{"text":"hey chief","label":2}
-{"text":"Explain higher-order function","label":0}
-{"text":"What's the main idea?","label":1}
+{"text":"Define a table.","label":0}
+{"text":"What does ORM mean?","label":0}
+{"text":"What is a view?","label":0}
+{"text":"Define a join.","label":0}
+{"text":"What does JDBC mean?","label":0}
+{"text":"What is a trigger?","label":0}
+{"text":"Define a role.","label":0}
+{"text":"What does RBAC mean?","label":0}
+{"text":"What is a scope?","label":0}
+{"text":"Define a claim.","label":0}
+{"text":"What does JWT mean?","label":0}
+{"text":"What is a cookie?","label":0}
+{"text":"Define a session.","label":0}
+{"text":"What does XSS mean?","label":0}
+{"text":"What is a patch?","label":0}
+{"text":"Define a head.","label":0}
+{"text":"What does CSRF mean?","label":0}
+{"text":"What is a body?","label":0}
+{"text":"Define a query.","label":0}
+{"text":"What does BASE mean?","label":0}
+{"text":"What is a row?","label":0}
+{"text":"Define a column.","label":0}
+{"text":"What does B-Tree mean?","label":0}
+{"text":"What is a cell?","label":0}
+{"text":"Define an engine.","label":0}
+{"text":"What does WAL mean?","label":0}
+{"text":"What is a buffer?","label":0}
+{"text":"Define a lock.","label":0}
+{"text":"What does MVC mean?","label":0}
+{"text":"What is a model?","label":0}
+{"text":"Define a view.","label":0}
+{"text":"What does SPA mean?","label":0}
+{"text":"What is a router?","label":0}
+{"text":"Define a hook.","label":0}
+{"text":"What does SSR mean?","label":0}
+{"text":"What is a tag?","label":0}
+{"text":"Define a meta.","label":0}
+{"text":"What does DOM mean?","label":0}
+{"text":"What is a form?","label":0}
+{"text":"Define a input.","label":0}
+{"text":"What does CSS mean?","label":0}
+{"text":"What is a script?","label":0}
+{"text":"Define a link.","label":0}
+{"text":"What does HTML mean?","label":0}
+{"text":"What is a byte?","label":0}
+{"text":"Define a bit.","label":0}
+{"text":"What does MB mean?","label":0}
+{"text":"What is a word?","label":0}
+{"text":"Define a float.","label":0}
+{"text":"What does INT mean?","label":0}
+{"text":"What is a char?","label":0}
+{"text":"Define a string.","label":0}
+{"text":"What does UTF8 mean?","label":0}
+{"text":"What is a bool?","label":0}
+{"text":"Define a null.","label":0}
+{"text":"What does VOID mean?","label":0}
+{"text":"What is an array?","label":0}
+{"text":"Define a list.","label":0}
+{"text":"What does MAP mean?","label":0}
+{"text":"What is a set?","label":0}
+{"text":"Define a map.","label":0}
+{"text":"What does SET mean?","label":0}
+{"text":"What is a tuple?","label":0}
+{"text":"Define a struct.","label":0}
+{"text":"What does ENUM mean?","label":0}
+{"text":"What is a class?","label":0}
+{"text":"Define an object.","label":0}
+{"text":"What does OOP mean?","label":0}
+{"text":"What is a method?","label":0}
+{"text":"Define a trait.","label":0}
+{"text":"What does API mean?","label":0}
+{"text":"What is a lambda?","label":0}
+{"text":"Define a closure.","label":0}
+{"text":"What does REPL mean?","label":0}
+{"text":"What is a loop?","label":0}
+{"text":"Define a switch.","label":0}
+{"text":"What does JVM mean?","label":0}
+{"text":"What is a catch?","label":0}
+{"text":"Define a throw.","label":0}
+{"text":"What does GIGO mean?","label":0}
+{"text":"What is a build?","label":0}
+{"text":"Define a deploy.","label":0}
+{"text":"What does DRY mean?","label":0}
+{"text":"What is a test?","label":0}
+{"text":"Define a mock.","label":0}
+{"text":"What does TDD mean?","label":0}
+{"text":"What is a stub?","label":0}
+{"text":"Define a spy.","label":0}
+{"text":"What does QA mean?","label":0}
+{"text":"What is a lint?","label":0}
+{"text":"Define a minifier.","label":0}
+{"text":"What does NPM mean?","label":0}
+{"text":"What is a package?","label":0}
+{"text":"Define a module.","label":0}
+{"text":"What does PIP mean?","label":0}
+{"text":"What is a gem?","label":0}
+{"text":"Define a crate.","label":0}
+{"text":"What does JAR mean?","label":0}
+{"text":"What is a binary?","label":0}
+{"text":"Define an asset.","label":0}
+{"text":"What does SVG mean?","label":0}
+{"text":"What is a sprite?","label":0}
+{"text":"Define a glyph.","label":0}
+{"text":"What does PNG mean?","label":0}
+{"text":"What is a canvas?","label":0}
+{"text":"Define a frame.","label":0}
+{"text":"What does FPS mean?","label":0}
+{"text":"Why does a load balancer use health checks?","label":1}
+{"text":"How does sharding distribute data across nodes?","label":1}
+{"text":"What happens if a primary database node fails?","label":1}
+{"text":"Why does a message queue improve system decoupling?","label":1}
+{"text":"How does a reverse proxy protect backend servers?","label":1}
+{"text":"What happens if a JWT is tampered with?","label":1}
+{"text":"Why does indexing speed up search queries?","label":1}
+{"text":"How does a cache improve application latency?","label":1}
+{"text":"What happens if a thread pool is exhausted?","label":1}
+{"text":"Why does HTTPS require a certificate?","label":1}
+{"text":"How does a syscall transition to kernel mode?","label":1}
+{"text":"What happens if two processes experience a deadlock?","label":1}
+{"text":"Why does vertical scaling have physical limits?","label":1}
+{"text":"How does a database transaction maintain atomicity?","label":1}
+{"text":"What happens if a CORS policy is missing?","label":1}
+{"text":"Why does DNS use UDP for most queries?","label":1}
+{"text":"How does a CDN reduce geographic latency?","label":1}
+{"text":"What happens if a file descriptor leaks?","label":1}
+{"text":"Why does a distributed system need a consensus algorithm?","label":1}
+{"text":"How does a load balancer handle sticky sessions?","label":1}
+{"text":"What happens if a memory leak occurs in a process?","label":1}
+{"text":"Why does a b-tree provide faster range scans?","label":1}
+{"text":"How does OAuth2 handle authorization without passwords?","label":1}
+{"text":"What happens if a heartbeat signal is lost?","label":1}
+{"text":"Why does an API use rate limiting?","label":1}
+{"text":"How does a kernel schedule multiple threads?","label":1}
+{"text":"What happens if an index is not optimized?","label":1}
+{"text":"Why does a container isolation differ from a VM?","label":1}
+{"text":"How does a firewall filter network traffic?","label":1}
+{"text":"What happens if a commit fails during a push?","label":1}
+{"text":"Why does a load balancer distribute traffic?","label":1}
+{"text":"How does a message queue handle spikes in traffic?","label":1}
+{"text":"What happens if a secret key is exposed?","label":1}
+{"text":"Why does a database use a write-ahead log?","label":1}
+{"text":"How does a gateway manage microservice traffic?","label":1}
+{"text":"What happens if a certificate expires?","label":1}
+{"text":"Why does a server use keep-alive headers?","label":1}
+{"text":"How does a saga pattern handle distributed transactions?","label":1}
+{"text":"What happens if a subnet mask is incorrect?","label":1}
+{"text":"Why does an OS use virtual memory?","label":1}
+{"text":"How does a thread avoid race conditions?","label":1}
+{"text":"What happens if a database connection is not closed?","label":1}
+{"text":"Why does a monolith scale differently than microservices?","label":1}
+{"text":"How does a Dockerfile build a container image?","label":1}
+{"text":"What happens if a cache key collision occurs?","label":1}
+{"text":"Why does a router forward packets?","label":1}
+{"text":"How does a browser render a web page?","label":1}
+{"text":"What happens if a session ID is hijacked?","label":1}
+{"text":"Why does a distributed lock prevent data corruption?","label":1}
+{"text":"How does a hash function ensure data integrity?","label":1}
+{"text":"What happens if a process receives a SIGKILL?","label":1}
+{"text":"Why does a load balancer need a public IP?","label":1}
+{"text":"How does a database perform a full table scan?","label":1}
+{"text":"What happens if a pod is deleted in Kubernetes?","label":1}
+{"text":"Why does a message queue need a dead letter queue?","label":1}
+{"text":"How does a proxy mask the client IP?","label":1}
+{"text":"What happens if a server returns a 500 error?","label":1}
+{"text":"Why does an API use status codes?","label":1}
+{"text":"How does a syscall return data to a user process?","label":1}
+{"text":"What happens if a network partition occurs?","label":1}
+{"text":"Why does a database use replication?","label":1}
+{"text":"How does a load balancer select a backend server?","label":1}
+{"text":"What happens if a mutex is never released?","label":1}
+{"text":"Why does a distributed system use clocks?","label":1}
+{"text":"How does a firewall detect an attack?","label":1}
+{"text":"What happens if a queue overflows?","label":1}
+{"text":"Why does a server use a buffer?","label":1}
+{"text":"How does a browser handle cookies?","label":1}
+{"text":"What happens if a TCP packet is lost?","label":1}
+{"text":"Why does a database use sharding?","label":1}
+{"text":"How does a container share the host kernel?","label":1}
+{"text":"What happens if a DNS server goes offline?","label":1}
+{"text":"Why does a load balancer perform SSL termination?","label":1}
+{"text":"How does a database handle concurrent writes?","label":1}
+{"text":"What happens if a webhook fails to deliver?","label":1}
+{"text":"Why does a system use asynchronous processing?","label":1}
+{"text":"How does a process allocate memory?","label":1}
+{"text":"What happens if a disk partition is full?","label":1}
+{"text":"Why does a distributed system need replication?","label":1}
+{"text":"How does a load balancer maintain availability?","label":1}
+{"text":"What happens if an API key is invalid?","label":1}
+{"text":"Why does a database use locks?","label":1}
+{"text":"How does a server handle multiple requests?","label":1}
+{"text":"What happens if a process hits the CPU limit?","label":1}
+{"text":"Why does a distributed system use partitioning?","label":1}
+{"text":"How does a cache handle data eviction?","label":1}
+{"text":"What happens if a message is lost in transit?","label":1}
+{"text":"Why does a firewall block specific ports?","label":1}
+{"text":"How does a browser validate a TLS certificate?","label":1}
+{"text":"What happens if a database index is corrupted?","label":1}
+{"text":"Why does a server use a thread pool?","label":1}
+{"text":"How does a database perform a join?","label":1}
+{"text":"What happens if a process is swapped to disk?","label":1}
+{"text":"Why does a system use caching?","label":1}
+{"text":"How does a load balancer handle failure?","label":1}
+{"text":"What happens if a query times out?","label":1}
+{"text":"Why does a database use views?","label":1}
+{"text":"How does a server verify a JWT?","label":1}
+{"text":"What happens if a packet is fragmented?","label":1}
+{"text":"Why does a system use microservices?","label":1}
+{"text":"How does a database enforce constraints?","label":1}
+{"text":"What happens if a service goes down?","label":1}
+{"text":"Why does a load balancer use algorithms?","label":1}
+{"text":"How does a browser send an HTTP request?","label":1}
+{"text":"What happens if a session expires?","label":1}
+{"text":"Why does a system use a reverse proxy?","label":1}
+{"text":"How does a database use indexes?","label":1}
+{"text":"What happens if a connection is refused?","label":1}
+{"text":"Why does a system use message queues?","label":1}
+{"text":"How does a server process a request?","label":1}
+{"text":"What happens if a cache is cleared?","label":1}
+{"text":"Why does a system use sharding?","label":1}
+{"text":"How does a database replicate data?","label":1}
+{"text":"What happens if a transaction is rolled back?","label":1}
+{"text":"Why does a system use containers?","label":1}
+{"text":"How does a firewall protect a network?","label":1}
+{"text":"What happens if a node fails?","label":1}
+{"text":"Why does a system use load balancers?","label":1}
+{"text":"How does a browser store data?","label":1}
+{"text":"What happens if a port is closed?","label":1}
+{"text":"Why does a system use APIs?","label":1}
+{"text":"How does a database store data?","label":1}
+{"text":"What happens if a script fails?","label":1}
+{"text":"Why does a system use security?","label":1}
+{"text":"How does a server authenticate users?","label":1}
+{"text":"What happens if a bug is found?","label":1}
+{"text":"Why does a system use logs?","label":1}
+{"text":"How does a browser handle redirects?","label":1}
+{"text":"What happens if a file is deleted?","label":1}
+{"text":"Why does a system use backups?","label":1}
+{"text":"How does a database handle queries?","label":1}
+{"text":"What happens if a network is slow?","label":1}
+{"text":"Why does a system use clusters?","label":1}
+{"text":"How does a server manage sessions?","label":1}
+{"text":"What happens if a disk fails?","label":1}
+{"text":"Why does a system use threads?","label":1}
+{"text":"How does a browser render HTML?","label":1}
+{"text":"What happens if a process crashes?","label":1}
+{"text":"Why does a system use caches?","label":1}
+{"text":"How does a database optimize speed?","label":1}
+{"text":"What happens if a request fails?","label":1}
+{"text":"Why does a system use routes?","label":1}
+{"text":"How does a server route traffic?","label":1}
+{"text":"What happens if a link is broken?","label":1}
+{"text":"Why does a system use protocols?","label":1}
+{"text":"How does a database maintain order?","label":1}
+{"text":"What happens if a value is null?","label":1}
+{"text":"Why does a system use keys?","label":1}
+{"text":"How does a server secure data?","label":1}
+{"text":"What happens if a limit is reached?","label":1}
+{"text":"Why does a system use tokens?","label":1}
+{"text":"How does a database recover data?","label":1}
+{"text":"What happens if a user logs out?","label":1}
+{"text":"Why does a system use scripts?","label":1}
+{"text":"How does a server track usage?","label":1}
+{"text":"What happens if a task is late?","label":1}
+{"text":"Why does a system use shells?","label":1}
+{"text":"How does a database handle large data?","label":1}
+{"text":"What happens if a service is busy?","label":1}
+{"text":"Why does a system use masks?","label":1}
+{"text":"How does a server filter requests?","label":1}
+{"text":"What happens if a secret is stolen?","label":1}
+{"text":"Why does a system use pipes?","label":1}
+{"text":"How does a database link tables?","label":1}
+{"text":"What happens if a query is long?","label":1}
+{"text":"Why does a system use ports?","label":1}
+{"text":"How does a server listen for data?","label":1}
+{"text":"What happens if a packet is late?","label":1}
+{"text":"Why does a system use nodes?","label":1}
+{"text":"How does a database partition data?","label":1}
+{"text":"What happens if a table is dropped?","label":1}
+{"text":"Why does a system use gateways?","label":1}
+{"text":"How does a server encrypt traffic?","label":1}
+{"text":"What happens if a key is lost?","label":1}
+{"text":"Why does a system use drivers?","label":1}
+{"text":"How does a database sort records?","label":1}
+{"text":"What happens if a process stalls?","label":1}
+{"text":"Why does a system use bridges?","label":1}
+{"text":"How does a server handle errors?","label":1}
+{"text":"What happens if a buffer is full?","label":1}
+{"text":"Why does a system use salts?","label":1}
+{"text":"How does a database hash values?","label":1}
+{"text":"What happens if a salt is reused?","label":1}
+{"text":"Why does a system use scopes?","label":1}
+{"text":"How does a server verify tokens?","label":1}
+{"text":"What happens if a scope is narrow?","label":1}
+{"text":"Why does a system use claims?","label":1}
+{"text":"How does a server read a JWT?","label":1}
+{"text":"What happens if a claim is false?","label":1}
+{"text":"Why does a system use bodies?","label":1}
+{"text":"How does a server parse JSON?","label":1}
+{"text":"What happens if a body is empty?","label":1}
+{"text":"Why does a system use heads?","label":1}
+{"text":"How does a server read headers?","label":1}
+{"text":"What happens if a header is missing?","label":1}
+{"text":"Why does a system use rows?","label":1}
+{"text":"How does a database scan rows?","label":1}
+{"text":"What happens if a row is locked?","label":1}
+{"text":"Why does a system use cells?","label":1}
+{"text":"How does a database update cells?","label":1}
+{"text":"What happens if a cell is empty?","label":1}
+{"text":"Why does a system use engines?","label":1}
+{"text":"How does a database run queries?","label":1}
+{"text":"What happens if an engine stops?","label":1}
+{"text":"Why does a system use vaults?","label":1}
+{"text":"How does a server store secrets?","label":1}
+{"text":"What happens if a vault is locked?","label":1}
+{"text":"Why does a system use actors?","label":1}
+{"text":"How does a system send messages?","label":1}
+{"text":"What happens if an actor fails?","label":1}
+{"text":"Why does a system use signals?","label":1}
+{"text":"How does an OS kill a process?","label":1}
+{"text":"What happens if a signal is ignored?","label":1}
+{"text":"Why does a system use frames?","label":1}
+{"text":"How does a server stream video?","label":1}
+{"text":"What happens if a frame is dropped?","label":1}
+{"text":"Why does a system use sprites?","label":1}
+{"text":"How does a browser display images?","label":1}
+{"text":"What happens if a sprite is missing?","label":1}
+{"text":"Why does a system use glyphs?","label":1}
+{"text":"How does a browser render text?","label":1}
+{"text":"What happens if a glyph is missing?","label":1}
+{"text":"Why does a system use canvas?","label":1}
+{"text":"How does a browser draw shapes?","label":1}
+{"text":"What happens if a canvas is too large?","label":1}
 {"text":"hey boss","label":2}
-{"text":"What is closure?","label":0}
-{"text":"What's the gist?","label":1}
-{"text":"wassup","label":2}
-{"text":"Define currying","label":0}
-{"text":"What's the essence?","label":1}
-{"text":"wazzup","label":2}
-{"text":"What is partial application?","label":0}
-{"text":"In a nutshell?","label":1}
-{"text":"yoo","label":2}
-{"text":"Explain map reduce filter","label":0}
-{"text":"To sum up?","label":1}
-{"text":"ayy","label":2}
-{"text":"What is immutability?","label":0}
-{"text":"Long story short?","label":1}
-{"text":"aye","label":2}
-{"text":"Define referential transparency","label":0}
-{"text":"Bottom line?","label":1}
-{"text":"ayo","label":2}
-{"text":"What is lazy evaluation?","label":0}
-{"text":"What's your point?","label":1}
-{"text":"hiya","label":2}
-{"text":"Explain monads","label":0}
-{"text":"What are you saying?","label":1}
-{"text":"heya","label":2}
-{"text":"What is functor?","label":0}
-{"text":"What do you mean by that?","label":1}
-{"text":"howdy partner","label":2}
-{"text":"Define applicative","label":0}
-{"text":"What are you getting at?","label":1}
-{"text":"good day","label":2}
-{"text":"What is type system?","label":0}
-{"text":"What's your argument?","label":1}
-{"text":"top of the morning","label":2}
-{"text":"Explain static typing","label":0}
-{"text":"What's the claim?","label":1}
-{"text":"cheerio","label":2}
-{"text":"What is dynamic typing?","label":0}
-{"text":"What's the thesis?","label":1}
-{"text":"aloha","label":2}
-{"text":"Define strong typing","label":0}
-{"text":"What's the hypothesis?","label":1}
-{"text":"bonjour","label":2}
-{"text":"What is weak typing?","label":0}
-{"text":"What's the theory?","label":1}
-{"text":"hola","label":2}
-{"text":"Explain type inference","label":0}
-{"text":"What's the assumption?","label":1}
-{"text":"ciao","label":2}
-{"text":"What is generics?","label":0}
-{"text":"What's the premise?","label":1}
-{"text":"namaste","label":2}
-{"text":"Define parametric polymorphism","label":0}
-{"text":"On what grounds?","label":1}
-{"text":"konnichiwa","label":2}
-{"text":"What is ad-hoc polymorphism?","label":0}
-{"text":"What's the foundation?","label":1}
-{"text":"ni hao","label":2}
-{"text":"Explain subtype polymorphism","label":0}
-{"text":"What supports that?","label":1}
-{"text":"shalom","label":2}
-{"text":"What is variance?","label":0}
-{"text":"What backs that up?","label":1}
-{"text":"salaam","label":2}
-{"text":"Define covariance","label":0}
-{"text":"What's the proof?","label":1}
-{"text":"jambo","label":2}
-{"text":"What is contravariance?","label":0}
-{"text":"Where's the evidence?","label":1}
-{"text":"sawubona","label":2}
-{"text":"Explain invariance","label":0}
-{"text":"What data supports this?","label":1}
-{"text":"privyet","label":2}
-{"text":"What is type erasure?","label":0}
-{"text":"What are the facts?","label":1}
-{"text":"zdravstvuyte","label":2}
-{"text":"Define reflection","label":0}
-{"text":"What are the numbers?","label":1}
-{"text":"guten tag","label":2}
-{"text":"What is introspection?","label":0}
-{"text":"What are the statistics?","label":1}
-{"text":"wie gehts","label":2}
-{"text":"Explain metaprogramming","label":0}
-{"text":"What does the research say?","label":1}
-{"text":"merhaba","label":2}
-{"text":"What is code generation?","label":0}
-{"text":"What do studies show?","label":1}
-{"text":"salam","label":2}
-{"text":"Define annotation","label":0}
-{"text":"What does the data indicate?","label":1}
-{"text":"annyeong","label":2}
-{"text":"What is decorator pattern?","label":0}
-{"text":"What does history tell us?","label":1}
-{"text":"sawasdee","label":2}
-{"text":"Explain aspect-oriented programming","label":0}
-{"text":"What's the track record?","label":1}
-{"text":"xin chao","label":2}
-{"text":"What is dependency graph?","label":0}
-{"text":"What's happened before?","label":1}
-{"text":"kumusta","label":2}
-{"text":"Define circular dependency","label":0}
-{"text":"What's the precedent?","label":1}
-{"text":"szia","label":2}
-{"text":"What is inversion of control?","label":0}
-{"text":"Has this happened before?","label":1}
-{"text":"hej","label":2}
-{"text":"Explain service locator","label":0}
-{"text":"When has this worked?","label":1}
-{"text":"terve","label":2}
-{"text":"What is registry pattern?","label":0}
-{"text":"Where has this succeeded?","label":1}
-{"text":"moi","label":2}
-{"text":"Define builder pattern","label":0}
-{"text":"Who has done this?","label":1}
-{"text":"hallo","label":2}
-{"text":"What is prototype pattern?","label":0}
-{"text":"What are examples?","label":1}
-{"text":"dag","label":2}
-{"text":"Explain adapter pattern","label":0}
-{"text":"Can you give an example?","label":1}
-{"text":"ola","label":2}
-{"text":"What is bridge pattern?","label":0}
-{"text":"Like what for instance?","label":1}
-{"text":"bom dia","label":2}
-{"text":"Define composite pattern","label":0}
-{"text":"Name one","label":1}
-{"text":"oi","label":2}
-{"text":"What is facade pattern?","label":0}
-{"text":"Such as what?","label":1}
-{"text":"tudo bem","label":2}
-{"text":"Explain proxy pattern","label":0}
-{"text":"Specifically?","label":1}
-{"text":"obrigado","label":2}
-{"text":"What is flyweight pattern?","label":0}
-{"text":"Be more specific","label":1}
-{"text":"de nada","label":2}
-{"text":"Define chain of responsibility","label":0}
-{"text":"Can you be more precise?","label":1}
-{"text":"por favor","label":2}
-{"text":"What is command pattern?","label":0}
-{"text":"What exactly?","label":1}
-{"text":"gracias","label":2}
-{"text":"Explain interpreter pattern","label":0}
-{"text":"Which one specifically?","label":1}
-{"text":"grazie","label":2}
-{"text":"What is iterator pattern?","label":0}
-{"text":"In particular?","label":1}
-{"text":"prego","label":2}
-{"text":"Define mediator pattern","label":0}
-{"text":"More details please","label":1}
-{"text":"merci","label":2}
-{"text":"What is memento pattern?","label":0}
-{"text":"Give me specifics","label":1}
-{"text":"de rien","label":2}
-{"text":"Explain state pattern?","label":0}
-{"text":"What are the details?","label":1}
-{"text":"s'il vous plait","label":2}
-{"text":"What is strategy pattern?","label":0}
-{"text":"What's the full story?","label":1}
-{"text":"danke","label":2}
-{"text":"Define template method","label":0}
-{"text":"Tell me everything","label":1}
-{"text":"bitte","label":2}
-{"text":"What is visitor pattern?","label":0}
-{"text":"What else?","label":1}
-{"text":"dank je","label":2}
-{"text":"Explain null object pattern","label":0}
-{"text":"Anything else?","label":1}
-{"text":"alsjeblieft","label":2}
-{"text":"What is object pool?","label":0}
-{"text":"What more?","label":1}
-{"text":"tack","label":2}
-{"text":"Define servant pattern","label":0}
-{"text":"Is there more?","label":1}
-{"text":"varsagod","label":2}
-{"text":"What is specification pattern?","label":0}
-{"text":"What about other aspects?","label":1}
-{"text":"tak","label":2}
-{"text":"Explain repository pattern","label":0}
-{"text":"What are the other factors?","label":1}
-{"text":"prosim","label":2}
-{"text":"What is unit of work?","label":0}
-{"text":"What else should I know?","label":1}
-{"text":"kiitos","label":2}
-{"text":"Define data mapper","label":0}
-{"text":"What am I missing?","label":1}
-{"text":"ole hyvä","label":2}
-{"text":"What is active record?","label":0}
-{"text":"What haven't you mentioned?","label":1}
-{"text":"spasiba","label":2}
-{"text":"Explain ORM","label":0}
-{"text":"What are you leaving out?","label":1}
-{"text":"pozhaluysta","label":2}
-{"text":"What is lazy loading?","label":0}
-{"text":"What's the rest?","label":1}
-{"text":"dziekuje","label":2}
-{"text":"Define eager loading","label":0}
-{"text":"And what else?","label":1}
-{"text":"prosze","label":2}
-{"text":"What is N+1 problem?","label":0}
-{"text":"Plus what?","label":1}
-{"text":"arigato","label":2}
-{"text":"Explain transaction isolation","label":0}
-{"text":"Also?","label":1}
-{"text":"doumo","label":2}
-{"text":"What is ACID properties?","label":0}
-{"text":"Additionally?","label":1}
-{"text":"sumimasen","label":2}
-{"text":"Define atomicity","label":0}
-{"text":"Furthermore?","label":1}
-{"text":"gomen","label":2}
-{"text":"What is consistency?","label":0}
-{"text":"Moreover?","label":1}
-{"text":"hai","label":2}
-{"text":"Explain isolation levels","label":0}
-{"text":"Besides that?","label":1}
-{"text":"iie","label":2}
-{"text":"What is durability?","label":0}
-{"text":"Apart from that?","label":1}
-{"text":"onegaishimasu","label":2}
-{"text":"Define dirty read","label":0}
-{"text":"On top of that?","label":1}
-{"text":"sayonara","label":2}
-{"text":"What is phantom read?","label":0}
-{"text":"Not to mention?","label":1}
-{"text":"mata ne","label":2}
-{"text":"Explain non-repeatable read","label":0}
-{"text":"What about the alternatives?","label":1}
-{"text":"ja ne","label":2}
-{"text":"What is serializable?","label":0}
-{"text":"What are the other options?","label":1}
-{"text":"domo arigato","label":2}
-{"text":"Define read committed","label":0}
-{"text":"What else could work?","label":1}
-{"text":"ganbatte","label":2}
-{"text":"What is read uncommitted?","label":0}
-{"text":"What are the choices?","label":1}
-{"text":"gambatte kudasai","label":2}
-{"text":"Explain repeatable read","label":0}
-{"text":"What can we do instead?","label":1}
-{"text":"otsukare","label":2}
-{"text":"What is optimistic locking?","label":0}
-{"text":"What's the alternative?","label":1}
-{"text":"yoroshiku","label":2}
-{"text":"Define pessimistic locking","label":0}
-{"text":"What's plan B?","label":1}
-{"text":"dozo yoroshiku","label":2}
-{"text":"What is deadlock prevention?","label":0}
-{"text":"What if that doesn't work?","label":1}
-{"text":"itadakimasu","label":2}
-{"text":"Explain deadlock avoidance","label":0}
-{"text":"What's the backup?","label":1}
-{"text":"gochisousama","label":2}
-{"text":"What is deadlock detection?","label":0}
-{"text":"What's the fallback?","label":1}
-{"text":"oishii","label":2}
-{"text":"Define two-phase locking","label":0}
-{"text":"What are the risks?","label":1}
-{"text":"umai","label":2}
-{"text":"What is timestamp ordering?","label":0}
-{"text":"What could go wrong?","label":1}
-{"text":"sugoi","label":2}
-{"text":"Explain snapshot isolation?","label":0}
-{"text":"What are the downsides?","label":1}
-{"text":"kawaii","label":2}
-{"text":"What is MVCC?","label":0}
-{"text":"What are the drawbacks?","label":1}
-{"text":"kakkoii","label":2}
-{"text":"Define write-ahead logging","label":0}
-{"text":"What are the disadvantages?","label":1}
-{"text":"yabai","label":2}
-{"text":"What is checkpoint?","label":0}
-{"text":"What are the cons?","label":1}
-{"text":"kimochi","label":2}
-{"text":"Explain recovery manager","label":0}
-{"text":"What's the downside?","label":1}
-{"text":"daijoubu","label":2}
-{"text":"What is undo logging?","label":0}
-{"text":"What's the catch with that?","label":1}
-{"text":"chotto matte","label":2}
-{"text":"Define redo logging","label":0}
-{"text":"What's the tradeoff?","label":1}
-{"text":"matte kudasai","label":2}
-{"text":"What is shadow paging?","label":0}
-{"text":"What do we sacrifice?","label":1}
-{"text":"chigau","label":2}
-{"text":"Explain buffer management","label":0}
-{"text":"What do we lose?","label":1}
-{"text":"uso","label":2}
-{"text":"What is page replacement?","label":0}
-{"text":"What's the cost?","label":1}
-{"text":"honto","label":2}
-{"text":"Define LRU algorithm","label":0}
-{"text":"What's the price?","label":1}
-{"text":"maji","label":2}
-{"text":"What is clock algorithm?","label":0}
-{"text":"How much does it cost?","label":1}
-{"text":"nani","label":2}
-{"text":"Explain LFU algorithm","label":0}
-{"text":"What's the expense?","label":1}
-{"text":"doko","label":2}
-{"text":"What is FIFO algorithm?","label":0}
-{"text":"What does it take?","label":1}
-{"text":"dare","label":2}
-{"text":"Define Belady's anomaly","label":0}
-{"text":"What's required?","label":1}
-{"text":"itsu","label":2}
-{"text":"What is working set?","label":0}
-{"text":"What's necessary?","label":1}
-{"text":"naze","label":2}
-{"text":"Explain thrashing","label":0}
-{"text":"What do I need to do?","label":1}
-{"text":"dou","label":2}
-{"text":"What is page fault?","label":0}
-{"text":"How do I start?","label":1}
-{"text":"ikura","label":2}
-{"text":"Define demand paging","label":0}
-{"text":"Where do I begin?","label":1}
-{"text":"nan desu ka","label":2}
-{"text":"What is prepaging?","label":0}
-{"text":"What's the first step?","label":1}
-{"text":"wakarimasen","label":2}
-{"text":"Explain swapping","label":0}
-{"text":"Where should I start?","label":1}
-{"text":"wakarimashita","label":2}
-{"text":"What is virtual memory?","label":0}
-{"text":"How should I approach this?","label":1}
-{"text":"shirimasen","label":2}
-{"text":"Define paging","label":0}
-{"text":"What's the best way?","label":1}
-{"text":"shirimasu","label":2}
-{"text":"What is segmentation?","label":0}
-{"text":"What's recommended?","label":1}
-{"text":"sou desu","label":2}
-{"text":"Explain fragmentation","label":0}
-{"text":"What do you suggest?","label":1}
-{"text":"sou desu ne","label":2}
-{"text":"What is compaction?","label":0}
-{"text":"What would you recommend?","label":1}
-{"text":"sou ka","label":2}
-{"text":"Define TLB","label":0}
-{"text":"What's your advice?","label":1}
-{"text":"naruhodo","label":2}
-{"text":"What is page table?","label":0}
-{"text":"What do experts say?","label":1}
-{"text":"souiu koto","label":2}
-{"text":"Explain multilevel paging","label":0}
-{"text":"What's best practice?","label":1}
-{"text":"ii ne","label":2}
-{"text":"What is inverted page table?","label":0}
-{"text":"What's the standard approach?","label":1}
-{"text":"dame","label":2}
-{"text":"Define hashed page table","label":0}
-{"text":"What's conventional?","label":1}
-{"text":"zannen","label":2}
-{"text":"What is shared memory?","label":0}
-{"text":"What do people usually do?","label":1}
-{"text":"yatta","label":2}
-{"text":"Explain memory-mapped files","label":0}
-{"text":"What's common?","label":1}
-{"text":"yokatta","label":2}
-{"text":"What is IPC?","label":0}
-{"text":"What's typical?","label":1}
-{"text":"gomen nasai","label":2}
-{"text":"Define message passing","label":0}
-{"text":"What's normal?","label":1}
-{"text":"sumimasen deshita","label":2}
-{"text":"What is socket?","label":0}
-{"text":"Is that normal?","label":1}
-{"text":"shitsurei shimasu","label":2}
-{"text":"Explain RPC","label":0}
-{"text":"Is that common?","label":1}
-{"text":"ojamashimasu","label":2}
-{"text":"What is marshalling?","label":0}
-{"text":"Does that happen often?","label":1}
-{"text":"ittekimasu","label":2}
-{"text":"Define serialization","label":0}
-{"text":"How often does that occur?","label":1}
-{"text":"itterasshai","label":2}
-{"text":"What is protocol buffer?","label":0}
-{"text":"How frequent is it?","label":1}
-{"text":"tadaima","label":2}
-{"text":"Explain JSON vs XML","label":0}
-{"text":"How rare is it?","label":1}
-{"text":"okaeri","label":2}
-{"text":"What is YAML?","label":0}
-{"text":"How likely is it?","label":1}
-{"text":"oyasumi","label":2}
-{"text":"Define schema validation","label":0}
-{"text":"What are the odds?","label":1}
-{"text":"oyasuminasai","label":2}
-{"text":"What is DTD?","label":0}
-{"text":"What's the probability?","label":1}
-{"text":"ohayou","label":2}
-{"text":"Explain XSD","label":0}
-{"text":"What are the chances?","label":1}
-{"text":"ohayou gozaimasu","label":2}
-{"text":"What is JSON schema?","label":0}
-{"text":"How probable is that?","label":1}
-{"text":"konbanwa","label":2}
-{"text":"Define parsing","label":0}
-{"text":"How possible is that?","label":1}
-{"text":"konnichiwa minna","label":2}
-{"text":"What is lexical analysis?","label":0}
-{"text":"Is that even possible?","label":1}
-{"text":"mina san","label":2}
-{"text":"Explain syntax analysis","label":0}
-{"text":"Can that happen?","label":1}
-{"text":"tomo dachi","label":2}
-{"text":"What is semantic analysis?","label":0}
-{"text":"Could that occur?","label":1}
-{"text":"nakama","label":2}
-{"text":"Define AST?","label":0}
-{"text":"Would that work?","label":1}
-{"text":"yuujin","label":2}
-{"text":"What is parse tree?","label":0}
-{"text":"Will that succeed?","label":1}
-{"text":"kazoku","label":2}
-{"text":"Explain compiler vs interpreter","label":0}
-{"text":"Is that effective?","label":1}
-{"text":"kanojo","label":2}
-{"text":"What is JIT compilation?","label":0}
-{"text":"Does that actually work?","label":1}
-{"text":"kareshi","label":2}
-{"text":"Define bytecode","label":0}
-{"text":"Has that been proven?","label":1}
-{"text":"koibito","label":2}
-{"text":"What is intermediate code?","label":0}
-{"text":"Is that verified?","label":1}
-{"text":"ai","label":2}
-{"text":"Explain code optimization","label":0}
-{"text":"Is that confirmed?","label":1}
-{"text":"koi","label":2}
-{"text":"What is dead code elimination?","label":0}
-{"text":"Is that accurate?","label":1}
-{"text":"suki","label":2}
-{"text":"Define constant folding","label":0}
-{"text":"Is that correct?","label":1}
-{"text":"daisuki","label":2}
-{"text":"What is loop unrolling?","label":0}
-{"text":"Is that true?","label":1}
-{"text":"aishiteru","label":2}
-{"text":"Explain inline expansion","label":0}
-{"text":"Is that factual?","label":1}
-{"text":"baka","label":2}
-{"text":"What is tail call optimization?","label":0}
-{"text":"Is that reliable?","label":1}
-{"text":"aho","label":2}
-{"text":"Define register allocation","label":0}
-{"text":"Can I trust that?","label":1}
-{"text":"fuzakeruna","label":2}
-{"text":"What is instruction scheduling?","label":0}
-{"text":"Is that credible?","label":1}
-{"text":"yamete","label":2}
-{"text":"Explain peephole optimization","label":0}
-{"text":"Who says so?","label":1}
-{"text":"yame","label":2}
-{"text":"What is strength reduction?","label":0}
-{"text":"What's the authority?","label":1}
-{"text":"shine","label":2}
-{"text":"Define common subexpression?","label":0}
-{"text":"What's the reference?","label":1}
-{"text":"urusai","label":2}
+{"text":"whats up","label":2}
+{"text":"lol","label":2}
+{"text":"bruh","label":2}
+{"text":"got it","label":2}
+{"text":"thanks","label":2}
+{"text":"ok","label":2}
+{"text":"cool","label":2}
+{"text":"hey","label":2}
+{"text":"yo","label":2}
+{"text":"lmao","label":2}
+{"text":"nice","label":2}
+{"text":"wow","label":2}
+{"text":"interesting","label":2}
+{"text":"hello","label":2}
+{"text":"hi","label":2}
+{"text":"yup","label":2}
+{"text":"nah","label":2}
+{"text":"maybe","label":2}
+{"text":"sure","label":2}
+{"text":"no problem","label":2}
+{"text":"anyway","label":2}
+{"text":"whatever","label":2}
+{"text":"k","label":2}
+{"text":"kk","label":2}
+{"text":"understands","label":2}
+{"text":"perfect","label":2}
+{"text":"awesome","label":2}
+{"text":"good stuff","label":2}
+{"text":"keep going","label":2}
+{"text":"stop","label":2}
+{"text":"wait","label":2}
+{"text":"hold on","label":2}
+{"text":"brb","label":2}
+{"text":"afk","label":2}
+{"text":"omg","label":2}
+{"text":"wtf","label":2}
+{"text":"idk","label":2}
+{"text":"nvm","label":2}
+{"text":"stfu","label":2}
+{"text":"gtg","label":2}
+{"text":"ttył","label":2}
+{"text":"cya","label":2}
+{"text":"bye","label":2}
+{"text":"goodnight","label":2}
+{"text":"morning","label":2}
+{"text":"evening","label":2}
+{"text":"cheers","label":2}
+{"text":"word","label":2}
+{"text":"dope","label":2}
+{"text":"sick","label":2}
+{"text":"lit","label":2}
+{"text":"bet","label":2}
+{"text":"fr","label":2}
+{"text":"facts","label":2}
+{"text":"cap","label":2}
+{"text":"no cap","label":2}
+{"text":"sus","label":2}
+{"text":"vibe","label":2}
+{"text":"chill","label":2}
+{"text":"solid","label":2}
+{"text":"bet boss","label":2}
+{"text":"yessir","label":2}
+{"text":"yes","label":2}
+{"text":"no","label":2}
+{"text":"not really","label":2}
+{"text":"kinda","label":2}
+{"text":"sort of","label":2}
+{"text":"basically","label":2}
+{"text":"essentially","label":2}
+{"text":"actually","label":2}
+{"text":"literally","label":2}
+{"text":"legit","label":2}
+{"text":"dope","label":2}
+{"text":"sweet","label":2}
+{"text":"radical","label":2}
+{"text":"tubular","label":2}
+{"text":"neat","label":2}
+{"text":"fine","label":2}
+{"text":"bad","label":2}
+{"text":"wack","label":2}
+{"text":"trash","label":2}
+{"text":"mid","label":2}
+{"text":"fire","label":2}
+{"text":"pog","label":2}
+{"text":"rip","label":2}
+{"text":"f","label":2}
+{"text":"gg","label":2}
+{"text":"gl","label":2}
+{"text":"hf","label":2}
+{"text":"wp","label":2}
+{"text":"ez","label":2}
+{"text":"noob","label":2}
+{"text":"pro","label":2}
+{"text":"hacker","label":2}
+{"text":"bot","label":2}
+{"text":"main","label":2}
+{"text":"alt","label":2}
+{"text":"spam","label":2}
+{"text":"flood","label":2}
+{"text":"bump","label":2}
+{"text":"pinned","label":2}
+{"text":"sent","label":2}
+{"text":"received","label":2}
