@@ -1,0 +1,1000 @@
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The term is discussed in modern literature."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Fungi play a role in ecosystems."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports role-based access control."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API includes pagination support."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Fungi are classified into several groups."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Fungi are classified into several groups."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The backend is written in Python."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi are classified into several groups."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Some fungi are used in food production."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system uses JSON for data interchange."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The movement gained popularity in recent years."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database supports ACID transactions."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system is horizontally scalable."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The term is discussed in modern literature."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The application logs requests for auditing."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The term is discussed in modern literature."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The database schema is normalized."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system exposes REST endpoints."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Fungi reproduce through spores."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports horizontal scaling."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system uses JWT tokens internally."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system uses JWT tokens internally."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The study of fungi is called mycology."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The system supports role-based access control."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi reproduce through spores."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The backend is written in Python."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API documentation includes examples."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports role-based access control."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The backend is written in Python."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The database schema is normalized."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports role-based access control."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system uses JWT tokens internally."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application exposes RESTful APIs."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi reproduce through spores."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The API is versioned for backward compatibility."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi are classified into several groups."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The application exposes RESTful APIs."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system uses JWT tokens internally."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The system uses JWT tokens internally."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service runs on Linux servers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The term is discussed in modern literature."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The movement gained popularity in recent years."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The feature was added in version 2.1."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system exposes REST endpoints."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is horizontally scalable."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The service integrates with third-party providers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is horizontally scalable."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The study of fungi is called mycology."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The term is discussed in modern literature."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The backend is written in Python."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The platform supports rate limiting."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The platform supports rate limiting."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system uses JWT tokens internally."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The database schema is normalized."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The study of fungi is called mycology."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The platform supports rate limiting."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi reproduce through spores."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The feature was added in version 2.1."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service runs on Linux servers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Fungi are classified into several groups."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "Fungi are classified into several groups."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The term is discussed in modern literature."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The term is discussed in modern literature."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Some fungi are used in food production."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is horizontally scalable."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is horizontally scalable."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi reproduce through spores."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system uses JSON for data interchange."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API is versioned for backward compatibility."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is horizontally scalable."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi play a role in ecosystems."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system uses JWT tokens internally."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system uses JWT tokens internally."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API documentation includes examples."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports horizontal scaling."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The term is discussed in modern literature."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The database supports ACID transactions."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The study of fungi is called mycology."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi play a role in ecosystems."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API includes pagination support."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The system uses JWT tokens internally."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API documentation includes examples."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The system uses JSON for data interchange."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Fungi are classified into several groups."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi reproduce through spores."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The service runs on Linux servers."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The database supports ACID transactions."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The study of fungi is called mycology."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The application exposes RESTful APIs."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports role-based access control."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The movement gained popularity in recent years."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service is containerized using Docker."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system uses JWT tokens internally."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is studied in academic courses."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports role-based access control."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API documentation includes examples."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The study of fungi is called mycology."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service runs on Linux servers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports horizontal scaling."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The movement gained popularity in recent years."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Some fungi are used in food production."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service is containerized using Docker."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The study of fungi is called mycology."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The application exposes RESTful APIs."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The study of fungi is called mycology."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi are classified into several groups."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The application exposes RESTful APIs."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The application logs requests for auditing."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The application exposes RESTful APIs."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system uses JWT tokens internally."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system uses JSON for data interchange."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API includes pagination support."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The backend is written in Python."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The application exposes RESTful APIs."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi reproduce through spores."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports horizontal scaling."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service is containerized using Docker."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Fungi are classified into several groups."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system uses JSON for data interchange."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system uses JWT tokens internally."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi reproduce through spores."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The application exposes RESTful APIs."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports horizontal scaling."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service runs on Linux servers."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports horizontal scaling."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The platform supports rate limiting."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi are classified into several groups."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The application exposes RESTful APIs."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The term is discussed in modern literature."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The application exposes RESTful APIs."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is horizontally scalable."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The backend is written in Python."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports horizontal scaling."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports role-based access control."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Some fungi are used in food production."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The system uses JSON for data interchange."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The study of fungi is called mycology."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API includes pagination support."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports role-based access control."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The platform uses role-based access control."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi reproduce through spores."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API includes pagination support."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The service integrates with third-party providers."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system uses JWT tokens internally."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service runs on Linux servers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi reproduce through spores."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi reproduce through spores."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports OAuth2 authentication."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service runs on Linux servers."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system uses JSON for data interchange."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service runs on Linux servers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Fungi are classified into several groups."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The service integrates with third-party providers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system uses JWT tokens internally."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service runs on Linux servers."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The study of fungi is called mycology."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The platform supports rate limiting."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The database supports ACID transactions."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API includes pagination support."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Some fungi are used in food production."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The database supports ACID transactions."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The term is discussed in modern literature."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API includes pagination support."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database supports ACID transactions."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database supports ACID transactions."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The API is versioned for backward compatibility."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi are classified into several groups."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Fungi are classified into several groups."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The API is versioned for backward compatibility."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The backend is written in Python."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The database supports ACID transactions."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The platform supports rate limiting."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is horizontally scalable."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system uses JWT tokens internally."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The system uses JWT tokens internally."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Fungi reproduce through spores."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system exposes REST endpoints."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is horizontally scalable."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service runs on Linux servers."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The study of fungi is called mycology."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The philosophy is studied in academic courses."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Some fungi are used in food production."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The backend is written in Python."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system uses JWT tokens internally."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service integrates with third-party providers."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports role-based access control."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The database supports ACID transactions."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports role-based access control."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The application exposes RESTful APIs."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The platform uses role-based access control."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The term is discussed in modern literature."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The movement gained popularity in recent years."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JWT tokens internally."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi reproduce through spores."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Some fungi are used in food production."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Some fungi are used in food production."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is horizontally scalable."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Some fungi are used in food production."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi reproduce through spores."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The backend is written in Python."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The platform uses role-based access control."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API includes pagination support."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system uses JWT tokens internally."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "Fungi play a role in ecosystems."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system uses JSON for data interchange."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service is containerized using Docker."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The term is discussed in modern literature."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The database schema is normalized."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system uses JSON for data interchange."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The backend is written in Python."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The movement gained popularity in recent years."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is horizontally scalable."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system uses JSON for data interchange."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The term is discussed in modern literature."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Fungi reproduce through spores."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system exposes REST endpoints."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi reproduce through spores."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system uses JWT tokens internally."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is horizontally scalable."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports role-based access control."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The application exposes RESTful APIs."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system uses JSON for data interchange."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The movement gained popularity in recent years."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Some fungi are used in food production."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The platform supports rate limiting."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The movement gained popularity in recent years."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API includes pagination support."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system uses JSON for data interchange."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Authentication logs are stored for auditing."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API includes pagination support."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The service is containerized using Docker."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The API documentation includes examples."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system supports role-based access control."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service is containerized using Docker."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The term is discussed in modern literature."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The study of fungi is called mycology."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi reproduce through spores."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The system supports horizontal scaling."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Some fungi are used in food production."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The API documentation includes examples."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The service integrates with third-party providers."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The database supports ACID transactions."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The term is discussed in modern literature."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The service runs on Linux servers."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is horizontally scalable."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The application exposes RESTful APIs."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API documentation includes examples."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "Some fungi are used in food production."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi play a role in ecosystems."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The term is discussed in modern literature."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The application exposes RESTful APIs."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is horizontally scalable."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The database supports ACID transactions."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports horizontal scaling."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system uses JWT tokens internally."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The application exposes RESTful APIs."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The movement gained popularity in recent years."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The API documentation includes examples."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is studied in academic courses."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The study of fungi is called mycology."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform supports rate limiting."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The application logs requests for auditing."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform uses role-based access control."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system exposes REST endpoints."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi play a role in ecosystems."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports role-based access control."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The API documentation includes examples."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The term is discussed in modern literature."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The platform uses role-based access control."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API is versioned for backward compatibility."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API includes pagination support."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Authentication logs are stored for auditing."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Fungi are classified into several groups."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system supports role-based access control."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The term is discussed in modern literature."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The platform supports rate limiting."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The movement gained popularity in recent years."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The system uses JWT tokens internally."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The database schema is normalized."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The platform supports rate limiting."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The service integrates with third-party providers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service runs on Linux servers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Some fungi are used in food production."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Some fungi are used in food production."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API includes pagination support."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The study of fungi is called mycology."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Some fungi are used in food production."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The term is discussed in modern literature."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service runs on Linux servers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The study of fungi is called mycology."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is horizontally scalable."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Some fungi are used in food production."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The database schema is normalized."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform supports rate limiting."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API includes pagination support."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi reproduce through spores."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The system is horizontally scalable."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API includes pagination support."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The backend is written in Python."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The application logs requests for auditing."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The system exposes REST endpoints."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system uses JSON for data interchange."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system uses JWT tokens internally."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The service runs on Linux servers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The system supports role-based access control."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system exposes REST endpoints."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system uses JSON for data interchange."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The term is discussed in modern literature."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The service is containerized using Docker."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is horizontally scalable."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API is versioned for backward compatibility."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service runs on Linux servers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi play a role in ecosystems."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is horizontally scalable."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The service runs on Linux servers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system uses JWT tokens internally."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API includes pagination support."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The system is horizontally scalable."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The platform supports rate limiting."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The application exposes RESTful APIs."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The philosophy is studied in academic courses."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API documentation includes examples."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The term is discussed in modern literature."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Fungi are classified into several groups."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The database schema is normalized."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The term is discussed in modern literature."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The application exposes RESTful APIs."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi reproduce through spores."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system uses JWT tokens internally."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API documentation includes examples."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The service runs on Linux servers."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API is versioned for backward compatibility."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API documentation includes examples."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The API is versioned for backward compatibility."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API includes pagination support."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The API documentation includes examples."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi can exist as single-celled organisms."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi are classified into several groups."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JWT tokens internally."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system uses JSON for data interchange."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The application logs requests for auditing."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Authentication logs are stored for auditing."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The movement gained popularity in recent years."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports role-based access control."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The service integrates with third-party providers."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The movement gained popularity in recent years."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The study of fungi is called mycology."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The application logs requests for auditing."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The API is versioned for backward compatibility."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system uses JSON for data interchange."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The movement gained popularity in recent years."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The database schema is normalized."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The backend is written in Python."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The application exposes RESTful APIs."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports role-based access control."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The platform supports rate limiting."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports horizontal scaling."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports horizontal scaling."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Fungi are classified into several groups."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The feature was added in version 2.1."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy is referenced in self-help books."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The database supports ACID transactions."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "Stoicism shares similarities with other schools of thought."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Certain fungi form symbiotic relationships."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system is deployed on AWS infrastructure."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungi are classified into several groups."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "The system uses JWT tokens internally."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The philosophy influenced Roman thinkers."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The service is containerized using Docker."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The application exposes RESTful APIs."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungi reproduce through spores."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system supports role-based access control."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The movement gained popularity in recent years."}
+{"query": "Explain it again", "positive": "Mycelium is the vegetative part of a fungus consisting of hyphae.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The API includes pagination support."}
+{"query": "Why is it important?", "positive": "Stoicism emphasizes emotional resilience and rational decision-making.", "negative": "The database supports ACID transactions."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Fungal cells have rigid cell walls."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Explain it again", "positive": "It forms a network that absorbs nutrients from the environment.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoic texts were written by ancient authors."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system exposes REST endpoints."}
+{"query": "What about its drawbacks?", "positive": "Key management adds operational complexity.", "negative": "The platform supports rate limiting."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The platform supports rate limiting."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The API documentation includes examples."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The feature was added in version 2.1."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The application exposes RESTful APIs."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Requests are logged for monitoring purposes."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The database supports ACID transactions."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Stoicism originated in ancient Greece."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "The term is discussed in modern literature."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The platform uses role-based access control."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The application exposes RESTful APIs."}
+{"query": "Does it support that?", "positive": "Multi-factor authentication can be enabled via configuration.", "negative": "The service integrates with third-party providers."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "The system supports horizontal scaling."}
+{"query": "How does it work?", "positive": "The caching layer stores frequently accessed data in memory.", "negative": "Fungi play a role in ecosystems."}
+{"query": "How does it work?", "positive": "Cache entries are invalidated when underlying data changes.", "negative": "The system supports role-based access control."}
+{"query": "What about its drawbacks?", "positive": "AES encryption adds computational overhead during encryption.", "negative": "The system supports OAuth2 authentication."}
+{"query": "Why is it important?", "positive": "The philosophy helps individuals maintain clarity during adversity.", "negative": "Fungi play a role in ecosystems."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "The system exposes REST endpoints."}
+{"query": "Does it support that?", "positive": "The API supports OAuth2 authentication flows.", "negative": "Authentication logs are stored for auditing."}
