@@ -1,0 +1,402 @@
+{"text": "Question: What is a database index?\nSentence: A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space.", "label": 1}
+{"text": "Question: What is a database index?\nSentence: Database normalization is the process of organizing data to reduce redundancy.", "label": 0}
+{"text": "Question: What is a database index?\nSentence: Indexes are created using one or more columns of a database table, providing the basis for both rapid random lookups and efficient access of ordered records.", "label": 1}
+{"text": "Question: What is a database index?\nSentence: A foreign key is a column that creates a relationship between two tables.", "label": 0}
+{"text": "Question: What is TCP?\nSentence: TCP (Transmission Control Protocol) is a connection-oriented protocol that provides reliable, ordered delivery of data between applications over a network.", "label": 1}
+{"text": "Question: What is TCP?\nSentence: UDP is a connectionless protocol that sends datagrams without establishing a connection.", "label": 0}
+{"text": "Question: What is TCP?\nSentence: TCP uses a three-way handshake to establish connections and includes mechanisms for flow control and congestion control.", "label": 1}
+{"text": "Question: What is TCP?\nSentence: The OSI model has seven layers for network communication.", "label": 0}
+{"text": "Question: What is a mutex?\nSentence: A mutex (mutual exclusion) is a synchronization primitive that prevents multiple threads from simultaneously accessing a shared resource.", "label": 1}
+{"text": "Question: What is a mutex?\nSentence: A semaphore is a signaling mechanism that can allow multiple threads to access a resource up to a certain limit.", "label": 0}
+{"text": "Question: What is a mutex?\nSentence: Mutexes are typically acquired by one thread and must be released by the same thread to avoid deadlocks.", "label": 1}
+{"text": "Question: What is a mutex?\nSentence: Thread pools manage a collection of worker threads to execute tasks concurrently.", "label": 0}
+{"text": "Question: What is CAP theorem?\nSentence: The CAP theorem states that a distributed system can provide at most two out of three guarantees: Consistency, Availability, and Partition tolerance.", "label": 1}
+{"text": "Question: What is CAP theorem?\nSentence: ACID properties ensure database transactions are processed reliably.", "label": 0}
+{"text": "Question: What is CAP theorem?\nSentence: According to CAP theorem, when a network partition occurs, a system must choose between consistency and availability.", "label": 1}
+{"text": "Question: What is CAP theorem?\nSentence: Consensus algorithms like Paxos help distributed systems agree on values.", "label": 0}
+{"text": "Question: What is a REST API?\nSentence: REST (Representational State Transfer) is an architectural style for designing networked applications using stateless HTTP operations.", "label": 1}
+{"text": "Question: What is a REST API?\nSentence: GraphQL is a query language for APIs that allows clients to request specific data.", "label": 0}
+{"text": "Question: What is a REST API?\nSentence: RESTful APIs use standard HTTP methods like GET, POST, PUT, and DELETE to perform operations on resources.", "label": 1}
+{"text": "Question: What is a REST API?\nSentence: WebSockets provide full-duplex communication channels over a single TCP connection.", "label": 0}
+{"text": "Question: What is DNS?\nSentence: DNS (Domain Name System) is a hierarchical naming system that translates human-readable domain names into IP addresses.", "label": 1}
+{"text": "Question: What is DNS?\nSentence: DHCP automatically assigns IP addresses to devices on a network.", "label": 0}
+{"text": "Question: What is DNS?\nSentence: DNS uses a distributed database system with root servers, TLD servers, and authoritative name servers to resolve queries.", "label": 1}
+{"text": "Question: What is DNS?\nSentence: NAT translates private IP addresses to public IP addresses for internet communication.", "label": 0}
+{"text": "Question: What is encryption?\nSentence: Encryption is the process of converting plaintext into ciphertext using an algorithm and key to prevent unauthorized access.", "label": 1}
+{"text": "Question: What is encryption?\nSentence: Hashing is a one-way function that produces a fixed-size output from variable-size input.", "label": 0}
+{"text": "Question: What is encryption?\nSentence: Symmetric encryption uses the same key for both encryption and decryption, while asymmetric encryption uses a public-private key pair.", "label": 1}
+{"text": "Question: What is encryption?\nSentence: Digital signatures verify the authenticity and integrity of messages.", "label": 0}
+{"text": "Question: What is a deadlock?\nSentence: A deadlock is a situation where two or more processes are unable to proceed because each is waiting for the other to release a resource.", "label": 1}
+{"text": "Question: What is a deadlock?\nSentence: Race conditions occur when the system's behavior depends on the timing of uncontrollable events.", "label": 0}
+{"text": "Question: What is a deadlock?\nSentence: Deadlocks require four conditions: mutual exclusion, hold and wait, no preemption, and circular wait.", "label": 1}
+{"text": "Question: What is a deadlock?\nSentence: Context switching is when the CPU switches from executing one process to another.", "label": 0}
+{"text": "Question: What is sharding?\nSentence: Sharding is a database partitioning technique that splits large datasets across multiple machines to improve performance and scalability.", "label": 1}
+{"text": "Question: What is sharding?\nSentence: Replication creates copies of data across multiple servers for redundancy.", "label": 0}
+{"text": "Question: What is sharding?\nSentence: In sharding, data is distributed based on a shard key, which determines which partition each piece of data belongs to.", "label": 1}
+{"text": "Question: What is sharding?\nSentence: Caching stores frequently accessed data in memory for faster retrieval.", "label": 0}
+{"text": "Question: What is a firewall?\nSentence: A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.", "label": 1}
+{"text": "Question: What is a firewall?\nSentence: An intrusion detection system monitors network traffic for suspicious activity.", "label": 0}
+{"text": "Question: What is a firewall?\nSentence: Firewalls can be hardware-based or software-based and operate by filtering packets at various layers of the network stack.", "label": 1}
+{"text": "Question: What is a firewall?\nSentence: VPNs create encrypted tunnels for secure communication over public networks.", "label": 0}
+{"text": "Question: What is a hash table?\nSentence: A hash table is a data structure that maps keys to values using a hash function to compute an index into an array of buckets.", "label": 1}
+{"text": "Question: What is a hash table?\nSentence: A binary search tree organizes data in a hierarchical structure for efficient searching.", "label": 0}
+{"text": "Question: What is a hash table?\nSentence: Hash tables provide average-case O(1) time complexity for insertions, deletions, and lookups, though collisions must be handled.", "label": 1}
+{"text": "Question: What is a hash table?\nSentence: Linked lists store elements in nodes that contain data and pointers to the next node.", "label": 0}
+{"text": "Question: What is load balancing?\nSentence: Load balancing is the process of distributing network traffic across multiple servers to ensure no single server becomes overwhelmed.", "label": 1}
+{"text": "Question: What is load balancing?\nSentence: Auto-scaling automatically adjusts the number of compute resources based on demand.", "label": 0}
+{"text": "Question: What is load balancing?\nSentence: Load balancers use algorithms like round-robin, least connections, or IP hash to determine how to distribute requests among backend servers.", "label": 1}
+{"text": "Question: What is load balancing?\nSentence: Content delivery networks cache content at edge locations closer to users.", "label": 0}
+{"text": "Question: What is SQL injection?\nSentence: SQL injection is a security vulnerability where attackers insert malicious SQL code into input fields to manipulate database queries.", "label": 1}
+{"text": "Question: What is SQL injection?\nSentence: Cross-site scripting allows attackers to inject malicious scripts into web pages viewed by other users.", "label": 0}
+{"text": "Question: What is SQL injection?\nSentence: SQL injection can be prevented using parameterized queries and input validation to ensure user input is properly sanitized.", "label": 1}
+{"text": "Question: What is SQL injection?\nSentence: CSRF attacks trick users into executing unwanted actions on web applications where they're authenticated.", "label": 0}
+{"text": "Question: What is a virtual machine?\nSentence: A virtual machine is a software emulation of a physical computer that runs an operating system and applications in an isolated environment.", "label": 1}
+{"text": "Question: What is a virtual machine?\nSentence: Containers package applications with their dependencies but share the host OS kernel.", "label": 0}
+{"text": "Question: What is a virtual machine?\nSentence: Virtual machines use hypervisors to manage multiple VMs on a single physical host, providing complete isolation between instances.", "label": 1}
+{"text": "Question: What is a virtual machine?\nSentence: Serverless computing abstracts infrastructure management from developers.", "label": 0}
+{"text": "Question: What is HTTPS?\nSentence: HTTPS (Hypertext Transfer Protocol Secure) is an extension of HTTP that uses TLS/SSL encryption to secure communication between clients and servers.", "label": 1}
+{"text": "Question: What is HTTPS?\nSentence: FTP is a protocol used for transferring files between computers on a network.", "label": 0}
+{"text": "Question: What is HTTPS?\nSentence: HTTPS protects against eavesdropping and man-in-the-middle attacks by encrypting data in transit and verifying server identity through certificates.", "label": 1}
+{"text": "Question: What is HTTPS?\nSentence: SSH provides secure remote access to systems through encrypted connections.", "label": 0}
+{"text": "Question: What is eventual consistency?\nSentence: Eventual consistency is a consistency model where updates to a distributed system will eventually propagate to all nodes, but not immediately.", "label": 1}
+{"text": "Question: What is eventual consistency?\nSentence: Strong consistency ensures that all reads return the most recent write immediately.", "label": 0}
+{"text": "Question: What is eventual consistency?\nSentence: Systems with eventual consistency trade immediate consistency for higher availability and partition tolerance, accepting temporary inconsistencies.", "label": 1}
+{"text": "Question: What is eventual consistency?\nSentence: Linearizability is the strongest single-object consistency model.", "label": 0}
+{"text": "Question: What is a thread?\nSentence: A thread is the smallest sequence of programmed instructions that can be managed independently by a scheduler within a process.", "label": 1}
+{"text": "Question: What is a thread?\nSentence: A process is an instance of a program in execution with its own memory space.", "label": 0}
+{"text": "Question: What is a thread?\nSentence: Threads within the same process share memory and resources, making inter-thread communication faster than inter-process communication.", "label": 1}
+{"text": "Question: What is a thread?\nSentence: The kernel manages system resources and provides services to applications.", "label": 0}
+{"text": "Question: What is OAuth?\nSentence: OAuth is an open standard authorization protocol that allows third-party applications to access user resources without exposing credentials.", "label": 1}
+{"text": "Question: What is OAuth?\nSentence: JWT is a compact token format for securely transmitting information between parties.", "label": 0}
+{"text": "Question: What is OAuth?\nSentence: OAuth uses access tokens and refresh tokens to grant limited access to resources, with different flows for various application types.", "label": 1}
+{"text": "Question: What is OAuth?\nSentence: SAML is an XML-based framework for exchanging authentication and authorization data.", "label": 0}
+{"text": "Question: What is a CDN?\nSentence: A CDN (Content Delivery Network) is a distributed network of servers that delivers web content to users based on their geographic location.", "label": 1}
+{"text": "Question: What is a CDN?\nSentence: Reverse proxies sit between clients and servers to handle requests on behalf of servers.", "label": 0}
+{"text": "Question: What is a CDN?\nSentence: CDNs reduce latency and bandwidth costs by caching static content at edge servers closer to end users.", "label": 1}
+{"text": "Question: What is a CDN?\nSentence: DNS round-robin distributes traffic by rotating through multiple IP addresses.", "label": 0}
+{"text": "Question: What is two-factor authentication?\nSentence: Two-factor authentication is a security process that requires users to provide two different authentication factors to verify their identity.", "label": 1}
+{"text": "Question: What is two-factor authentication?\nSentence: Single sign-on allows users to access multiple applications with one set of credentials.", "label": 0}
+{"text": "Question: What is two-factor authentication?\nSentence: 2FA typically combines something you know (password) with something you have (phone) or something you are (biometric) for enhanced security.", "label": 1}
+{"text": "Question: What is two-factor authentication?\nSentence: Role-based access control assigns permissions based on user roles within an organization.", "label": 0}
+{"text": "Question: What is a race condition?\nSentence: A race condition is a flaw in a system where the output depends on the sequence or timing of uncontrollable events, leading to unpredictable behavior.", "label": 1}
+{"text": "Question: What is a race condition?\nSentence: A deadlock occurs when processes wait indefinitely for resources held by each other.", "label": 0}
+{"text": "Question: What is a race condition?\nSentence: Race conditions commonly occur in multi-threaded programs when threads access shared data without proper synchronization.", "label": 1}
+{"text": "Question: What is a race condition?\nSentence: Memory leaks occur when programs fail to release memory that is no longer needed.", "label": 0}
+{"text": "Question: What is MapReduce?\nSentence: MapReduce is a programming model for processing large datasets in parallel across distributed clusters by dividing work into map and reduce phases.", "label": 1}
+{"text": "Question: What is MapReduce?\nSentence: Apache Spark is a distributed computing framework that processes data in memory.", "label": 0}
+{"text": "Question: What is MapReduce?\nSentence: In MapReduce, the map function processes input data into key-value pairs, and the reduce function aggregates values with the same key.", "label": 1}
+{"text": "Question: What is MapReduce?\nSentence: Stream processing handles continuous data flows in real-time.", "label": 0}
+{"text": "Question: What is a subnet?\nSentence: A subnet is a logical subdivision of an IP network that divides a larger network into smaller, manageable segments.", "label": 1}
+{"text": "Question: What is a subnet?\nSentence: A VLAN is a virtual local area network that groups devices logically regardless of physical location.", "label": 0}
+{"text": "Question: What is a subnet?\nSentence: Subnetting uses subnet masks to determine which portion of an IP address identifies the network and which identifies the host.", "label": 1}
+{"text": "Question: What is a subnet?\nSentence: MAC addresses are hardware identifiers assigned to network interface controllers.", "label": 0}
+{"text": "Question: What is a binary tree?\nSentence: A binary tree is a hierarchical data structure where each node has at most two children, referred to as the left child and right child.", "label": 1}
+{"text": "Question: What is a binary tree?\nSentence: A graph is a data structure consisting of nodes connected by edges.", "label": 0}
+{"text": "Question: What is a binary tree?\nSentence: Binary trees support various traversal methods including in-order, pre-order, and post-order traversal.", "label": 1}
+{"text": "Question: What is a binary tree?\nSentence: Heaps are specialized tree-based structures that satisfy the heap property.", "label": 0}
+{"text": "Question: What is a cookie?\nSentence: A cookie is a small piece of data stored on the user's computer by a web browser while browsing a website, used to remember information about the user.", "label": 1}
+{"text": "Question: What is a cookie?\nSentence: Local storage is a web API that stores data in the browser with no expiration time.", "label": 0}
+{"text": "Question: What is a cookie?\nSentence: Cookies can be session-based (deleted when the browser closes) or persistent (stored until expiration), and are sent with every HTTP request to the domain.", "label": 1}
+{"text": "Question: What is a cookie?\nSentence: Session storage stores data for a single browser session.", "label": 0}
+{"text": "Question: What is ACID?\nSentence: ACID is a set of properties that guarantee database transactions are processed reliably: Atomicity, Consistency, Isolation, and Durability.", "label": 1}
+{"text": "Question: What is ACID?\nSentence: BASE is an alternative to ACID that emphasizes availability over consistency.", "label": 0}
+{"text": "Question: What is ACID?\nSentence: ACID properties ensure that transactions are all-or-nothing (atomicity), maintain data integrity (consistency), don't interfere with each other (isolation), and persist after completion (durability).", "label": 1}
+{"text": "Question: What is ACID?\nSentence: NoSQL databases often prioritize scalability over strict consistency guarantees.", "label": 0}
+{"text": "Question: What is a VPN?\nSentence: A VPN (Virtual Private Network) is a technology that creates an encrypted tunnel between a device and a network over the Internet, providing secure and private communication.", "label": 1}
+{"text": "Question: What is a VPN?\nSentence: A proxy server acts as an intermediary between clients and other servers.", "label": 0}
+{"text": "Question: What is a VPN?\nSentence: VPNs mask users' IP addresses and encrypt all data traffic, protecting privacy and allowing access to geographically restricted content.", "label": 1}
+{"text": "Question: What is a VPN?\nSentence: Tor is a network that enables anonymous communication through multiple relay nodes.", "label": 0}
+{"text": "Question: What is caching?\nSentence: Caching is a technique of storing frequently accessed data in a faster storage layer (cache) to reduce access time and computational costs.", "label": 1}
+{"text": "Question: What is caching?\nSentence: Indexing improves database query performance by creating data structures for faster lookups.", "label": 0}
+{"text": "Question: What is caching?\nSentence: Cache strategies include write-through, write-back, and write-around, each balancing performance and consistency differently.", "label": 1}
+{"text": "Question: What is caching?\nSentence: Database connection pooling reuses existing database connections to reduce overhead.", "label": 0}
+{"text": "Question: What is public key cryptography?\nSentence: Public key cryptography is an encryption system that uses pairs of keys: a public key for encryption and a private key for decryption.", "label": 1}
+{"text": "Question: What is public key cryptography?\nSentence: Symmetric encryption uses the same secret key for both encryption and decryption.", "label": 0}
+{"text": "Question: What is public key cryptography?\nSentence: In public key cryptography, the public key can be freely shared, while the private key must be kept secret, enabling secure communication without pre-shared secrets.", "label": 1}
+{"text": "Question: What is public key cryptography?\nSentence: Block ciphers encrypt data in fixed-size blocks using a symmetric key.", "label": 0}
+{"text": "Question: What is a socket?\nSentence: A socket is an endpoint for sending or receiving data across a network, identified by an IP address and port number.", "label": 1}
+{"text": "Question: What is a socket?\nSentence: A pipe is an inter-process communication mechanism that allows data flow between processes.", "label": 0}
+{"text": "Question: What is a socket?\nSentence: Sockets can be stream-based (TCP) for reliable, connection-oriented communication or datagram-based (UDP) for connectionless communication.", "label": 1}
+{"text": "Question: What is a socket?\nSentence: Message queues enable asynchronous communication between distributed systems.", "label": 0}
+{"text": "Question: What is normalization?\nSentence: Database normalization is the process of organizing data to minimize redundancy and dependency by dividing large tables into smaller ones and defining relationships.", "label": 1}
+{"text": "Question: What is normalization?\nSentence: Denormalization intentionally introduces redundancy to improve query performance.", "label": 0}
+{"text": "Question: What is normalization?\nSentence: Normalization follows forms (1NF, 2NF, 3NF, BCNF) with each successive form eliminating specific types of redundancy and anomalies.", "label": 1}
+{"text": "Question: What is normalization?\nSentence: Partitioning divides large tables into smaller pieces for better manageability.", "label": 0}
+{"text": "Question: What is a API gateway?\nSentence: An API gateway is a server that acts as a single entry point for all client requests to backend microservices, handling routing, authentication, and rate limiting.", "label": 1}
+{"text": "Question: What is a API gateway?\nSentence: A service mesh manages service-to-service communication within a microservices architecture.", "label": 0}
+{"text": "Question: What is a API gateway?\nSentence: API gateways provide features like request aggregation, protocol translation, and caching to simplify client interaction with distributed services.", "label": 1}
+{"text": "Question: What is a API gateway?\nSentence: A message broker facilitates communication between applications by receiving and delivering messages.", "label": 0}
+{"text": "Question: What is ARP?\nSentence: ARP (Address Resolution Protocol) is a protocol that maps IP addresses to MAC addresses in a local area network.", "label": 1}
+{"text": "Question: What is ARP?\nSentence: ICMP is a protocol used for sending error messages and operational information.", "label": 0}
+{"text": "Question: What is ARP?\nSentence: ARP operates by broadcasting a request asking which device has a specific IP address, and the device with that IP responds with its MAC address.", "label": 1}
+{"text": "Question: What is ARP?\nSentence: RARP resolves MAC addresses to IP addresses, the reverse of ARP.", "label": 0}
+{"text": "Question: What is middleware?\nSentence: Middleware is software that provides common services and capabilities to applications beyond what's offered by the operating system, acting as a bridge between components.", "label": 1}
+{"text": "Question: What is middleware?\nSentence: An operating system manages computer hardware and provides services for applications.", "label": 0}
+{"text": "Question: What is middleware?\nSentence: Middleware examples include message-oriented middleware, database middleware, and application servers that handle transactions and communication.", "label": 1}
+{"text": "Question: What is middleware?\nSentence: Device drivers enable communication between the OS and hardware devices.", "label": 0}
+{"text": "Question: What is a checkpoint?\nSentence: A checkpoint in databases is a point in time when all modified data in memory is written to disk, ensuring data consistency and facilitating recovery.", "label": 1}
+{"text": "Question: What is a checkpoint?\nSentence: A transaction log records all changes made to a database for recovery purposes.", "label": 0}
+{"text": "Question: What is a checkpoint?\nSentence: Checkpoints reduce recovery time after crashes by marking known consistent states from which the system can quickly restore.", "label": 1}
+{"text": "Question: What is a checkpoint?\nSentence: Write-ahead logging ensures changes are logged before being applied to the database.", "label": 0}
+{"text": "Question: What is polymorphism?\nSentence: Polymorphism is an object-oriented programming concept where objects of different types can be accessed through the same interface, allowing the same operation to behave differently on different classes.", "label": 1}
+{"text": "Question: What is polymorphism?\nSentence: Encapsulation bundles data and methods that operate on that data within a single unit.", "label": 0}
+{"text": "Question: What is polymorphism?\nSentence: Polymorphism can be achieved through method overloading (compile-time) or method overriding (runtime), enabling flexibility and code reusability.", "label": 1}
+{"text": "Question: What is polymorphism?\nSentence: Inheritance allows a class to acquire properties and methods from another class.", "label": 0}
+{"text": "Question: What is a microservice?\nSentence: A microservice is an architectural style where an application is structured as a collection of small, independent services that communicate through APIs.", "label": 1}
+{"text": "Question: What is a microservice?\nSentence: A monolithic architecture builds an application as a single, unified unit.", "label": 0}
+{"text": "Question: What is a microservice?\nSentence: Microservices are independently deployable, loosely coupled, and organized around business capabilities, enabling scalability and flexibility.", "label": 1}
+{"text": "Question: What is a microservice?\nSentence: Service-oriented architecture structures applications as interoperable services.", "label": 0}
+{"text": "Question: What is BGP?\nSentence: BGP (Border Gateway Protocol) is the routing protocol used to exchange routing information between autonomous systems on the Internet.", "label": 1}
+{"text": "Question: What is BGP?\nSentence: OSPF is an interior gateway protocol that finds the shortest path using Dijkstra's algorithm.", "label": 0}
+{"text": "Question: What is BGP?\nSentence: BGP uses path vector routing and makes routing decisions based on paths, network policies, and rule sets to determine the best routes between networks.", "label": 1}
+{"text": "Question: What is BGP?\nSentence: RIP is a distance-vector routing protocol that uses hop count as a metric.", "label": 0}
+{"text": "Question: What is a semaphore?\nSentence: A semaphore is a synchronization primitive that uses a counter to control access to a shared resource by multiple threads or processes.", "label": 1}
+{"text": "Question: What is a semaphore?\nSentence: A mutex provides mutual exclusion by allowing only one thread to access a resource at a time.", "label": 0}
+{"text": "Question: What is a semaphore?\nSentence: Semaphores can be binary (allowing one access) or counting (allowing multiple accesses up to a limit), and support wait and signal operations.", "label": 1}
+{"text": "Question: What is a semaphore?\nSentence: Monitors encapsulate shared data with synchronization mechanisms built in.", "label": 0}
+{"text": "Question: What is XSS?\nSentence: XSS (Cross-Site Scripting) is a security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.", "label": 1}
+{"text": "Question: What is XSS?\nSentence: SQL injection exploits vulnerabilities in database queries through malicious input.", "label": 0}
+{"text": "Question: What is XSS?\nSentence: XSS attacks can be stored (persisted in a database), reflected (immediately returned by a server), or DOM-based (executed in the victim's browser).", "label": 1}
+{"text": "Question: What is XSS?\nSentence: CSRF forces authenticated users to execute unwanted actions on web applications.", "label": 0}
+{"text": "Question: What is consensus?\nSentence: Consensus in distributed systems is the process by which multiple nodes agree on a single value or state, even in the presence of failures.", "label": 1}
+{"text": "Question: What is consensus?\nSentence: Replication creates multiple copies of data across different nodes for reliability.", "label": 0}
+{"text": "Question: What is consensus?\nSentence: Consensus algorithms like Paxos and Raft ensure agreement through leader election and log replication, handling network partitions and node failures.", "label": 1}
+{"text": "Question: What is consensus?\nSentence: Sharding distributes data across multiple databases for horizontal scaling.", "label": 0}
+{"text": "Question: What is a stack?\nSentence: A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, where elements are added and removed from the same end.", "label": 1}
+{"text": "Question: What is a stack?\nSentence: A queue is a data structure that follows the First-In-First-Out (FIFO) principle.", "label": 0}
+{"text": "Question: What is a stack?\nSentence: Stacks support two primary operations: push (add an element to the top) and pop (remove the top element), with O(1) time complexity.", "label": 1}
+{"text": "Question: What is a stack?\nSentence: A deque is a double-ended queue that allows insertion and deletion at both ends.", "label": 0}
+{"text": "Question: What is idempotency?\nSentence: Idempotency is a property where performing an operation multiple times produces the same result as performing it once.", "label": 1}
+{"text": "Question: What is idempotency?\nSentence: Atomicity ensures that operations either complete entirely or not at all.", "label": 0}
+{"text": "Question: What is idempotency?\nSentence: Idempotent operations are crucial in distributed systems and APIs to safely handle retries without unintended side effects, such as duplicate charges or data corruption.", "label": 1}
+{"text": "Question: What is idempotency?\nSentence: Eventual consistency allows systems to become consistent over time.", "label": 0}
+{"text": "Question: What is a namespace?\nSentence: A namespace is a container that provides a scope for identifiers, preventing naming conflicts by organizing code into logical groups.", "label": 1}
+{"text": "Question: What is a namespace?\nSentence: A module is a file containing Python code that can be imported and reused.", "label": 0}
+{"text": "Question: What is a namespace?\nSentence: Namespaces are used in programming languages and systems like Kubernetes to isolate resources and enable multiple entities to use the same names without collision.", "label": 1}
+{"text": "Question: What is a namespace?\nSentence: A package is a collection of related modules grouped together.", "label": 0}
+{"text": "Question: What is latency?\nSentence: Latency is the time delay between the initiation of a request and the beginning of a response, measuring how long it takes for data to travel from source to destination.", "label": 1}
+{"text": "Question: What is latency?\nSentence: Throughput is the amount of data processed or transmitted in a given time period.", "label": 0}
+{"text": "Question: What is latency?\nSentence: Network latency is affected by factors like propagation delay, transmission delay, processing delay, and queuing delay at network devices.", "label": 1}
+{"text": "Question: What is latency?\nSentence: Bandwidth is the maximum rate at which data can be transferred over a network.", "label": 0}
+{"text": "Question: What is a webhook?\nSentence: A webhook is a method of augmenting or altering web application behavior through HTTP callbacks, where one application sends real-time data to another when an event occurs.", "label": 1}
+{"text": "Question: What is a webhook?\nSentence: Polling is a technique where a client repeatedly requests data from a server at intervals.", "label": 0}
+{"text": "Question: What is a webhook?\nSentence: Webhooks enable event-driven architectures by pushing data to configured URLs, eliminating the need for constant polling and reducing latency.", "label": 1}
+{"text": "Question: What is a webhook?\nSentence: WebSockets maintain persistent bidirectional connections between client and server.", "label": 0}
+{"text": "Question: What is a linked list?\nSentence: A linked list is a linear data structure where elements are stored in nodes, each containing data and a reference (link) to the next node in the sequence.", "label": 1}
+{"text": "Question: What is a linked list?\nSentence: An array stores elements in contiguous memory locations with fixed size.", "label": 0}
+{"text": "Question: What is a linked list?\nSentence: Linked lists can be singly linked (each node points to the next), doubly linked (nodes point to both next and previous), or circular (last node points to the first).", "label": 1}
+{"text": "Question: What is a linked list?\nSentence: Dynamic arrays automatically resize when capacity is exceeded.", "label": 0}
+{"text": "Question: What is TLS?\nSentence: TLS (Transport Layer Security) is a cryptographic protocol that provides secure communication over a network by encrypting data in transit.", "label": 1}
+{"text": "Question: What is TLS?\nSentence: IPsec is a protocol suite for securing Internet Protocol communications.", "label": 0}
+{"text": "Question: What is TLS?\nSentence: TLS uses certificates for authentication and performs a handshake to establish encryption keys before transmitting data securely.", "label": 1}
+{"text": "Question: What is TLS?\nSentence: SSH provides secure remote login and command execution capabilities.", "label": 0}
+{"text": "Question: What is pagination?\nSentence: Pagination is a technique for dividing large datasets into smaller, discrete pages to improve performance and user experience.", "label": 1}
+{"text": "Question: What is pagination?\nSentence: Sorting arranges data in a specific order based on criteria.", "label": 0}
+{"text": "Question: What is pagination?\nSentence: Pagination typically uses limit and offset parameters or cursor-based approaches to retrieve specific subsets of results from a dataset.", "label": 1}
+{"text": "Question: What is pagination?\nSentence: Filtering reduces datasets by applying specific criteria to select relevant items.", "label": 0}
+{"text": "Question: What is a container?\nSentence: A container is a lightweight, standalone package that includes application code, runtime, libraries, and dependencies needed to run software consistently across different computing environments.", "label": 1}
+{"text": "Question: What is a container?\nSentence: A virtual machine emulates a complete computer system with its own OS.", "label": 0}
+{"text": "Question: What is a container?\nSentence: Containers share the host OS kernel and isolate applications using namespaces and cgroups, making them more efficient than VMs.", "label": 1}
+{"text": "Question: What is a container?\nSentence: Hypervisors manage and run multiple virtual machines on a physical host.", "label": 0}
+{"text": "Question: What is serialization?\nSentence: Serialization is the process of converting an object or data structure into a format that can be stored or transmitted and later reconstructed.", "label": 1}
+{"text": "Question: What is serialization?\nSentence: Compression reduces the size of data to save storage space or bandwidth.", "label": 0}
+{"text": "Question: What is serialization?\nSentence: Common serialization formats include JSON, XML, Protocol Buffers, and MessagePack, each with trade-offs between human readability and efficiency.", "label": 1}
+{"text": "Question: What is serialization?\nSentence: Encoding transforms data from one format to another, such as Base64 encoding.", "label": 0}
+{"text": "Question: What is a quorum?\nSentence: A quorum is the minimum number of nodes in a distributed system that must agree on an operation for it to be considered successful.", "label": 1}
+{"text": "Question: What is a quorum?\nSentence: A replica is a copy of data maintained on different nodes for redundancy.", "label": 0}
+{"text": "Question: What is a quorum?\nSentence: Quorum-based systems require that read and write quorums overlap to ensure consistency, often using configurations like majority quorum (N/2 + 1).", "label": 1}
+{"text": "Question: What is a quorum?\nSentence: Leader election selects a single node to coordinate activities in a distributed system.", "label": 0}
+{"text": "Question: What is a database index?\nSentence: A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional storage space and slower writes.", "label": 1}
+{"text": "Question: What is a database index?\nSentence: Database normalization is the process of organizing data to reduce redundancy and improve data integrity.", "label": 0}
+{"text": "Question: What is a mutex?\nSentence: A mutex is a synchronization primitive that grants exclusive access to a shared resource, ensuring that only one thread can access the resource at a time.", "label": 1}
+{"text": "Question: What is a mutex?\nSentence: A semaphore is a synchronization mechanism that uses a counter to control access to a shared resource by multiple threads.", "label": 0}
+{"text": "Question: What is TCP?\nSentence: TCP (Transmission Control Protocol) is a connection-oriented protocol that provides reliable, ordered, and error-checked delivery of data between applications over a network.", "label": 1}
+{"text": "Question: What is TCP?\nSentence: UDP is a connectionless protocol that sends datagrams without establishing a connection or guaranteeing delivery.", "label": 0}
+{"text": "Question: What is a hash table?\nSentence: A hash table is a data structure that maps keys to values using a hash function to compute an index into an array of buckets or slots.", "label": 1}
+{"text": "Question: What is a hash table?\nSentence: A binary search tree is a hierarchical data structure where each node has at most two children and maintains an ordering property.", "label": 0}
+{"text": "Question: What is ACID in databases?\nSentence: ACID is a set of properties that guarantee database transactions are processed reliably, consisting of Atomicity, Consistency, Isolation, and Durability.", "label": 1}
+{"text": "Question: What is ACID in databases?\nSentence: The CAP theorem states that a distributed system can only guarantee two out of three properties: Consistency, Availability, and Partition tolerance.", "label": 0}
+{"text": "Question: What is a deadlock?\nSentence: A deadlock is a situation where two or more processes are unable to proceed because each is waiting for the other to release a resource.", "label": 1}
+{"text": "Question: What is a deadlock?\nSentence: Race conditions occur when multiple threads access shared data concurrently and the outcome depends on the timing of their execution.", "label": 0}
+{"text": "Question: What is DNS?\nSentence: DNS (Domain Name System) is a hierarchical naming system that translates human-readable domain names into IP addresses that computers use to identify each other on the network.", "label": 1}
+{"text": "Question: What is DNS?\nSentence: DHCP is a network protocol that automatically assigns IP addresses and other network configuration parameters to devices on a network.", "label": 0}
+{"text": "Question: What is a REST API?\nSentence: A REST API is an architectural style for designing networked applications that uses HTTP requests to access and manipulate resources identified by URLs.", "label": 1}
+{"text": "Question: What is a REST API?\nSentence: GraphQL is a query language for APIs that allows clients to request exactly the data they need in a single request.", "label": 0}
+{"text": "Question: What is virtual memory?\nSentence: Virtual memory is a memory management technique that creates an illusion of a large contiguous address space by using both physical RAM and disk storage.", "label": 1}
+{"text": "Question: What is virtual memory?\nSentence: Cache memory is a small, fast memory located close to the CPU that stores frequently accessed data to reduce access time.", "label": 0}
+{"text": "Question: What is encryption?\nSentence: Encryption is the process of converting plaintext data into ciphertext using an algorithm and a key to prevent unauthorized access.", "label": 1}
+{"text": "Question: What is encryption?\nSentence: Hashing is a one-way function that transforms input data into a fixed-size output called a hash digest.", "label": 0}
+{"text": "Question: What is a firewall?\nSentence: A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.", "label": 1}
+{"text": "Question: What is a firewall?\nSentence: An intrusion detection system monitors network traffic for suspicious activity and alerts administrators to potential security threats.", "label": 0}
+{"text": "Question: What is a load balancer?\nSentence: A load balancer is a device or software that distributes network traffic across multiple servers to ensure no single server becomes overwhelmed.", "label": 1}
+{"text": "Question: What is a load balancer?\nSentence: A reverse proxy sits between clients and servers, forwarding client requests to the appropriate backend server.", "label": 0}
+{"text": "Question: What is caching?\nSentence: Caching is a technique that stores copies of frequently accessed data in a faster storage layer to reduce retrieval time and improve performance.", "label": 1}
+{"text": "Question: What is caching?\nSentence: Pagination divides large datasets into smaller pages to improve performance and user experience when displaying data.", "label": 0}
+{"text": "Question: What is a thread?\nSentence: A thread is the smallest unit of execution within a process that can be scheduled by the operating system and shares the process's resources.", "label": 1}
+{"text": "Question: What is a thread?\nSentence: A process is an instance of a program in execution with its own memory space and system resources.", "label": 0}
+{"text": "Question: What is two-factor authentication?\nSentence: Two-factor authentication is a security mechanism that requires users to provide two different types of credentials to verify their identity.", "label": 1}
+{"text": "Question: What is two-factor authentication?\nSentence: OAuth is an open standard for access delegation that allows users to grant third-party applications access to their resources without sharing passwords.", "label": 0}
+{"text": "Question: What is a CDN?\nSentence: A CDN (Content Delivery Network) is a geographically distributed network of servers that delivers web content to users from the server closest to their location.", "label": 1}
+{"text": "Question: What is a CDN?\nSentence: A VPN creates an encrypted tunnel between a client and a server to securely transmit data over public networks.", "label": 0}
+{"text": "Question: What is sharding?\nSentence: Sharding is a database partitioning technique that splits large datasets horizontally across multiple database instances to improve performance and scalability.", "label": 1}
+{"text": "Question: What is sharding?\nSentence: Replication is the process of copying data from one database to another to ensure high availability and fault tolerance.", "label": 0}
+{"text": "Question: What is a binary tree?\nSentence: A binary tree is a hierarchical data structure where each node has at most two children, referred to as the left child and right child.", "label": 1}
+{"text": "Question: What is a binary tree?\nSentence: A linked list is a linear data structure where elements are connected using pointers, allowing for efficient insertion and deletion.", "label": 0}
+{"text": "Question: What is SQL injection?\nSentence: SQL injection is a security vulnerability that allows attackers to execute malicious SQL statements by inserting them into application input fields.", "label": 1}
+{"text": "Question: What is SQL injection?\nSentence: Cross-site scripting is a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.", "label": 0}
+{"text": "Question: What is a compiler?\nSentence: A compiler is a program that translates source code written in a high-level programming language into machine code or bytecode that can be executed by a computer.", "label": 1}
+{"text": "Question: What is a compiler?\nSentence: An interpreter executes program instructions directly without converting them to machine code beforehand.", "label": 0}
+{"text": "Question: What is a socket?\nSentence: A socket is an endpoint for sending or receiving data across a network, typically defined by an IP address and port number combination.", "label": 1}
+{"text": "Question: What is a socket?\nSentence: A packet is a unit of data transmitted over a network that contains both payload and header information.", "label": 0}
+{"text": "Question: What is garbage collection?\nSentence: Garbage collection is an automatic memory management process that reclaims memory occupied by objects that are no longer in use by a program.", "label": 1}
+{"text": "Question: What is garbage collection?\nSentence: Memory leaks occur when a program fails to release memory that is no longer needed, leading to gradual performance degradation.", "label": 0}
+{"text": "Question: What is HTTPS?\nSentence: HTTPS is a secure version of HTTP that uses SSL/TLS encryption to protect data transmitted between a web browser and server.", "label": 1}
+{"text": "Question: What is HTTPS?\nSentence: FTP is a protocol used for transferring files between a client and server over a network.", "label": 0}
+{"text": "Question: What is a stack?\nSentence: A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, where elements are added and removed from the same end.", "label": 1}
+{"text": "Question: What is a stack?\nSentence: A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle for adding and removing elements.", "label": 0}
+{"text": "Question: What is polymorphism?\nSentence: Polymorphism is an object-oriented programming concept that allows objects of different classes to be treated as objects of a common superclass and respond differently to the same method call.", "label": 1}
+{"text": "Question: What is polymorphism?\nSentence: Encapsulation is the bundling of data and methods that operate on that data within a single unit or class.", "label": 0}
+{"text": "Question: What is a cookie?\nSentence: A cookie is a small piece of data stored on the user's browser by a website to remember information about the user across sessions.", "label": 1}
+{"text": "Question: What is a cookie?\nSentence: Local storage is a web storage mechanism that allows websites to store larger amounts of data persistently in the browser.", "label": 0}
+{"text": "Question: What is MapReduce?\nSentence: MapReduce is a programming model for processing large datasets in parallel across distributed clusters by dividing work into map and reduce tasks.", "label": 1}
+{"text": "Question: What is MapReduce?\nSentence: Apache Spark is a distributed computing framework that processes data in-memory for faster analytics.", "label": 0}
+{"text": "Question: What is a primary key?\nSentence: A primary key is a column or set of columns in a database table that uniquely identifies each row and cannot contain null values.", "label": 1}
+{"text": "Question: What is a primary key?\nSentence: A foreign key is a column that creates a relationship between two tables by referencing the primary key of another table.", "label": 0}
+{"text": "Question: What is latency?\nSentence: Latency is the time delay between a request being sent and the response being received, typically measured in milliseconds.", "label": 1}
+{"text": "Question: What is latency?\nSentence: Throughput is the amount of data that can be processed or transmitted in a given period of time.", "label": 0}
+{"text": "Question: What is Docker?\nSentence: Docker is a platform that uses containerization to package applications and their dependencies into isolated containers that can run consistently across different environments.", "label": 1}
+{"text": "Question: What is Docker?\nSentence: Kubernetes is an orchestration platform that automates the deployment, scaling, and management of containerized applications.", "label": 0}
+{"text": "Question: What is eventual consistency?\nSentence: Eventual consistency is a consistency model in distributed systems where updates to a data item will eventually propagate to all replicas, but reads may temporarily return stale data.", "label": 1}
+{"text": "Question: What is eventual consistency?\nSentence: Strong consistency ensures that all reads return the most recent write, providing a guarantee that data is always up-to-date across all nodes.", "label": 0}
+{"text": "Question: What is a race condition?\nSentence: A race condition is a flaw in concurrent systems where the behavior depends on the relative timing of events, often leading to unpredictable results when multiple threads access shared resources.", "label": 1}
+{"text": "Question: What is a race condition?\nSentence: Starvation occurs when a thread is perpetually denied access to resources because other threads are given priority.", "label": 0}
+{"text": "Question: What is Big O notation?\nSentence: Big O notation is a mathematical notation that describes the upper bound of an algorithm's time or space complexity as input size grows to infinity.", "label": 1}
+{"text": "Question: What is Big O notation?\nSentence: Amortized analysis is a method of analyzing the average performance of a sequence of operations over time.", "label": 0}
+{"text": "Question: What is a VPN?\nSentence: A VPN (Virtual Private Network) is a technology that creates a secure, encrypted connection over a less secure network, such as the internet, to protect data privacy.", "label": 1}
+{"text": "Question: What is a VPN?\nSentence: A proxy server acts as an intermediary between clients and servers, forwarding requests and responses while potentially providing caching or anonymity.", "label": 0}
+{"text": "Question: What is normalization?\nSentence: Normalization is a database design technique that organizes tables to minimize redundancy and dependency by dividing large tables into smaller ones and defining relationships.", "label": 1}
+{"text": "Question: What is normalization?\nSentence: Denormalization is the process of adding redundant data to a database to improve read performance at the cost of storage and update complexity.", "label": 0}
+{"text": "Question: What is SSH?\nSentence: SSH (Secure Shell) is a cryptographic network protocol that provides a secure channel for accessing and managing remote systems over an unsecured network.", "label": 1}
+{"text": "Question: What is SSH?\nSentence: Telnet is a network protocol that provides text-based communication between systems but transmits data in plaintext without encryption.", "label": 0}
+{"text": "Question: What is a semaphore?\nSentence: A semaphore is a synchronization mechanism that uses a counter to control access to shared resources by multiple threads or processes in concurrent systems.", "label": 1}
+{"text": "Question: What is a semaphore?\nSentence: A monitor is a synchronization construct that encapsulates shared data and the procedures that operate on it, allowing only one thread to execute within it at a time.", "label": 0}
+{"text": "Question: What is JSON?\nSentence: JSON (JavaScript Object Notation) is a lightweight data interchange format that uses human-readable text to represent structured data as key-value pairs and arrays.", "label": 1}
+{"text": "Question: What is JSON?\nSentence: XML is a markup language that uses tags to define elements and attributes for representing structured data in a hierarchical format.", "label": 0}
+{"text": "Question: What is a blockchain?\nSentence: A blockchain is a distributed ledger technology that stores data in blocks linked together using cryptographic hashes, creating an immutable and transparent record of transactions.", "label": 1}
+{"text": "Question: What is a blockchain?\nSentence: A distributed hash table is a decentralized data structure that provides key-value storage across multiple nodes in a peer-to-peer network.", "label": 0}
+{"text": "Question: What is a microservice?\nSentence: A microservice is an architectural approach where an application is built as a collection of small, independent services that communicate over network protocols and can be deployed separately.", "label": 1}
+{"text": "Question: What is a microservice?\nSentence: A monolithic architecture is a software design where all components of an application are tightly coupled and deployed as a single unit.", "label": 0}
+{"text": "Question: What is OAuth?\nSentence: OAuth is an open authorization standard that allows users to grant third-party applications limited access to their resources without sharing their credentials.", "label": 1}
+{"text": "Question: What is OAuth?\nSentence: SAML is an XML-based framework for exchanging authentication and authorization data between identity providers and service providers.", "label": 0}
+{"text": "Question: What is a API gateway?\nSentence: An API gateway is a server that acts as an entry point for client requests, routing them to appropriate microservices while handling cross-cutting concerns like authentication and rate limiting.", "label": 1}
+{"text": "Question: What is a API gateway?\nSentence: A service mesh is an infrastructure layer that manages service-to-service communication, providing features like load balancing and observability.", "label": 0}
+{"text": "Question: What is idempotency?\nSentence: Idempotency is a property of operations where performing the same operation multiple times produces the same result as performing it once.", "label": 1}
+{"text": "Question: What is idempotency?\nSentence: Commutativity is a property where the order of operations does not affect the final result.", "label": 0}
+{"text": "Question: What is a transaction?\nSentence: A transaction is a sequence of database operations that are treated as a single logical unit of work, which either completes entirely or not at all.", "label": 1}
+{"text": "Question: What is a transaction?\nSentence: A batch job is a collection of tasks that are executed together without user interaction, typically scheduled to run at specific times.", "label": 0}
+{"text": "Question: What is asymmetric encryption?\nSentence: Asymmetric encryption is a cryptographic system that uses a pair of keys—a public key for encryption and a private key for decryption—to secure communications.", "label": 1}
+{"text": "Question: What is asymmetric encryption?\nSentence: Symmetric encryption uses the same key for both encryption and decryption, requiring secure key distribution between parties.", "label": 0}
+{"text": "Question: What is a webhook?\nSentence: A webhook is an HTTP callback mechanism that allows one application to send real-time data to another application when a specific event occurs.", "label": 1}
+{"text": "Question: What is a webhook?\nSentence: Polling is a technique where a client repeatedly checks a server at regular intervals to detect changes or new data.", "label": 0}
+{"text": "Question: What is recursion?\nSentence: Recursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller instances of the same problem.", "label": 1}
+{"text": "Question: What is recursion?\nSentence: Iteration is a programming construct that repeatedly executes a block of code using loops until a condition is met.", "label": 0}
+{"text": "Question: What is a circuit breaker?\nSentence: A circuit breaker is a design pattern that prevents an application from repeatedly trying to execute an operation that is likely to fail, improving system resilience.", "label": 1}
+{"text": "Question: What is a circuit breaker?\nSentence: A retry policy is a mechanism that automatically attempts to execute a failed operation multiple times before giving up.", "label": 0}
+{"text": "Question: What is horizontal scaling?\nSentence: Horizontal scaling is the process of adding more machines or instances to a system to distribute the load and increase capacity.", "label": 1}
+{"text": "Question: What is horizontal scaling?\nSentence: Vertical scaling involves increasing the resources of a single machine, such as adding more CPU or RAM, to handle greater load.", "label": 0}
+{"text": "Question: What is a linked list?\nSentence: A linked list is a linear data structure where elements are stored in nodes, and each node contains data and a pointer to the next node in the sequence.", "label": 1}
+{"text": "Question: What is a linked list?\nSentence: An array is a data structure that stores elements of the same type in contiguous memory locations, accessible by index.", "label": 0}
+{"text": "Question: What is CORS?\nSentence: CORS (Cross-Origin Resource Sharing) is a security mechanism that allows web browsers to make requests to domains different from the one serving the web page, using HTTP headers to control access.", "label": 1}
+{"text": "Question: What is CORS?\nSentence: Same-origin policy is a security measure that restricts web pages from making requests to a different domain than the one that served the page.", "label": 0}
+{"text": "Question: What is a NoSQL database?\nSentence: A NoSQL database is a non-relational database system designed to handle large volumes of unstructured or semi-structured data with flexible schemas and horizontal scalability.", "label": 1}
+{"text": "Question: What is a NoSQL database?\nSentence: A relational database organizes data into tables with predefined schemas and uses SQL for querying and maintaining relationships through foreign keys.", "label": 0}
+{"text": "Question: What is memoization?\nSentence: Memoization is an optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again.", "label": 1}
+{"text": "Question: What is memoization?\nSentence: Lazy evaluation is a strategy that delays the computation of an expression until its value is actually needed.", "label": 0}
+{"text": "Question: What is a port?\nSentence: A port is a numerical identifier in networking that specifies a particular process or service on a host, allowing multiple services to run on the same IP address.", "label": 1}
+{"text": "Question: What is a port?\nSentence: A subnet is a logical subdivision of an IP network that divides a network into smaller, manageable segments.", "label": 0}
+{"text": "Question: What is dependency injection?\nSentence: Dependency injection is a design pattern where an object's dependencies are provided by an external entity rather than created internally, promoting loose coupling and testability.", "label": 1}
+{"text": "Question: What is dependency injection?\nSentence: The factory pattern is a creational design pattern that provides an interface for creating objects without specifying their exact classes.", "label": 0}
+{"text": "Question: What is message queueing?\nSentence: Message queueing is a communication method where messages are stored in a queue until the receiving application is ready to process them, enabling asynchronous processing.", "label": 1}
+{"text": "Question: What is message queueing?\nSentence: Remote procedure calls allow a program to execute a procedure on a remote server as if it were a local function call.", "label": 0}
+{"text": "Question: What is XSS?\nSentence: XSS (Cross-Site Scripting) is a security vulnerability that allows attackers to inject malicious client-side scripts into web pages viewed by other users.", "label": 1}
+{"text": "Question: What is XSS?\nSentence: CSRF is an attack that tricks a user's browser into executing unwanted actions on a website where the user is authenticated.", "label": 0}
+{"text": "Question: What is a hashmap?\nSentence: A hashmap is a data structure that implements an associative array, mapping keys to values using a hash function for fast lookups, insertions, and deletions.", "label": 1}
+{"text": "Question: What is a hashmap?\nSentence: A set is a collection data structure that stores unique elements without any particular order or indexing.", "label": 0}
+{"text": "Question: What is containerization?\nSentence: Containerization is a virtualization method that packages an application and its dependencies into a container that can run consistently across different computing environments.", "label": 1}
+{"text": "Question: What is containerization?\nSentence: Virtual machines emulate complete computer systems, including hardware and operating systems, allowing multiple OS instances to run on a single physical machine.", "label": 0}
+{"text": "Question: What is the OSI model?\nSentence: The OSI model is a conceptual framework that standardizes network communication into seven layers, from physical transmission to application-level protocols.", "label": 1}
+{"text": "Question: What is the OSI model?\nSentence: The TCP/IP model is a four-layer networking framework that describes how data should be packetized, addressed, transmitted, and routed.", "label": 0}
+{"text": "Question: What is rate limiting?\nSentence: Rate limiting is a technique that restricts the number of requests a user or service can make to an API or system within a specified time period to prevent abuse.", "label": 1}
+{"text": "Question: What is rate limiting?\nSentence: Throttling is a technique that intentionally slows down the processing of requests to manage resource consumption during peak loads.", "label": 0}
+{"text": "Question: What is a heap?\nSentence: A heap is a specialized tree-based data structure that satisfies the heap property, where parent nodes are either greater than or less than their children, commonly used for priority queues.", "label": 1}
+{"text": "Question: What is a heap?\nSentence: A trie is a tree-like data structure used for storing strings where each node represents a character and paths from root to leaves represent words.", "label": 0}
+{"text": "Question: What is salt in cryptography?\nSentence: Salt in cryptography is random data added to passwords before hashing to ensure that identical passwords produce different hash values, protecting against rainbow table attacks.", "label": 1}
+{"text": "Question: What is salt in cryptography?\nSentence: A nonce is a random or pseudo-random number used only once in cryptographic communication to prevent replay attacks.", "label": 0}
+{"text": "Question: What is pub/sub?\nSentence: Pub/sub (Publish-Subscribe) is a messaging pattern where publishers send messages to topics without knowing who will receive them, and subscribers receive messages from topics they're interested in.", "label": 1}
+{"text": "Question: What is pub/sub?\nSentence: Request-response is a communication pattern where a client sends a request to a server and waits for a corresponding response.", "label": 0}
+{"text": "Question: What is consensus?\nSentence: Consensus is a process in distributed systems where multiple nodes agree on a single value or state, ensuring data consistency across the system.", "label": 1}
+{"text": "Question: What is consensus?\nSentence: Leader election is a process where distributed nodes select one node to act as coordinator for certain operations.", "label": 0}
+{"text": "Question: What is a B-tree?\nSentence: A B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, insertions, and deletions in logarithmic time, commonly used in databases and file systems.", "label": 1}
+{"text": "Question: What is a B-tree?\nSentence: An AVL tree is a self-balancing binary search tree where the heights of the two child subtrees differ by at most one.", "label": 0}
+{"text": "Question: What is serialization?\nSentence: Serialization is the process of converting an object or data structure into a format that can be stored or transmitted and later reconstructed.", "label": 1}
+{"text": "Question: What is serialization?\nSentence: Marshalling is the process of transforming the representation of an object to a data format suitable for storage or transmission.", "label": 0}
+{"text": "Question: What is a proxy?\nSentence: A proxy is an intermediary server that sits between clients and servers, forwarding requests and responses while potentially providing additional functionality like caching or filtering.", "label": 1}
+{"text": "Question: What is a proxy?\nSentence: A gateway connects networks using different protocols by translating between them to enable communication.", "label": 0}
+{"text": "Question: What is dynamic programming?\nSentence: Dynamic programming is an algorithmic technique that solves complex problems by breaking them into overlapping subproblems, storing their solutions to avoid redundant calculations.", "label": 1}
+{"text": "Question: What is dynamic programming?\nSentence: Greedy algorithms make locally optimal choices at each step with the hope of finding a global optimum solution.", "label": 0}
+{"text": "Question: What is CSRF?\nSentence: CSRF (Cross-Site Request Forgery) is an attack that tricks an authenticated user's browser into executing unwanted actions on a web application where they're currently logged in.", "label": 1}
+{"text": "Question: What is CSRF?\nSentence: Clickjacking is an attack that tricks users into clicking on hidden elements by overlaying transparent frames on web pages.", "label": 0}
+{"text": "Question: What is NAT?\nSentence: NAT (Network Address Translation) is a method of remapping IP addresses by modifying network address information in packet headers, allowing multiple devices to share a single public IP address.", "label": 1}
+{"text": "Question: What is NAT?\nSentence: Port forwarding is a technique that redirects communication requests from one IP address and port to another.", "label": 0}
+{"text": "Question: What is a distributed system?\nSentence: A distributed system is a collection of independent computers that appear to users as a single coherent system, working together to achieve a common goal.", "label": 1}
+{"text": "Question: What is a distributed system?\nSentence: A cluster is a group of servers that work together to provide high availability and load balancing for applications.", "label": 0}
+{"text": "Question: What is JWT?\nSentence: JWT (JSON Web Token) is a compact, URL-safe token format that encodes claims as a JSON object, used for securely transmitting information between parties.", "label": 1}
+{"text": "Question: What is JWT?\nSentence: Session tokens are identifiers stored on the server that track user sessions and maintain state between HTTP requests.", "label": 0}
+{"text": "Question: What is multithreading?\nSentence: Multithreading is a programming technique that allows multiple threads to exist within a single process, executing concurrently and sharing the process's resources.", "label": 1}
+{"text": "Question: What is multithreading?\nSentence: Multiprocessing is a technique that uses multiple CPU cores or processors to execute different processes simultaneously.", "label": 0}
+{"text": "Question: What is an ORM?\nSentence: An ORM (Object-Relational Mapping) is a programming technique that converts data between incompatible type systems by mapping objects in code to database tables.", "label": 1}
+{"text": "Question: What is an ORM?\nSentence: A query builder is a programming interface that allows developers to construct SQL queries using method chaining rather than writing raw SQL.", "label": 0}
+{"text": "Question: What is CAP theorem?\nSentence: The CAP theorem states that a distributed data store can only simultaneously provide two out of three guarantees: Consistency, Availability, and Partition tolerance.", "label": 1}
+{"text": "Question: What is CAP theorem?\nSentence: The PACELC theorem extends CAP by stating that in the absence of partitions, there's a tradeoff between latency and consistency.", "label": 0}
+{"text": "Question: What is SSL/TLS?\nSentence: SSL/TLS are cryptographic protocols that provide secure communication over a network by encrypting data in transit and authenticating the parties involved.", "label": 1}
+{"text": "Question: What is SSL/TLS?\nSentence: IPSec is a protocol suite for securing Internet Protocol communications by authenticating and encrypting each IP packet in a session.", "label": 0}
+{"text": "Question: What is DNS caching?\nSentence: DNS caching is the temporary storage of DNS query results on a local system or intermediate server to speed up subsequent lookups of the same domain names.", "label": 1}
+{"text": "Question: What is DNS caching?\nSentence: Browser caching stores static web resources locally on a user's device to reduce load times and bandwidth usage on repeat visits.", "label": 0}
+{"text": "Question: What is a singleton pattern?\nSentence: The singleton pattern is a design pattern that restricts a class to a single instance and provides a global point of access to that instance.", "label": 1}
+{"text": "Question: What is a singleton pattern?\nSentence: The observer pattern is a design pattern where an object maintains a list of dependents and notifies them of state changes.", "label": 0}
+{"text": "Question: What is pagination?\nSentence: Pagination is a technique that divides large datasets into discrete pages or chunks, allowing users to navigate through data incrementally rather than loading everything at once.", "label": 1}
+{"text": "Question: What is pagination?\nSentence: Infinite scrolling is a web design technique that continuously loads new content as the user scrolls down the page.", "label": 0}
+{"text": "Question: What is RAID?\nSentence: RAID (Redundant Array of Independent Disks) is a storage technology that combines multiple disk drives into a single logical unit to improve performance, reliability, or both.", "label": 1}
+{"text": "Question: What is RAID?\nSentence: SAN is a specialized network that provides access to consolidated block-level data storage separate from the main network.", "label": 0}
+{"text": "Question: What is latency compensation?\nSentence: Latency compensation is a technique used in networked applications to hide network delays by predicting and simulating actions locally before receiving server confirmation.", "label": 1}
+{"text": "Question: What is latency compensation?\nSentence: Jitter is the variation in packet arrival times that can cause inconsistent network performance.", "label": 0}
+{"text": "Question: What is a coroutine?\nSentence: A coroutine is a generalization of a subroutine that can suspend execution and resume later, allowing for cooperative multitasking without blocking threads.", "label": 1}
+{"text": "Question: What is a coroutine?\nSentence: A generator is a special function that returns an iterator and yields values one at a time instead of returning all at once.", "label": 0}
+{"text": "Question: What is sandboxing?\nSentence: Sandboxing is a security mechanism that isolates running programs in a restricted environment to prevent them from accessing or modifying system resources or other applications.", "label": 1}
+{"text": "Question: What is sandboxing?\nSentence: Virtualization creates isolated virtual instances of operating systems or applications on a single physical machine.", "label": 0}
+{"text": "Question: What is content negotiation?\nSentence: Content negotiation is an HTTP mechanism where the server selects the best representation of a resource based on the client's capabilities and preferences specified in request headers.", "label": 1}
+{"text": "Question: What is content negotiation?\nSentence: Media type negotiation determines the format of data exchanged between client and server based on Accept headers.", "label": 0}
+{"text": "Question: What is eventual consistency?\nSentence: Eventual consistency guarantees that if no new updates are made to a data item, eventually all accesses to that item will return the last updated value.", "label": 1}
+{"text": "Question: What is eventual consistency?\nSentence: Linearizability is a strong consistency model that guarantees operations appear to occur instantaneously at some point between their invocation and completion.", "label": 0}
+{"text": "Question: What is a bitmap index?\nSentence: A bitmap index is a database indexing technique that uses bit arrays to represent the presence or absence of values, particularly efficient for columns with low cardinality.", "label": 1}
+{"text": "Question: What is a bitmap index?\nSentence: A full-text index is a specialized index that enables efficient searching of text content within documents or database fields.", "label": 0}
+{"text": "Question: What is backpressure?\nSentence: Backpressure is a flow control mechanism in streaming systems where downstream components signal upstream components to slow down when they cannot keep up with the data rate.", "label": 1}
+{"text": "Question: What is backpressure?\nSentence: Flow control is a mechanism that manages the rate of data transmission between sender and receiver to prevent overwhelming the receiver.", "label": 0}
+{"text": "Question: What is time complexity?\nSentence: Time complexity is a measure of the amount of computational time an algorithm takes as a function of the input size, typically expressed using Big O notation.", "label": 1}
+{"text": "Question: What is time complexity?\nSentence: Space complexity measures the amount of memory an algorithm requires relative to the input size during execution.", "label": 0}
+{"text": "Question: What is lazy loading?\nSentence: Lazy loading is a design pattern that defers the initialization or loading of resources until they are actually needed, improving initial load times and resource efficiency.", "label": 1}
+{"text": "Question: What is lazy loading?\nSentence: Eager loading is a strategy that preloads related data or resources in advance to minimize the number of subsequent database queries.", "label": 0}
+{"text": "Question: What is two-phase commit?\nSentence: Two-phase commit is a distributed transaction protocol that ensures all participating nodes either commit or abort a transaction, maintaining atomicity across multiple databases.", "label": 1}
+{"text": "Question: What is two-phase commit?\nSentence: Three-phase commit is an extension of two-phase commit that adds an additional phase to reduce blocking in the presence of network partitions.", "label": 0}
+{"text": "Question: What is a reverse proxy?\nSentence: A reverse proxy is a server that sits in front of web servers and forwards client requests to the appropriate backend server, often providing load balancing and security benefits.", "label": 1}
+{"text": "Question: What is a reverse proxy?\nSentence: A forward proxy acts on behalf of clients, forwarding their requests to external servers while potentially providing anonymity or caching.", "label": 0}
+{"text": "Question: What is ARP?\nSentence: ARP (Address Resolution Protocol) is a network protocol that maps IP addresses to physical MAC addresses on a local network segment.", "label": 1}
+{"text": "Question: What is ARP?\nSentence: RARP is a protocol that performs the reverse operation, mapping MAC addresses to IP addresses for diskless workstations.", "label": 0}
+{"text": "Question: What is referential integrity?\nSentence: Referential integrity is a database constraint that ensures relationships between tables remain consistent by requiring foreign keys to reference valid primary keys.", "label": 1}
+{"text": "Question: What is referential integrity?\nSentence: Domain integrity ensures that column values fall within a defined set of valid values or constraints.", "label": 0}
+{"text": "Question: What is connection pooling?\nSentence: Connection pooling is a technique that maintains a cache of database connections that can be reused, reducing the overhead of establishing new connections for each request.", "label": 1}
+{"text": "Question: What is connection pooling?\nSentence: Thread pooling manages a collection of reusable threads to handle tasks, avoiding the overhead of creating and destroying threads frequently.", "label": 0}
+{"text": "Question: What is a bloom filter?\nSentence: A bloom filter is a space-efficient probabilistic data structure that tests whether an element is a member of a set, allowing false positives but never false negatives.", "label": 1}
+{"text": "Question: What is a bloom filter?\nSentence: A count-min sketch is a probabilistic data structure that estimates the frequency of events in a data stream using hash functions.", "label": 0}
+{"text": "Question: What is GraphQL?\nSentence: GraphQL is a query language and runtime for APIs that allows clients to request exactly the data they need in a single request using a hierarchical structure.", "label": 1}
+{"text": "Question: What is GraphQL?\nSentence: gRPC is a high-performance RPC framework that uses Protocol Buffers for serialization and HTTP/2 for transport.", "label": 0}
