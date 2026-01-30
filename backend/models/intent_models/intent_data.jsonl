@@ -558,3 +558,83 @@
 {"text":"pinned","label":2}
 {"text":"sent","label":2}
 {"text":"received","label":2}
+{"text": "Why does that happen?", "label": 1}
+{"text": "How does it work exactly?", "label": 1}
+{"text": "What causes that?", "label": 1}
+{"text": "Is that always true?", "label": 1}
+{"text": "Can you explain more about it?", "label": 1}
+{"text": "What are the side effects?", "label": 1}
+{"text": "Does it affect other things too?", "label": 1}
+{"text": "Why would that be useful?", "label": 1}
+{"text": "How long does it take?", "label": 1}
+{"text": "What happens if you don't?", "label": 1}
+{"text": "Is there a better way?", "label": 1}
+{"text": "Can that be reversed?", "label": 1}
+{"text": "Who discovered this?", "label": 1}
+{"text": "When did that start?", "label": 1}
+{"text": "Why is it like that?", "label": 1}
+{"text": "Doesn't that contradict what you said?", "label": 1}
+{"text": "How much does it cost?", "label": 1}
+{"text": "What's the difference?", "label": 1}
+{"text": "Is it safe?", "label": 1}
+{"text": "Can you give an example?", "label": 1}
+{"text": "What about the other one?", "label": 1}
+{"text": "Does this apply everywhere?", "label": 1}
+{"text": "Why not just do it differently?", "label": 1}
+{"text": "How did they figure that out?", "label": 1}
+{"text": "What are the alternatives?", "label": 1}
+{"text": "Is that legal?", "label": 1}
+{"text": "Can it be prevented?", "label": 1}
+{"text": "What makes it different?", "label": 1}
+{"text": "How do you know that?", "label": 1}
+{"text": "Why would anyone do that?", "label": 1}
+{"text": "What's the point of it?", "label": 1}
+{"text": "Does that work for everything?", "label": 1}
+{"text": "How common is that?", "label": 1}
+{"text": "What are the risks?", "label": 1}
+{"text": "Can you show me how?", "label": 1}
+{"text": "Why did they choose that?", "label": 1}
+{"text": "What happens next?", "label": 1}
+{"text": "Is there proof?", "label": 1}
+{"text": "How effective is it?", "label": 1}
+{"text": "What's the catch?", "label": 1}
+{"text": "Can this be measured?", "label": 1}
+{"text": "Why doesn't it work sometimes?", "label": 1}
+{"text": "What are the benefits?", "label": 1}
+{"text": "How was that discovered?", "label": 1}
+{"text": "Is it worth it?", "label": 1}
+{"text": "What else should I know?", "label": 1}
+{"text": "Can it fail?", "label": 1}
+{"text": "Why is that important?", "label": 1}
+{"text": "What's the science behind it?", "label": 1}
+{"text": "How do they compare?", "label": 1}
+{"text": "hey", "label": 2}
+{"text": "lol", "label": 2}
+{"text": "thanks!", "label": 2}
+{"text": "that's interesting", "label": 2}
+{"text": "cool", "label": 2}
+{"text": "ok got it", "label": 2}
+{"text": "hmm", "label": 2}
+{"text": "wow", "label": 2}
+{"text": "nice", "label": 2}
+{"text": "haha", "label": 2}
+{"text": "appreciate it", "label": 2}
+{"text": "makes sense", "label": 2}
+{"text": "good to know", "label": 2}
+{"text": "awesome", "label": 2}
+{"text": "thank you so much", "label": 2}
+{"text": "perfect", "label": 2}
+{"text": "sounds good", "label": 2}
+{"text": "alright", "label": 2}
+{"text": "gotcha", "label": 2}
+{"text": "interesting", "label": 2}
+{"text": "What is photosynthesis?", "label": 0}
+{"text": "How many countries are in Europe?", "label": 0}
+{"text": "Who invented the telephone?", "label": 0}
+{"text": "What is the capital of Brazil?", "label": 0}
+{"text": "How does blockchain technology work?", "label": 0}
+{"text": "What are the symptoms of diabetes?", "label": 0}
+{"text": "When did World War 2 end?", "label": 0}
+{"text": "What is the speed of light?", "label": 0}
+{"text": "How do solar panels generate electricity?", "label": 0}
+{"text": "What causes earthquakes?", "label": 0}

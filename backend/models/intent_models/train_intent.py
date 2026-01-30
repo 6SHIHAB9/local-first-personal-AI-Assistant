@@ -1,3 +1,4 @@
+import os
 import json
 import torch
 from torch.utils.data import Dataset
@@ -8,20 +9,28 @@ from transformers import (
     TrainingArguments
 )
 
+# =========================
+# PATHS (ABSOLUTE, SAFE)
+# =========================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-DATA_PATH = "backend/models/intent_models/intent_data.jsonl"
-OUTPUT_DIR = "backend/models/intent_models/intent_model"
+DATA_PATH = os.path.join(BASE_DIR, "intent_data.jsonl")
+OUTPUT_DIR = os.path.join(BASE_DIR, "intent_model")
+FINAL_DIR = os.path.join(OUTPUT_DIR, "final")
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 
+# =========================
+# Dataset
+# =========================
 class IntentDataset(Dataset):
     def __init__(self, path, tokenizer):
         self.samples = []
         with open(path, "r", encoding="utf-8") as f:
             for line in f:
-                obj = json.loads(line)
-                self.samples.append(obj)
+                self.samples.append(json.loads(line))
         self.tokenizer = tokenizer
 
     def __len__(self):
@@ -37,13 +46,19 @@ class IntentDataset(Dataset):
             return_tensors="pt",
         )
         return {
-            "input_ids": enc["input_ids"].squeeze(),
-            "attention_mask": enc["attention_mask"].squeeze(),
-            "labels": torch.tensor(item["label"], dtype=torch.long),
+            "input_ids": enc["input_ids"].squeeze(0),
+            "attention_mask": enc["attention_mask"].squeeze(0),
+            "labels": torch.tensor(int(item["label"]), dtype=torch.long),
         }
 
 
+# =========================
+# Train
+# =========================
 def main():
+    print("📂 DATA PATH:", DATA_PATH)
+    print("💾 FINAL MODEL PATH:", FINAL_DIR)
+
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model = AutoModelForSequenceClassification.from_pretrained(
         MODEL_NAME,
@@ -57,7 +72,7 @@ def main():
         per_device_train_batch_size=32,
         num_train_epochs=6,
         learning_rate=2e-5,
-        fp16=True,
+        fp16=torch.cuda.is_available(),
         logging_steps=20,
         save_strategy="epoch",
         report_to="none"
@@ -72,8 +87,14 @@ def main():
 
     trainer.train()
 
-    model.save_pretrained(f"{OUTPUT_DIR}/final")
-    tokenizer.save_pretrained(f"{OUTPUT_DIR}/final")
+    # =========================
+    # SAVE FINAL MODEL (ONLY HERE)
+    # =========================
+    os.makedirs(FINAL_DIR, exist_ok=True)
+    trainer.save_model(FINAL_DIR)
+    tokenizer.save_pretrained(FINAL_DIR)
+
+    print("✅ FINAL INTENT MODEL SAVED TO:", FINAL_DIR)
 
 
 if __name__ == "__main__":
