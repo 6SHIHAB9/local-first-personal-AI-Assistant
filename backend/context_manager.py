@@ -1,97 +1,83 @@
 """
 Context Manager for conversation state.
-Tracks conversation history for better intent classification and continuations.
+Handles conversation history AND topic anchoring.
 """
 
 class ContextManager:
-    def __init__(self):
-        # Store last N question-answer pairs
-        self.history = []  # List of {"question": str, "answer": str}
-        self.max_history = 3  # Keep last 3 Q&A pairs
-        self.active_subject = None
-    
+    def __init__(self, max_history: int = 3):
+        self.history = []  # list of {"question": str, "answer": str}
+        self.max_history = max_history
+        self.topic_anchor = None
+
+    # =========================
+    # Topic Anchor (Fix #5)
+    # =========================
+
+    def get_topic_anchor(self):
+        return self.topic_anchor
+
+    def set_topic_anchor(self, text: str):
+        self.topic_anchor = text
+
+    def clear_topic_anchor(self):
+        self.topic_anchor = None
+
+    # =========================
+    # Conversation History
+    # =========================
+
     def add_turn(self, question: str, answer: str):
-        """Add a Q&A turn to history"""
         self.history.append({
             "question": question,
             "answer": answer
         })
-        
-        # Keep only last N turns
+
+        # keep only last N turns
         if len(self.history) > self.max_history:
             self.history = self.history[-self.max_history:]
-    
-    def get_history(self, limit: int = None) -> list:
-        """Get conversation history (most recent first)"""
-        if limit:
-            return list(reversed(self.history[-limit:]))
-        return list(reversed(self.history))
-    
-    def get_previous_question(self) -> str:
-        """Get the most recent question"""
-        if self.history:
-            return self.history[-1]["question"]
-        return None
-    
-    def get_last_n_questions(self, n: int = 3) -> list:
-        """Get last N questions (most recent first)"""
-        return [turn["question"] for turn in reversed(self.history[-n:])]
-    
-    def set_previous_question(self, question: str):
-        """Legacy method - stores question without answer (will be added later)"""
-        # Check if this question already exists as the last entry
-        if self.history and self.history[-1]["question"] == question:
-            return
-        
-        # Add question with placeholder answer (will be updated when answer comes)
-        self.history.append({
-            "question": question,
-            "answer": None
-        })
-        
-        # Trim history
-        if len(self.history) > self.max_history:
-            self.history = self.history[-self.max_history:]
-    
-    def update_last_answer(self, answer: str):
-        """Update the answer for the most recent question"""
-        if self.history and self.history[-1]["answer"] is None:
-            self.history[-1]["answer"] = answer
-    
-    def set_active_subject(self, subject: str):
-        """Set the active subject for continuations"""
-        self.active_subject = subject
-    
-    def get_active_subject(self) -> str:
-        """Get the active subject"""
-        return self.active_subject
-    
+
+        # 🔑 update topic anchor AFTER answering
+        self.topic_anchor = question
+
+    def get_previous_question(self):
+        if not self.history:
+            return None
+        return self.history[-1]["question"]
+
+    def get_previous_answer(self):
+        if not self.history:
+            return None
+        return self.history[-1]["answer"]
+
+    def get_last_n_questions(self, n: int = 3):
+        return [turn["question"] for turn in self.history[-n:]]
+
+    # =========================
+    # Session Control
+    # =========================
+
     def clear_session(self):
-        """Clear all context"""
-        self.history = []
-        self.active_subject = None
-    
-    def get_context_summary(self) -> str:
-        """Get formatted context summary for LLM prompts"""
+        self.history.clear()
+        self.topic_anchor = None
+
+    # =========================
+    # Debug / Optional
+    # =========================
+
+    def get_context_summary(self):
         if not self.history:
             return ""
-        
+
         lines = []
-        for i, turn in enumerate(reversed(self.history)):
+        for i, turn in enumerate(reversed(self.history), 1):
             q = turn["question"]
             a = turn["answer"]
-            
-            # Most recent = 1, earlier = 2, 3, etc.
-            position = i + 1
-            
+            lines.append(f"Q{i}: {q}")
             if a:
-                lines.append(f"Q{position}: {q}")
-                lines.append(f"A{position}: {a[:100]}...")  # Truncate long answers
-            else:
-                lines.append(f"Q{position}: {q}")
-        
+                lines.append(f"A{i}: {a[:100]}...")
+
         return "\n".join(lines)
 
 
-# Global instance
+# Global singleton
 context_manager = ContextManager()

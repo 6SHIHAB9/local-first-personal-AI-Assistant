@@ -17,6 +17,8 @@ from models.grounding_models.loader import GroundingScorer
 
 from models.sufficiency_models.scorer import SufficiencyScorer
 
+from models.topic_coherence_models.loader import load_topic_coherence_scorer
+
 # =========================
 # Global vault state
 # =========================
@@ -71,7 +73,13 @@ sufficiency_scorer = SufficiencyScorer(
     base_model="sentence-transformers/all-MiniLM-L6-v2"
 )
 
-SUFFICIENCY_THRESHOLD = 0.95
+SUFFICIENCY_THRESHOLD = 0.70
+
+# =========================
+# Model 5: Topic Coherence Scorer
+# =========================
+topic_scorer = load_topic_coherence_scorer()
+
 
 # =========================
 # Models
@@ -91,6 +99,80 @@ def normalize_chunks(results) -> list[str]:
         elif isinstance(r, str):
             chunks.append(r)
     return chunks
+
+from sentence_transformers import SentenceTransformer, util
+
+topic_embedder = SentenceTransformer(
+    "sentence-transformers/all-MiniLM-L6-v2",
+    device="cuda" if torch.cuda.is_available() else "cpu"
+)
+
+
+def select_dominant_topic(sentences: list[str], similarity_threshold=0.6) -> list[str]:
+    """
+    Clusters sentences by semantic similarity and keeps the largest cluster.
+    """
+    if len(sentences) <= 2:
+        return sentences
+
+    embeddings = topic_embedder.encode(sentences, convert_to_tensor=True)
+    sim_matrix = util.cos_sim(embeddings, embeddings)
+
+    clusters = []
+    visited = set()
+
+    for i in range(len(sentences)):
+        if i in visited:
+            continue
+
+        cluster = [i]
+        visited.add(i)
+
+        for j in range(len(sentences)):
+            if j not in visited and sim_matrix[i][j] >= similarity_threshold:
+                cluster.append(j)
+                visited.add(j)
+
+        clusters.append(cluster)
+
+    # pick largest cluster
+    dominant = max(clusters, key=len)
+    return [sentences[i] for i in dominant]
+
+
+def score_evidence_roles(question: str, sentences: list[str]):
+    """
+    Scores sentences by how explanatory they are *for this question*.
+    """
+    q_embed = topic_embedder.encode(question, convert_to_tensor=True)
+    s_embeds = topic_embedder.encode(sentences, convert_to_tensor=True)
+
+    scores = util.cos_sim(q_embed, s_embeds)[0]
+
+    weighted = []
+    for score, sent in zip(scores, sentences):
+        weighted.append((float(score), sent))
+
+    # highest explanatory relevance first
+    weighted.sort(key=lambda x: x[0], reverse=True)
+    return weighted
+
+def filter_by_topic_coherence(
+    question: str,
+    sentences: list[str],
+    top_k: int = 8
+) -> list[str]:
+    if not sentences:
+        return []
+
+    scored = []
+    for s in sentences:
+        score = topic_scorer.score(question, s)
+        scored.append((score, s))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+
+    return [s for _, s in scored[:top_k]]
 
 
 def rerank_chunks(question: str, chunks: list[str], top_k: int = 5) -> list[str]:
@@ -154,45 +236,46 @@ def retrieve_for_question(question: str, intent: str, vault_data: dict) -> list[
 # =========================
 def ml_ground_sentences(
     question: str,
-    chunks: list[str],
+    sentences: list[str],
     intent: str,
-    top_k: int = 6,
-    min_score: float = 0.52
+    top_k: int = 8,
+    min_relevance: float = 0.25,  # NEW: relevance threshold
+    min_grounding: float = 0.35
 ) -> list[str]:
-
-    if not chunks:
-        return []
-
-    sentences = split_into_sentences(chunks)
-    print("🧪 SENTENCES BEFORE FILTER:")
-    for s in sentences:
-        print("  >", s)
 
     if not sentences:
         return []
 
+    print("🧪 SENTENCES BEFORE GROUNDING:")
+    for s in sentences:
+        print("  >", s)
+
+    # Calculate relevance scores for all sentences at once
+    q_embed = topic_embedder.encode(question, convert_to_tensor=True)
+    s_embeds = topic_embedder.encode(sentences, convert_to_tensor=True)
+    relevance_scores = util.cos_sim(q_embed, s_embeds)[0]
+
     scored = []
-    q_tokens = set(re.findall(r"\w+", question.lower()))
 
-    for sentence in sentences:
-        s_lower = sentence.lower()
-
-        # 🔒 Topic coherence for factual questions
-        if intent == "factual":
-            content_tokens = {
-                tok for tok in q_tokens
-                if tok not in {"what", "is", "why", "how", "does", "that", "important"}
-            }
-
-            if intent == "factual":
-                if not any(tok in s_lower for tok in content_tokens):
-                    continue
-
-
-        score = grounding_scorer.score(question, sentence)
-        if score >= min_score:
-            scored.append((score, sentence))
-
+    for sentence, rel_score in zip(sentences, relevance_scores):
+        rel_score = float(rel_score)
+        
+        # FILTER 1: Relevance check
+        if rel_score < min_relevance:
+            print(f"  ❌ NOT RELEVANT ({rel_score:.3f}): {sentence[:60]}...")
+            continue
+        
+        # FILTER 2: Grounding check
+        ground_score = grounding_scorer.score(question, sentence)
+        
+        if ground_score < min_grounding:
+            print(f"  ❌ NOT GROUNDED ({ground_score:.3f}): {sentence[:60]}...")
+            continue
+        
+        # Combine scores: relevance × grounding
+        combined_score = rel_score * ground_score
+        scored.append((combined_score, sentence))
+        print(f"  ✅ KEPT (rel={rel_score:.3f}, ground={ground_score:.3f}, combined={combined_score:.3f})")
 
     if not scored:
         return []
@@ -235,7 +318,7 @@ def _internal_sync():
     """Internal sync function that returns sync info"""
     global current_vault_data, last_vault_mtime
 
-    print("🔄 SYNCING VAULT...")  # Terminal feedback
+    print("🔄 SYNCING VAULT...")
     
     current_vault_data = scan_vault()
     last_vault_mtime = get_latest_vault_mtime()
@@ -249,7 +332,7 @@ def _internal_sync():
         "last_indexed": indexed_at
     }
     
-    print(f"✅ VAULT SYNCED: {sync_info['indexed_files']} files indexed")  # Terminal feedback
+    print(f"✅ VAULT SYNCED: {sync_info['indexed_files']} files indexed")
     
     return sync_info
 
@@ -280,38 +363,51 @@ def ask(req: AskRequest):
         
         print(f"\n📝 QUESTION: {question}")
         
+        # =========================
         # 1. Intent Classification
+        # =========================
         intent = classify_intent(question)
         print(f"🎯 INTENT: {intent}")
 
-        # 🔁 Follow-up override for discourse questions
+        previous_q = context_manager.get_previous_question()
+        use_previous_context = False
+
+        # =========================
+        # Topic + Explanation Continuity
+        # =========================
+        if intent == "continuation" and previous_q:
+            topic_score = topic_scorer.score(previous_q, question)
+            explanation_score = topic_scorer.score(
+                previous_q,
+                previous_q + " " + question
+            )
+
+            print(f"🧠 TOPIC SCORE: {topic_score:.4f}")
+            print(f"🧠 EXPLANATION SCORE: {explanation_score:.4f}")
+
+            if topic_score >= 0.45 or explanation_score >= 0.55:
+                use_previous_context = True
+            else:
+                print("🔁 Topic drift detected → re-anchoring topic")
+                use_previous_context = False
+
+                # establish NEW topic anchor
+                context_manager.clear_session()
+                context_manager.set_topic_anchor(question)
+                intent = "factual"
+
+        # Continuation without history is invalid
+        if intent == "continuation" and not previous_q:
+            print("🚫 Continuation without history → refusing")
+            return {"answer": "I don't have that information in my vault yet."}
+
+        # Clear history only for fresh factual questions
         if intent == "factual":
             previous_q = context_manager.get_previous_question()
             if previous_q:
-                q_lower = question.lower().strip()
-                if q_lower in {
-                    "why is that important?",
-                    "why is that?",
-                    "why does that matter?",
-                    "how is that important?",
-                    "what does that mean?",
-                    "why?",
-                    "how?",
-                }:
-                    print("🔄 OVERRIDING INTENT → continuation (follow-up)")
-                    intent = "continuation"
-
-        
-        # Prevent continuation without context
-        if intent == "continuation":
-            previous_q = context_manager.get_previous_question()
-            if not previous_q:
-                return {"answer": "I don't have that information in my vault yet."}
-            print(f"🔗 PREVIOUS Q: {previous_q}")
-        
-        # Clear session for new factual questions (will add to history after answer)
-        if intent == "factual":
-            context_manager.clear_session()
+                topic_score = topic_scorer.score(previous_q, question)
+                if topic_score < 0.35:
+                    context_manager.clear_session()
 
         # 2. Casual Chat
         if intent == "casual":
@@ -332,8 +428,14 @@ Response:
                 response_data["sync_performed"] = sync_info
             return response_data
 
-        # 3. RETRIEVAL - Use full question or previous question
-        chunks = retrieve_for_question(question, intent, current_vault_data)
+        # 3. RETRIEVAL
+        effective_question = question
+
+        if intent == "continuation" and use_previous_context:
+            effective_question = previous_q + " " + question
+
+        chunks = retrieve_for_question(effective_question, intent, current_vault_data)
+
         print(f"📦 CHUNKS RETRIEVED: {len(chunks)}")
         
         if not chunks:
@@ -342,19 +444,45 @@ Response:
                 response_data["sync_performed"] = sync_info
             return response_data
 
-        # 4. ML-BASED GROUNDING
-        ground_min_score = 0.5 if intent == "factual" else 0.7
+        # 4. SENTENCE-LEVEL PIPELINE
 
+        ground_min_score = 0.35 if intent == "factual" else 0.25
+
+        # 4a. Split chunks into sentences
+        sentences = split_into_sentences(chunks)
+        print(f"🧪 SENTENCES BEFORE TOPIC FILTER: {len(sentences)}")
+
+        # STEP 1: Topic anchor
+        topic_anchor = (
+            context_manager.get_topic_anchor()
+            if intent == "continuation"
+            else question
+        )
+
+        topic_k = 12 if intent == "continuation" else 10
+
+        # 4b. Topic coherence filtering
+        sentences = filter_by_topic_coherence(
+            question=topic_anchor,
+            sentences=sentences,
+            top_k=topic_k
+        )
+
+        print(f"🎯 SENTENCES AFTER TOPIC FILTER: {len(sentences)}")
+
+        # 4c. ML-based grounding
         allowed = ml_ground_sentences(
-            question,
-            chunks,
+            question=question,
+            sentences=sentences,
             intent=intent,
-            min_score=ground_min_score
+            top_k=8,
+            min_relevance=0.25,  # tune this if needed
+            min_grounding=0.35 if intent == "factual" else 0.25
         )
 
         print(f"✅ SENTENCES GROUNDED: {len(allowed)}")
 
-        # 🔒 HARD REFUSAL - no grounded sentences
+        # HARD REFUSAL - no grounded sentences
         if not allowed:
             print("❌ NO GROUNDED SENTENCES - REFUSING")
             response_data = {"answer": "I don't have that information in my vault yet."}
@@ -362,9 +490,8 @@ Response:
                 response_data["sync_performed"] = sync_info
             return response_data
 
-
         # =========================
-        # Model 4: SUFFICIENCY CHECK (HARD GATE)
+        # SUFFICIENCY CHECK (only for continuation)
         # =========================
 
         suff_score = None
@@ -376,7 +503,7 @@ Response:
                 intent=intent
             )
 
-            print(f"🧪 SUFFICIENCY SCORE: {suff_score:.4f}")
+            print(f"🧪 SUFFICIENCY SCORE: {suff_score:.4f} (threshold: {SUFFICIENCY_THRESHOLD})")
 
             if suff_score < SUFFICIENCY_THRESHOLD:
                 print("🚫 INSUFFICIENT EVIDENCE — REFUSING")
@@ -392,15 +519,32 @@ Response:
                     response_data["sync_performed"] = sync_info
                 return response_data
 
+        # =========================
+        # 🔥 TOPIC CLUSTERING DISABLED
+        # =========================
+        # Topic clustering was deleting correct answers that were in the minority cluster
+        # Example: "What does jitha teacher do?" - the correct sentence was deleted 
+        # because it didn't match the dominant "distributed systems" cluster
+        
+        print(f"🧠 SKIPPED TOPIC CLUSTERING (keeps all {len(allowed)} sentences)")
 
-
-        # ⬇️ ONLY reaches here if grounding + sufficiency passed
-        print(f"📄 ALLOWED SENTENCES:")
+        print("📄 FINAL SENTENCES:")
         for i, s in enumerate(allowed, 1):
             print(f"  {i}. {s}")
 
-        allowed_text = "\n".join(f"- {s}" for s in allowed)
+        # =========================
+        # Evidence weighting
+        # =========================
+        ranked = score_evidence_roles(question, allowed)
 
+        # Keep top 6 most relevant
+        ranked = ranked[:6]
+
+        print("🧠 EVIDENCE WEIGHTS:")
+        for score, s in ranked:
+            print(f"  {score:.3f} → {s}")
+
+        allowed_text = "\n".join(f"- {s}" for _, s in ranked)
 
         # 5. ANSWER GENERATION
         # Build context for continuation
@@ -421,7 +565,6 @@ Response:
                         "Explain the MECHANISM or PROCESS.\n"
                     )
 
-        
         response = ollama.generate(
             model="qwen2.5:7b",
             prompt=f"""You are answering a question using ONLY the provided sentences.
@@ -452,10 +595,9 @@ ANSWER:""",
 
         # 6. Store Q&A in conversation history
         if answer != "I don't have that information in my vault yet.":
-            if intent == "factual":
-                context_manager.add_turn(question, answer)
+            context_manager.add_turn(question, answer)
 
-        # 7. Build response with sync info
+        # 7. Build response
         response_data = {
             "answer": answer,
             "metadata": {
@@ -465,7 +607,6 @@ ANSWER:""",
             }
         }
         
-        # Add sync info if sync was performed
         if sync_info:
             response_data["sync_performed"] = sync_info
 
@@ -473,4 +614,6 @@ ANSWER:""",
 
     except Exception as e:
         print("ERROR:", e)
+        import traceback
+        traceback.print_exc()
         return {"answer": "My brain just lagged. Say that again?"}
