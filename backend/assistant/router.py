@@ -317,27 +317,32 @@ Response:
         # =========================
         # Model 4: SUFFICIENCY CHECK (HARD GATE)
         # =========================
-        suff_score = sufficiency_scorer.score(
-            question=question,
-            sentences=allowed,
-            intent=intent
-        )
 
-        print(f"🧪 SUFFICIENCY SCORE: {suff_score:.4f}")
+        suff_score = None
 
-        if suff_score < SUFFICIENCY_THRESHOLD:
-            print("🚫 INSUFFICIENT EVIDENCE — REFUSING")
-            response_data = {
-                "answer": "I don't have enough information in my vault to answer that confidently.",
-                "metadata": {
-                    "intent": intent,
-                    "sentences_grounded": len(allowed),
-                    "sufficiency_score": suff_score
+        if intent == "continuation":
+            suff_score = sufficiency_scorer.score(
+                question=question,
+                sentences=allowed,
+                intent=intent
+            )
+
+            print(f"🧪 SUFFICIENCY SCORE: {suff_score:.4f}")
+
+            if suff_score < SUFFICIENCY_THRESHOLD:
+                print("🚫 INSUFFICIENT EVIDENCE — REFUSING")
+                response_data = {
+                    "answer": "I don't have enough information in my vault to answer that confidently.",
+                    "metadata": {
+                        "intent": intent,
+                        "sentences_grounded": len(allowed),
+                        "sufficiency_score": suff_score
+                    }
                 }
-            }
-            if sync_info:
-                response_data["sync_performed"] = sync_info
-            return response_data
+                if sync_info:
+                    response_data["sync_performed"] = sync_info
+                return response_data
+
 
 
         # ⬇️ ONLY reaches here if grounding + sufficiency passed
