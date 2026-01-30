@@ -155,21 +155,44 @@ def retrieve_for_question(question: str, intent: str, vault_data: dict) -> list[
 def ml_ground_sentences(
     question: str,
     chunks: list[str],
+    intent: str,
     top_k: int = 6,
-    min_score: float = 0.52  # 🔥 threshold
+    min_score: float = 0.52
 ) -> list[str]:
+
     if not chunks:
         return []
 
     sentences = split_into_sentences(chunks)
+    print("🧪 SENTENCES BEFORE FILTER:")
+    for s in sentences:
+        print("  >", s)
+
     if not sentences:
         return []
 
     scored = []
+    q_tokens = set(re.findall(r"\w+", question.lower()))
+
     for sentence in sentences:
+        s_lower = sentence.lower()
+
+        # 🔒 Topic coherence for factual questions
+        if intent == "factual":
+            content_tokens = {
+                tok for tok in q_tokens
+                if tok not in {"what", "is", "why", "how", "does", "that", "important"}
+            }
+
+            if intent == "factual":
+                if not any(tok in s_lower for tok in content_tokens):
+                    continue
+
+
         score = grounding_scorer.score(question, sentence)
-        if score >= min_score:  # 🚫 filter weak sentences
+        if score >= min_score:
             scored.append((score, sentence))
+
 
     if not scored:
         return []
@@ -260,6 +283,24 @@ def ask(req: AskRequest):
         # 1. Intent Classification
         intent = classify_intent(question)
         print(f"🎯 INTENT: {intent}")
+
+        # 🔁 Follow-up override for discourse questions
+        if intent == "factual":
+            previous_q = context_manager.get_previous_question()
+            if previous_q:
+                q_lower = question.lower().strip()
+                if q_lower in {
+                    "why is that important?",
+                    "why is that?",
+                    "why does that matter?",
+                    "how is that important?",
+                    "what does that mean?",
+                    "why?",
+                    "how?",
+                }:
+                    print("🔄 OVERRIDING INTENT → continuation (follow-up)")
+                    intent = "continuation"
+
         
         # Prevent continuation without context
         if intent == "continuation":
@@ -302,7 +343,15 @@ Response:
             return response_data
 
         # 4. ML-BASED GROUNDING
-        allowed = ml_ground_sentences(question, chunks)
+        ground_min_score = 0.5 if intent == "factual" else 0.7
+
+        allowed = ml_ground_sentences(
+            question,
+            chunks,
+            intent=intent,
+            min_score=ground_min_score
+        )
+
         print(f"✅ SENTENCES GROUNDED: {len(allowed)}")
 
         # 🔒 HARD REFUSAL - no grounded sentences
