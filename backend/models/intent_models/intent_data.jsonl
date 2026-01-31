@@ -1,640 +1,914 @@
-{"text":"What is a microservice?","label":0}
-{"text":"Define horizontal scaling.","label":0}
-{"text":"What does API mean?","label":0}
-{"text":"What is a load balancer?","label":0}
-{"text":"Define a database schema.","label":0}
-{"text":"What does SQL mean?","label":0}
-{"text":"What is a reverse proxy?","label":0}
-{"text":"Define latency.","label":0}
-{"text":"What does CRUD mean?","label":0}
-{"text":"What is a deadlock?","label":0}
-{"text":"Define idempotency.","label":0}
-{"text":"What does JWT mean?","label":0}
-{"text":"What is a message queue?","label":0}
-{"text":"Define sharding.","label":0}
-{"text":"What does REST mean?","label":0}
-{"text":"What is a cache?","label":0}
-{"text":"Define a container.","label":0}
-{"text":"What does CORS mean?","label":0}
-{"text":"What is a webhook?","label":0}
-{"text":"Define a syscall.","label":0}
-{"text":"What does ACID mean?","label":0}
-{"text":"What is a thread?","label":0}
-{"text":"Define a semaphore.","label":0}
-{"text":"What does DNS mean?","label":0}
-{"text":"What is a handshake?","label":0}
-{"text":"Define a mutex.","label":0}
-{"text":"What does TLS mean?","label":0}
-{"text":"What is a gateway?","label":0}
-{"text":"Define serialization.","label":0}
-{"text":"What does JSON mean?","label":0}
-{"text":"What is a dockerfile?","label":0}
-{"text":"Define an index.","label":0}
-{"text":"What does SSH mean?","label":0}
-{"text":"What is a firewall?","label":0}
-{"text":"Define a socket.","label":0}
-{"text":"What does TCP mean?","label":0}
-{"text":"What is a kernel?","label":0}
-{"text":"Define virtualization.","label":0}
-{"text":"What does UDP mean?","label":0}
-{"text":"What is a namespace?","label":0}
-{"text":"Define replication.","label":0}
-{"text":"What does CI mean?","label":0}
-{"text":"What is a monolith?","label":0}
-{"text":"Define an endpoint.","label":0}
-{"text":"What does CD mean?","label":0}
-{"text":"What is a cluster?","label":0}
-{"text":"Define partitioning.","label":0}
-{"text":"What does SDK mean?","label":0}
-{"text":"What is a shell?","label":0}
-{"text":"Define a packet.","label":0}
-{"text":"What does gRPC mean?","label":0}
-{"text":"What is a cursor?","label":0}
-{"text":"Define an inode.","label":0}
-{"text":"What does HTTP mean?","label":0}
-{"text":"What is a saga?","label":0}
-{"text":"Define a heartbeat.","label":0}
-{"text":"What does ETL mean?","label":0}
-{"text":"What is a salt?","label":0}
-{"text":"Define a hash.","label":0}
-{"text":"What does IAM mean?","label":0}
-{"text":"What is a secret?","label":0}
-{"text":"Define a token.","label":0}
-{"text":"What does IDE mean?","label":0}
-{"text":"What is a pod?","label":0}
-{"text":"Define a registry.","label":0}
-{"text":"What does CLI mean?","label":0}
-{"text":"What is a bug?","label":0}
-{"text":"Define a commit.","label":0}
-{"text":"What does VCS mean?","label":0}
-{"text":"What is a branch?","label":0}
-{"text":"Define a merge.","label":0}
-{"text":"What does SSH mean?","label":0}
-{"text":"What is a cron?","label":0}
-{"text":"Define a daemon.","label":0}
-{"text":"What does GUI mean?","label":0}
-{"text":"What is a ping?","label":0}
-{"text":"Define a port.","label":0}
-{"text":"What does IP mean?","label":0}
-{"text":"What is a subnet?","label":0}
-{"text":"Define a route.","label":0}
-{"text":"What does LAN mean?","label":0}
-{"text":"What is a bridge?","label":0}
-{"text":"Define a driver.","label":0}
-{"text":"What does OS mean?","label":0}
-{"text":"What is a process?","label":0}
-{"text":"Define a script.","label":0}
-{"text":"What does XML mean?","label":0}
-{"text":"What is a log?","label":0}
-{"text":"Define a backup.","label":0}
-{"text":"What does HA mean?","label":0}
-{"text":"What is a node?","label":0}
-{"text":"Define a link.","label":0}
-{"text":"What does CPU mean?","label":0}
-{"text":"What is a bus?","label":0}
-{"text":"Define a block.","label":0}
-{"text":"What does RAM mean?","label":0}
-{"text":"What is a disk?","label":0}
-{"text":"Define a file.","label":0}
-{"text":"What does FTP mean?","label":0}
-{"text":"What is a tunnel?","label":0}
-{"text":"Define a mask.","label":0}
-{"text":"What does SMTP mean?","label":0}
-{"text":"What is a pipe?","label":0}
-{"text":"Define a signal.","label":0}
-{"text":"What does SSL mean?","label":0}
-{"text":"What is a key?","label":0}
-{"text":"Define a cert.","label":0}
-{"text":"What does PEM mean?","label":0}
-{"text":"What is a vault?","label":0}
-{"text":"Define an actor.","label":0}
-{"text":"What does VM mean?","label":0}
-{"text":"What is a host?","label":0}
-{"text":"Define a client.","label":0}
-{"text":"What does URI mean?","label":0}
-{"text":"What is a server?","label":0}
-{"text":"Define a state.","label":0}
-{"text":"What does CSV mean?","label":0}
-{"text":"What is a stack?","label":0}
-{"text":"Define a heap.","label":0}
-{"text":"What does FIFO mean?","label":0}
-{"text":"What is a queue?","label":0}
-{"text":"Define a tree.","label":0}
-{"text":"What does LIFO mean?","label":0}
-{"text":"What is a graph?","label":0}
-{"text":"Define a table.","label":0}
-{"text":"What does ORM mean?","label":0}
-{"text":"What is a view?","label":0}
-{"text":"Define a join.","label":0}
-{"text":"What does JDBC mean?","label":0}
-{"text":"What is a trigger?","label":0}
-{"text":"Define a role.","label":0}
-{"text":"What does RBAC mean?","label":0}
-{"text":"What is a scope?","label":0}
-{"text":"Define a claim.","label":0}
-{"text":"What does JWT mean?","label":0}
-{"text":"What is a cookie?","label":0}
-{"text":"Define a session.","label":0}
-{"text":"What does XSS mean?","label":0}
-{"text":"What is a patch?","label":0}
-{"text":"Define a head.","label":0}
-{"text":"What does CSRF mean?","label":0}
-{"text":"What is a body?","label":0}
-{"text":"Define a query.","label":0}
-{"text":"What does BASE mean?","label":0}
-{"text":"What is a row?","label":0}
-{"text":"Define a column.","label":0}
-{"text":"What does B-Tree mean?","label":0}
-{"text":"What is a cell?","label":0}
-{"text":"Define an engine.","label":0}
-{"text":"What does WAL mean?","label":0}
-{"text":"What is a buffer?","label":0}
-{"text":"Define a lock.","label":0}
-{"text":"What does MVC mean?","label":0}
-{"text":"What is a model?","label":0}
-{"text":"Define a view.","label":0}
-{"text":"What does SPA mean?","label":0}
-{"text":"What is a router?","label":0}
-{"text":"Define a hook.","label":0}
-{"text":"What does SSR mean?","label":0}
-{"text":"What is a tag?","label":0}
-{"text":"Define a meta.","label":0}
-{"text":"What does DOM mean?","label":0}
-{"text":"What is a form?","label":0}
-{"text":"Define a input.","label":0}
-{"text":"What does CSS mean?","label":0}
-{"text":"What is a script?","label":0}
-{"text":"Define a link.","label":0}
-{"text":"What does HTML mean?","label":0}
-{"text":"What is a byte?","label":0}
-{"text":"Define a bit.","label":0}
-{"text":"What does MB mean?","label":0}
-{"text":"What is a word?","label":0}
-{"text":"Define a float.","label":0}
-{"text":"What does INT mean?","label":0}
-{"text":"What is a char?","label":0}
-{"text":"Define a string.","label":0}
-{"text":"What does UTF8 mean?","label":0}
-{"text":"What is a bool?","label":0}
-{"text":"Define a null.","label":0}
-{"text":"What does VOID mean?","label":0}
-{"text":"What is an array?","label":0}
-{"text":"Define a list.","label":0}
-{"text":"What does MAP mean?","label":0}
-{"text":"What is a set?","label":0}
-{"text":"Define a map.","label":0}
-{"text":"What does SET mean?","label":0}
-{"text":"What is a tuple?","label":0}
-{"text":"Define a struct.","label":0}
-{"text":"What does ENUM mean?","label":0}
-{"text":"What is a class?","label":0}
-{"text":"Define an object.","label":0}
-{"text":"What does OOP mean?","label":0}
-{"text":"What is a method?","label":0}
-{"text":"Define a trait.","label":0}
-{"text":"What does API mean?","label":0}
-{"text":"What is a lambda?","label":0}
-{"text":"Define a closure.","label":0}
-{"text":"What does REPL mean?","label":0}
-{"text":"What is a loop?","label":0}
-{"text":"Define a switch.","label":0}
-{"text":"What does JVM mean?","label":0}
-{"text":"What is a catch?","label":0}
-{"text":"Define a throw.","label":0}
-{"text":"What does GIGO mean?","label":0}
-{"text":"What is a build?","label":0}
-{"text":"Define a deploy.","label":0}
-{"text":"What does DRY mean?","label":0}
-{"text":"What is a test?","label":0}
-{"text":"Define a mock.","label":0}
-{"text":"What does TDD mean?","label":0}
-{"text":"What is a stub?","label":0}
-{"text":"Define a spy.","label":0}
-{"text":"What does QA mean?","label":0}
-{"text":"What is a lint?","label":0}
-{"text":"Define a minifier.","label":0}
-{"text":"What does NPM mean?","label":0}
-{"text":"What is a package?","label":0}
-{"text":"Define a module.","label":0}
-{"text":"What does PIP mean?","label":0}
-{"text":"What is a gem?","label":0}
-{"text":"Define a crate.","label":0}
-{"text":"What does JAR mean?","label":0}
-{"text":"What is a binary?","label":0}
-{"text":"Define an asset.","label":0}
-{"text":"What does SVG mean?","label":0}
-{"text":"What is a sprite?","label":0}
-{"text":"Define a glyph.","label":0}
-{"text":"What does PNG mean?","label":0}
-{"text":"What is a canvas?","label":0}
-{"text":"Define a frame.","label":0}
-{"text":"What does FPS mean?","label":0}
-{"text":"Why does a load balancer use health checks?","label":1}
-{"text":"How does sharding distribute data across nodes?","label":1}
-{"text":"What happens if a primary database node fails?","label":1}
-{"text":"Why does a message queue improve system decoupling?","label":1}
-{"text":"How does a reverse proxy protect backend servers?","label":1}
-{"text":"What happens if a JWT is tampered with?","label":1}
-{"text":"Why does indexing speed up search queries?","label":1}
-{"text":"How does a cache improve application latency?","label":1}
-{"text":"What happens if a thread pool is exhausted?","label":1}
-{"text":"Why does HTTPS require a certificate?","label":1}
-{"text":"How does a syscall transition to kernel mode?","label":1}
-{"text":"What happens if two processes experience a deadlock?","label":1}
-{"text":"Why does vertical scaling have physical limits?","label":1}
-{"text":"How does a database transaction maintain atomicity?","label":1}
-{"text":"What happens if a CORS policy is missing?","label":1}
-{"text":"Why does DNS use UDP for most queries?","label":1}
-{"text":"How does a CDN reduce geographic latency?","label":1}
-{"text":"What happens if a file descriptor leaks?","label":1}
-{"text":"Why does a distributed system need a consensus algorithm?","label":1}
-{"text":"How does a load balancer handle sticky sessions?","label":1}
-{"text":"What happens if a memory leak occurs in a process?","label":1}
-{"text":"Why does a b-tree provide faster range scans?","label":1}
-{"text":"How does OAuth2 handle authorization without passwords?","label":1}
-{"text":"What happens if a heartbeat signal is lost?","label":1}
-{"text":"Why does an API use rate limiting?","label":1}
-{"text":"How does a kernel schedule multiple threads?","label":1}
-{"text":"What happens if an index is not optimized?","label":1}
-{"text":"Why does a container isolation differ from a VM?","label":1}
-{"text":"How does a firewall filter network traffic?","label":1}
-{"text":"What happens if a commit fails during a push?","label":1}
-{"text":"Why does a load balancer distribute traffic?","label":1}
-{"text":"How does a message queue handle spikes in traffic?","label":1}
-{"text":"What happens if a secret key is exposed?","label":1}
-{"text":"Why does a database use a write-ahead log?","label":1}
-{"text":"How does a gateway manage microservice traffic?","label":1}
-{"text":"What happens if a certificate expires?","label":1}
-{"text":"Why does a server use keep-alive headers?","label":1}
-{"text":"How does a saga pattern handle distributed transactions?","label":1}
-{"text":"What happens if a subnet mask is incorrect?","label":1}
-{"text":"Why does an OS use virtual memory?","label":1}
-{"text":"How does a thread avoid race conditions?","label":1}
-{"text":"What happens if a database connection is not closed?","label":1}
-{"text":"Why does a monolith scale differently than microservices?","label":1}
-{"text":"How does a Dockerfile build a container image?","label":1}
-{"text":"What happens if a cache key collision occurs?","label":1}
-{"text":"Why does a router forward packets?","label":1}
-{"text":"How does a browser render a web page?","label":1}
-{"text":"What happens if a session ID is hijacked?","label":1}
-{"text":"Why does a distributed lock prevent data corruption?","label":1}
-{"text":"How does a hash function ensure data integrity?","label":1}
-{"text":"What happens if a process receives a SIGKILL?","label":1}
-{"text":"Why does a load balancer need a public IP?","label":1}
-{"text":"How does a database perform a full table scan?","label":1}
-{"text":"What happens if a pod is deleted in Kubernetes?","label":1}
-{"text":"Why does a message queue need a dead letter queue?","label":1}
-{"text":"How does a proxy mask the client IP?","label":1}
-{"text":"What happens if a server returns a 500 error?","label":1}
-{"text":"Why does an API use status codes?","label":1}
-{"text":"How does a syscall return data to a user process?","label":1}
-{"text":"What happens if a network partition occurs?","label":1}
-{"text":"Why does a database use replication?","label":1}
-{"text":"How does a load balancer select a backend server?","label":1}
-{"text":"What happens if a mutex is never released?","label":1}
-{"text":"Why does a distributed system use clocks?","label":1}
-{"text":"How does a firewall detect an attack?","label":1}
-{"text":"What happens if a queue overflows?","label":1}
-{"text":"Why does a server use a buffer?","label":1}
-{"text":"How does a browser handle cookies?","label":1}
-{"text":"What happens if a TCP packet is lost?","label":1}
-{"text":"Why does a database use sharding?","label":1}
-{"text":"How does a container share the host kernel?","label":1}
-{"text":"What happens if a DNS server goes offline?","label":1}
-{"text":"Why does a load balancer perform SSL termination?","label":1}
-{"text":"How does a database handle concurrent writes?","label":1}
-{"text":"What happens if a webhook fails to deliver?","label":1}
-{"text":"Why does a system use asynchronous processing?","label":1}
-{"text":"How does a process allocate memory?","label":1}
-{"text":"What happens if a disk partition is full?","label":1}
-{"text":"Why does a distributed system need replication?","label":1}
-{"text":"How does a load balancer maintain availability?","label":1}
-{"text":"What happens if an API key is invalid?","label":1}
-{"text":"Why does a database use locks?","label":1}
-{"text":"How does a server handle multiple requests?","label":1}
-{"text":"What happens if a process hits the CPU limit?","label":1}
-{"text":"Why does a distributed system use partitioning?","label":1}
-{"text":"How does a cache handle data eviction?","label":1}
-{"text":"What happens if a message is lost in transit?","label":1}
-{"text":"Why does a firewall block specific ports?","label":1}
-{"text":"How does a browser validate a TLS certificate?","label":1}
-{"text":"What happens if a database index is corrupted?","label":1}
-{"text":"Why does a server use a thread pool?","label":1}
-{"text":"How does a database perform a join?","label":1}
-{"text":"What happens if a process is swapped to disk?","label":1}
-{"text":"Why does a system use caching?","label":1}
-{"text":"How does a load balancer handle failure?","label":1}
-{"text":"What happens if a query times out?","label":1}
-{"text":"Why does a database use views?","label":1}
-{"text":"How does a server verify a JWT?","label":1}
-{"text":"What happens if a packet is fragmented?","label":1}
-{"text":"Why does a system use microservices?","label":1}
-{"text":"How does a database enforce constraints?","label":1}
-{"text":"What happens if a service goes down?","label":1}
-{"text":"Why does a load balancer use algorithms?","label":1}
-{"text":"How does a browser send an HTTP request?","label":1}
-{"text":"What happens if a session expires?","label":1}
-{"text":"Why does a system use a reverse proxy?","label":1}
-{"text":"How does a database use indexes?","label":1}
-{"text":"What happens if a connection is refused?","label":1}
-{"text":"Why does a system use message queues?","label":1}
-{"text":"How does a server process a request?","label":1}
-{"text":"What happens if a cache is cleared?","label":1}
-{"text":"Why does a system use sharding?","label":1}
-{"text":"How does a database replicate data?","label":1}
-{"text":"What happens if a transaction is rolled back?","label":1}
-{"text":"Why does a system use containers?","label":1}
-{"text":"How does a firewall protect a network?","label":1}
-{"text":"What happens if a node fails?","label":1}
-{"text":"Why does a system use load balancers?","label":1}
-{"text":"How does a browser store data?","label":1}
-{"text":"What happens if a port is closed?","label":1}
-{"text":"Why does a system use APIs?","label":1}
-{"text":"How does a database store data?","label":1}
-{"text":"What happens if a script fails?","label":1}
-{"text":"Why does a system use security?","label":1}
-{"text":"How does a server authenticate users?","label":1}
-{"text":"What happens if a bug is found?","label":1}
-{"text":"Why does a system use logs?","label":1}
-{"text":"How does a browser handle redirects?","label":1}
-{"text":"What happens if a file is deleted?","label":1}
-{"text":"Why does a system use backups?","label":1}
-{"text":"How does a database handle queries?","label":1}
-{"text":"What happens if a network is slow?","label":1}
-{"text":"Why does a system use clusters?","label":1}
-{"text":"How does a server manage sessions?","label":1}
-{"text":"What happens if a disk fails?","label":1}
-{"text":"Why does a system use threads?","label":1}
-{"text":"How does a browser render HTML?","label":1}
-{"text":"What happens if a process crashes?","label":1}
-{"text":"Why does a system use caches?","label":1}
-{"text":"How does a database optimize speed?","label":1}
-{"text":"What happens if a request fails?","label":1}
-{"text":"Why does a system use routes?","label":1}
-{"text":"How does a server route traffic?","label":1}
-{"text":"What happens if a link is broken?","label":1}
-{"text":"Why does a system use protocols?","label":1}
-{"text":"How does a database maintain order?","label":1}
-{"text":"What happens if a value is null?","label":1}
-{"text":"Why does a system use keys?","label":1}
-{"text":"How does a server secure data?","label":1}
-{"text":"What happens if a limit is reached?","label":1}
-{"text":"Why does a system use tokens?","label":1}
-{"text":"How does a database recover data?","label":1}
-{"text":"What happens if a user logs out?","label":1}
-{"text":"Why does a system use scripts?","label":1}
-{"text":"How does a server track usage?","label":1}
-{"text":"What happens if a task is late?","label":1}
-{"text":"Why does a system use shells?","label":1}
-{"text":"How does a database handle large data?","label":1}
-{"text":"What happens if a service is busy?","label":1}
-{"text":"Why does a system use masks?","label":1}
-{"text":"How does a server filter requests?","label":1}
-{"text":"What happens if a secret is stolen?","label":1}
-{"text":"Why does a system use pipes?","label":1}
-{"text":"How does a database link tables?","label":1}
-{"text":"What happens if a query is long?","label":1}
-{"text":"Why does a system use ports?","label":1}
-{"text":"How does a server listen for data?","label":1}
-{"text":"What happens if a packet is late?","label":1}
-{"text":"Why does a system use nodes?","label":1}
-{"text":"How does a database partition data?","label":1}
-{"text":"What happens if a table is dropped?","label":1}
-{"text":"Why does a system use gateways?","label":1}
-{"text":"How does a server encrypt traffic?","label":1}
-{"text":"What happens if a key is lost?","label":1}
-{"text":"Why does a system use drivers?","label":1}
-{"text":"How does a database sort records?","label":1}
-{"text":"What happens if a process stalls?","label":1}
-{"text":"Why does a system use bridges?","label":1}
-{"text":"How does a server handle errors?","label":1}
-{"text":"What happens if a buffer is full?","label":1}
-{"text":"Why does a system use salts?","label":1}
-{"text":"How does a database hash values?","label":1}
-{"text":"What happens if a salt is reused?","label":1}
-{"text":"Why does a system use scopes?","label":1}
-{"text":"How does a server verify tokens?","label":1}
-{"text":"What happens if a scope is narrow?","label":1}
-{"text":"Why does a system use claims?","label":1}
-{"text":"How does a server read a JWT?","label":1}
-{"text":"What happens if a claim is false?","label":1}
-{"text":"Why does a system use bodies?","label":1}
-{"text":"How does a server parse JSON?","label":1}
-{"text":"What happens if a body is empty?","label":1}
-{"text":"Why does a system use heads?","label":1}
-{"text":"How does a server read headers?","label":1}
-{"text":"What happens if a header is missing?","label":1}
-{"text":"Why does a system use rows?","label":1}
-{"text":"How does a database scan rows?","label":1}
-{"text":"What happens if a row is locked?","label":1}
-{"text":"Why does a system use cells?","label":1}
-{"text":"How does a database update cells?","label":1}
-{"text":"What happens if a cell is empty?","label":1}
-{"text":"Why does a system use engines?","label":1}
-{"text":"How does a database run queries?","label":1}
-{"text":"What happens if an engine stops?","label":1}
-{"text":"Why does a system use vaults?","label":1}
-{"text":"How does a server store secrets?","label":1}
-{"text":"What happens if a vault is locked?","label":1}
-{"text":"Why does a system use actors?","label":1}
-{"text":"How does a system send messages?","label":1}
-{"text":"What happens if an actor fails?","label":1}
-{"text":"Why does a system use signals?","label":1}
-{"text":"How does an OS kill a process?","label":1}
-{"text":"What happens if a signal is ignored?","label":1}
-{"text":"Why does a system use frames?","label":1}
-{"text":"How does a server stream video?","label":1}
-{"text":"What happens if a frame is dropped?","label":1}
-{"text":"Why does a system use sprites?","label":1}
-{"text":"How does a browser display images?","label":1}
-{"text":"What happens if a sprite is missing?","label":1}
-{"text":"Why does a system use glyphs?","label":1}
-{"text":"How does a browser render text?","label":1}
-{"text":"What happens if a glyph is missing?","label":1}
-{"text":"Why does a system use canvas?","label":1}
-{"text":"How does a browser draw shapes?","label":1}
-{"text":"What happens if a canvas is too large?","label":1}
-{"text":"hey boss","label":2}
-{"text":"whats up","label":2}
-{"text":"lol","label":2}
-{"text":"bruh","label":2}
-{"text":"got it","label":2}
-{"text":"thanks","label":2}
-{"text":"ok","label":2}
-{"text":"cool","label":2}
-{"text":"hey","label":2}
-{"text":"yo","label":2}
-{"text":"lmao","label":2}
-{"text":"nice","label":2}
-{"text":"wow","label":2}
-{"text":"interesting","label":2}
-{"text":"hello","label":2}
-{"text":"hi","label":2}
-{"text":"yup","label":2}
-{"text":"nah","label":2}
-{"text":"maybe","label":2}
-{"text":"sure","label":2}
-{"text":"no problem","label":2}
-{"text":"anyway","label":2}
-{"text":"whatever","label":2}
-{"text":"k","label":2}
-{"text":"kk","label":2}
-{"text":"understands","label":2}
-{"text":"perfect","label":2}
-{"text":"awesome","label":2}
-{"text":"good stuff","label":2}
-{"text":"keep going","label":2}
-{"text":"stop","label":2}
-{"text":"wait","label":2}
-{"text":"hold on","label":2}
-{"text":"brb","label":2}
-{"text":"afk","label":2}
-{"text":"omg","label":2}
-{"text":"wtf","label":2}
-{"text":"idk","label":2}
-{"text":"nvm","label":2}
-{"text":"stfu","label":2}
-{"text":"gtg","label":2}
-{"text":"ttył","label":2}
-{"text":"cya","label":2}
-{"text":"bye","label":2}
-{"text":"goodnight","label":2}
-{"text":"morning","label":2}
-{"text":"evening","label":2}
-{"text":"cheers","label":2}
-{"text":"word","label":2}
-{"text":"dope","label":2}
-{"text":"sick","label":2}
-{"text":"lit","label":2}
-{"text":"bet","label":2}
-{"text":"fr","label":2}
-{"text":"facts","label":2}
-{"text":"cap","label":2}
-{"text":"no cap","label":2}
-{"text":"sus","label":2}
-{"text":"vibe","label":2}
-{"text":"chill","label":2}
-{"text":"solid","label":2}
-{"text":"bet boss","label":2}
-{"text":"yessir","label":2}
-{"text":"yes","label":2}
-{"text":"no","label":2}
-{"text":"not really","label":2}
-{"text":"kinda","label":2}
-{"text":"sort of","label":2}
-{"text":"basically","label":2}
-{"text":"essentially","label":2}
-{"text":"actually","label":2}
-{"text":"literally","label":2}
-{"text":"legit","label":2}
-{"text":"dope","label":2}
-{"text":"sweet","label":2}
-{"text":"radical","label":2}
-{"text":"tubular","label":2}
-{"text":"neat","label":2}
-{"text":"fine","label":2}
-{"text":"bad","label":2}
-{"text":"wack","label":2}
-{"text":"trash","label":2}
-{"text":"mid","label":2}
-{"text":"fire","label":2}
-{"text":"pog","label":2}
-{"text":"rip","label":2}
-{"text":"f","label":2}
-{"text":"gg","label":2}
-{"text":"gl","label":2}
-{"text":"hf","label":2}
-{"text":"wp","label":2}
-{"text":"ez","label":2}
-{"text":"noob","label":2}
-{"text":"pro","label":2}
-{"text":"hacker","label":2}
-{"text":"bot","label":2}
-{"text":"main","label":2}
-{"text":"alt","label":2}
-{"text":"spam","label":2}
-{"text":"flood","label":2}
-{"text":"bump","label":2}
-{"text":"pinned","label":2}
-{"text":"sent","label":2}
-{"text":"received","label":2}
-{"text": "Why does that happen?", "label": 1}
-{"text": "How does it work exactly?", "label": 1}
-{"text": "What causes that?", "label": 1}
-{"text": "Is that always true?", "label": 1}
-{"text": "Can you explain more about it?", "label": 1}
-{"text": "What are the side effects?", "label": 1}
-{"text": "Does it affect other things too?", "label": 1}
-{"text": "Why would that be useful?", "label": 1}
-{"text": "How long does it take?", "label": 1}
-{"text": "What happens if you don't?", "label": 1}
-{"text": "Is there a better way?", "label": 1}
-{"text": "Can that be reversed?", "label": 1}
-{"text": "Who discovered this?", "label": 1}
-{"text": "When did that start?", "label": 1}
-{"text": "Why is it like that?", "label": 1}
-{"text": "Doesn't that contradict what you said?", "label": 1}
-{"text": "How much does it cost?", "label": 1}
-{"text": "What's the difference?", "label": 1}
-{"text": "Is it safe?", "label": 1}
-{"text": "Can you give an example?", "label": 1}
-{"text": "What about the other one?", "label": 1}
-{"text": "Does this apply everywhere?", "label": 1}
-{"text": "Why not just do it differently?", "label": 1}
-{"text": "How did they figure that out?", "label": 1}
-{"text": "What are the alternatives?", "label": 1}
-{"text": "Is that legal?", "label": 1}
-{"text": "Can it be prevented?", "label": 1}
-{"text": "What makes it different?", "label": 1}
-{"text": "How do you know that?", "label": 1}
-{"text": "Why would anyone do that?", "label": 1}
-{"text": "What's the point of it?", "label": 1}
-{"text": "Does that work for everything?", "label": 1}
-{"text": "How common is that?", "label": 1}
-{"text": "What are the risks?", "label": 1}
-{"text": "Can you show me how?", "label": 1}
-{"text": "Why did they choose that?", "label": 1}
-{"text": "What happens next?", "label": 1}
-{"text": "Is there proof?", "label": 1}
-{"text": "How effective is it?", "label": 1}
-{"text": "What's the catch?", "label": 1}
-{"text": "Can this be measured?", "label": 1}
-{"text": "Why doesn't it work sometimes?", "label": 1}
-{"text": "What are the benefits?", "label": 1}
-{"text": "How was that discovered?", "label": 1}
-{"text": "Is it worth it?", "label": 1}
-{"text": "What else should I know?", "label": 1}
-{"text": "Can it fail?", "label": 1}
-{"text": "Why is that important?", "label": 1}
-{"text": "What's the science behind it?", "label": 1}
-{"text": "How do they compare?", "label": 1}
-{"text": "hey", "label": 2}
-{"text": "lol", "label": 2}
-{"text": "thanks!", "label": 2}
-{"text": "that's interesting", "label": 2}
-{"text": "cool", "label": 2}
-{"text": "ok got it", "label": 2}
-{"text": "hmm", "label": 2}
-{"text": "wow", "label": 2}
-{"text": "nice", "label": 2}
-{"text": "haha", "label": 2}
-{"text": "appreciate it", "label": 2}
-{"text": "makes sense", "label": 2}
-{"text": "good to know", "label": 2}
-{"text": "awesome", "label": 2}
-{"text": "thank you so much", "label": 2}
-{"text": "perfect", "label": 2}
-{"text": "sounds good", "label": 2}
-{"text": "alright", "label": 2}
-{"text": "gotcha", "label": 2}
-{"text": "interesting", "label": 2}
-{"text": "What is photosynthesis?", "label": 0}
-{"text": "How many countries are in Europe?", "label": 0}
-{"text": "Who invented the telephone?", "label": 0}
-{"text": "What is the capital of Brazil?", "label": 0}
-{"text": "How does blockchain technology work?", "label": 0}
-{"text": "What are the symptoms of diabetes?", "label": 0}
-{"text": "When did World War 2 end?", "label": 0}
-{"text": "What is the speed of light?", "label": 0}
-{"text": "How do solar panels generate electricity?", "label": 0}
-{"text": "What causes earthquakes?", "label": 0}
+{"previous": "Explain load balancing", "current": "What is Spanner?", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "What are the alternatives?", "label": 1}
+{"previous": "What are consensus algorithms?", "current": "Why?", "label": 1}
+{"previous": "What is PostgreSQL?", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "Where is UIT kuravankonam?", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "What is Kubernetes?", "current": "See you", "label": 2}
+{"previous": "What does Jitha teacher teach?", "current": "What else?", "label": 1}
+{"previous": "Explain JWT tokens", "current": "How does OAuth work?", "label": 0}
+{"previous": "Explain cloud computing", "current": "Explain load balancing", "label": 0}
+{"previous": "", "current": "Explain cloud computing", "label": 0}
+{"previous": "What is SQL injection?", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "What are the types of scaling?", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What is MongoDB?", "current": "Explain ACID transactions", "label": 0}
+{"previous": "What is computer vision?", "current": "Why?", "label": 1}
+{"previous": "Explain load balancing", "current": "What is distributed systems?", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "How does TLS work?", "label": 0}
+{"previous": "How does OAuth work?", "current": "How does it compare?", "label": 1}
+{"previous": "What is Spanner?", "current": "What is Kubernetes?", "label": 0}
+{"previous": "What does Redis do?", "current": "Goodbye", "label": 2}
+{"previous": "What does Redis do?", "current": "Sounds good", "label": 2}
+{"previous": "What is BigTable?", "current": "Why?", "label": 1}
+{"previous": "How does OAuth work?", "current": "Interesting", "label": 2}
+{"previous": "Explain caching", "current": "Yep", "label": 2}
+{"previous": "What is BigTable?", "current": "How does it scale?", "label": 1}
+{"previous": "What is encryption at rest?", "current": "What is deep learning?", "label": 0}
+{"previous": "What is computer vision?", "current": "How does that work?", "label": 1}
+{"previous": "What are consensus algorithms?", "current": "What is computer vision?", "label": 0}
+{"previous": "How does TLS work?", "current": "Got it", "label": 2}
+{"previous": "What is sharding?", "current": "What are the benefits?", "label": 1}
+{"previous": "", "current": "How does OAuth work?", "label": 0}
+{"previous": "What is vertical scaling?", "current": "What about X?", "label": 1}
+{"previous": "Who is Professor Chen?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is encryption at rest?", "current": "Why is that important?", "label": 1}
+{"previous": "Who teaches at MIT?", "current": "What is sharding?", "label": 0}
+{"previous": "Who is Professor Chen?", "current": "What are the alternatives?", "label": 1}
+{"previous": "Where is UIT kuravankonam?", "current": "Yeah", "label": 2}
+{"previous": "Who is Professor Rodriguez?", "current": "What is AWS?", "label": 0}
+{"previous": "What does Redis do?", "current": "Explain cloud computing", "label": 0}
+{"previous": "What is microservices?", "current": "Hey", "label": 2}
+{"previous": "", "current": "Where is UIT kuravankonam?", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "I see", "label": 2}
+{"previous": "", "current": "Explain load balancing", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "How does OAuth work?", "label": 0}
+{"previous": "", "current": "What is deep learning?", "label": 0}
+{"previous": "What is Byzantine fault tolerance?", "current": "Thanks", "label": 2}
+{"previous": "Explain cloud computing", "current": "What is machine learning?", "label": 0}
+{"previous": "Who is Professor Rodriguez?", "current": "When?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "Good to know", "label": 2}
+{"previous": "What does Jitha teacher teach?", "current": "Where?", "label": 1}
+{"previous": "Explain cloud computing", "current": "What is a load balancer?", "label": 0}
+{"previous": "How does TLS work?", "current": "Maybe later", "label": 2}
+{"previous": "", "current": "Explain PostgreSQL", "label": 0}
+{"previous": "What is MongoDB?", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "Explain caching", "current": "How does OAuth work?", "label": 0}
+{"previous": "What is computer vision?", "current": "Who?", "label": 1}
+{"previous": "What is microservices?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What is microservices?", "current": "Later", "label": 2}
+{"previous": "What is encryption at rest?", "current": "What is eventual consistency?", "label": 0}
+{"previous": "", "current": "Explain How does OAuth work", "label": 0}
+{"previous": "Explain caching", "current": "What are the types?", "label": 1}
+{"previous": "How does TLS work?", "current": "What is Spanner?", "label": 0}
+{"previous": "What is AWS?", "current": "What is Spanner?", "label": 0}
+{"previous": "Explain ACID transactions", "current": "Sounds good", "label": 2}
+{"previous": "Explain ACID transactions", "current": "What is MongoDB?", "label": 0}
+{"previous": "Who is Professor Chen?", "current": "Bye", "label": 2}
+{"previous": "What is Byzantine fault tolerance?", "current": "Why?", "label": 1}
+{"previous": "Define horizontal scaling", "current": "Where?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "What are the types?", "label": 1}
+{"previous": "What is Spanner?", "current": "What else?", "label": 1}
+{"previous": "What is Kubernetes?", "current": "What are consensus algorithms?", "label": 0}
+{"previous": "What is NoSQL?", "current": "What's the difference?", "label": 1}
+{"previous": "What is deep learning?", "current": "What else?", "label": 1}
+{"previous": "What is MVCC?", "current": "What are the types?", "label": 1}
+{"previous": "What is computer vision?", "current": "Explain ACID transactions", "label": 0}
+{"previous": "How does TLS work?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What is a load balancer?", "current": "Good to know", "label": 2}
+{"previous": "What is PostgreSQL?", "current": "Got it", "label": 2}
+{"previous": "What does Redis do?", "current": "Later", "label": 2}
+{"previous": "Explain round-robin algorithm", "current": "How does it scale?", "label": 1}
+{"previous": "What is computer vision?", "current": "Yeah", "label": 2}
+{"previous": "How does OAuth work?", "current": "Yep", "label": 2}
+{"previous": "What is deep learning?", "current": "What is auto-scaling?", "label": 0}
+{"previous": "", "current": "What is microservices?", "label": 0}
+{"previous": "Explain load balancing", "current": "What is deep learning?", "label": 0}
+{"previous": "What is eventual consistency?", "current": "When?", "label": 1}
+{"previous": "How does TLS work?", "current": "How does that work?", "label": 1}
+{"previous": "What is Byzantine fault tolerance?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is vertical scaling?", "current": "What is SQL injection?", "label": 0}
+{"previous": "What is Docker?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What is eventual consistency?", "current": "Goodbye", "label": 2}
+{"previous": "Who is Professor Chen?", "current": "Good to know", "label": 2}
+{"previous": "Explain cloud computing", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What is encryption at rest?", "current": "What about in transit?", "label": 1}
+{"previous": "What does Redis do?", "current": "Who is Professor Chen?", "label": 0}
+{"previous": "What does Redis do?", "current": "Right", "label": 2}
+{"previous": "What is eventual consistency?", "current": "When?", "label": 1}
+{"previous": "What is sharding?", "current": "How does it compare?", "label": 1}
+{"previous": "", "current": "What is Docker?", "label": 0}
+{"previous": "How does OAuth work?", "current": "Sure", "label": 2}
+{"previous": "What is vertical scaling?", "current": "What's the difference?", "label": 1}
+{"previous": "What is SQL injection?", "current": "Who?", "label": 1}
+{"previous": "", "current": "What are consensus algorithms?", "label": 0}
+{"previous": "What is deep learning?", "current": "Explain caching", "label": 0}
+{"previous": "What is Redis?", "current": "What data structures does it support?", "label": 1}
+{"previous": "What is Redis?", "current": "Why use it for caching?", "label": 1}
+{"previous": "What are consensus algorithms?", "current": "Who is Professor Rodriguez?", "label": 0}
+{"previous": "What are microservices benefits?", "current": "What about X?", "label": 1}
+{"previous": "What is Docker?", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What is Docker?", "current": "Why use it?", "label": 1}
+{"previous": "What is computer vision?", "current": "Who is Professor Chen?", "label": 0}
+{"previous": "What is Kubernetes?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What is vertical scaling?", "current": "Okay", "label": 2}
+{"previous": "What is distributed systems?", "current": "Cool", "label": 2}
+{"previous": "What is PostgreSQL?", "current": "Explain caching", "label": 0}
+{"previous": "What is Docker?", "current": "What are the types?", "label": 1}
+{"previous": "How does TLS work?", "current": "Explain ACID transactions", "label": 0}
+{"previous": "What is a load balancer?", "current": "Can you explain more?", "label": 1}
+{"previous": "What is Spanner?", "current": "Thanks", "label": 2}
+{"previous": "What does Jitha teacher teach?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What is machine learning?", "current": "Perfect", "label": 2}
+{"previous": "What is distributed systems?", "current": "I see", "label": 2}
+{"previous": "What is MVCC?", "current": "Where?", "label": 1}
+{"previous": "What is sharding?", "current": "What else?", "label": 1}
+{"previous": "Explain JWT tokens", "current": "What is AWS?", "label": 0}
+{"previous": "Where is UIT kuravankonam?", "current": "Explain caching", "label": 0}
+{"previous": "What is SQL injection?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is vertical scaling?", "current": "What is MongoDB?", "label": 0}
+{"previous": "What is MVCC?", "current": "What is sharding?", "label": 0}
+{"previous": "Explain caching", "current": "Explain JWT tokens", "label": 0}
+{"previous": "Explain load balancing", "current": "What about X?", "label": 1}
+{"previous": "What is AWS?", "current": "How?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "How does that work?", "label": 1}
+{"previous": "What is microservices?", "current": "Yeah", "label": 2}
+{"previous": "Define horizontal scaling", "current": "What is AWS?", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "What is deep learning?", "label": 0}
+{"previous": "What is MongoDB?", "current": "When?", "label": 1}
+{"previous": "", "current": "What is computer vision?", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "Alright", "label": 2}
+{"previous": "Who teaches at MIT?", "current": "Right", "label": 2}
+{"previous": "What is sharding?", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "What is Docker?", "current": "Perfect", "label": 2}
+{"previous": "What is caching?", "current": "What are the trade-offs?", "label": 1}
+{"previous": "Explain load balancing", "current": "Goodbye", "label": 2}
+{"previous": "Explain JWT tokens", "current": "How does it compare?", "label": 1}
+{"previous": "What are consensus algorithms?", "current": "How does that work?", "label": 1}
+{"previous": "", "current": "Who is Professor Chen?", "label": 0}
+{"previous": "How does OAuth work?", "current": "What is eventual consistency?", "label": 0}
+{"previous": "Who is Professor Rodriguez?", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "What are the types of scaling?", "current": "Where?", "label": 1}
+{"previous": "Who is Dr. Sarah Chen?", "current": "What does she teach?", "label": 1}
+{"previous": "What is machine learning?", "current": "What is SQL injection?", "label": 0}
+{"previous": "Explain ACID transactions", "current": "How does it scale?", "label": 1}
+{"previous": "What is MongoDB?", "current": "What about X?", "label": 1}
+{"previous": "What is microservices?", "current": "Okay", "label": 2}
+{"previous": "What is sharding?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What does Redis do?", "current": "Got it", "label": 2}
+{"previous": "What does Professor Rodriguez research?", "current": "Where did he work before?", "label": 1}
+{"previous": "What is sharding?", "current": "Why?", "label": 1}
+{"previous": "What is computer vision?", "current": "Explain load balancing", "label": 0}
+{"previous": "", "current": "What is encryption at rest?", "label": 0}
+{"previous": "What is Spanner?", "current": "When?", "label": 1}
+{"previous": "", "current": "Perfect", "label": 2}
+{"previous": "What are consensus algorithms?", "current": "How?", "label": 1}
+{"previous": "What is NoSQL?", "current": "Where is UIT kuravankonam?", "label": 0}
+{"previous": "What is SQL injection?", "current": "How do you prevent it?", "label": 1}
+{"previous": "What does Jitha teacher teach?", "current": "Bye", "label": 2}
+{"previous": "Explain load balancing", "current": "Explain caching", "label": 0}
+{"previous": "What is a load balancer?", "current": "What is BigTable?", "label": 0}
+{"previous": "What is MVCC?", "current": "Interesting", "label": 2}
+{"previous": "What is microservices?", "current": "Can you explain more?", "label": 1}
+{"previous": "What is encryption at rest?", "current": "What are the alternatives?", "label": 1}
+{"previous": "", "current": "Maybe later", "label": 2}
+{"previous": "Explain JWT tokens", "current": "How so?", "label": 1}
+{"previous": "How does OAuth work?", "current": "What is AWS?", "label": 0}
+{"previous": "What does Jitha teacher teach?", "current": "Where?", "label": 1}
+{"previous": "Explain load balancing", "current": "What algorithms are used?", "label": 1}
+{"previous": "Who is Professor Chen?", "current": "How so?", "label": 1}
+{"previous": "What does Redis do?", "current": "What is Kubernetes?", "label": 0}
+{"previous": "What is auto-scaling?", "current": "Where?", "label": 1}
+{"previous": "", "current": "Tell me about SQL injection", "label": 0}
+{"previous": "Who is Professor Chen?", "current": "What is AWS?", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "Define horizontal scaling", "label": 0}
+{"previous": "Who is Professor Rodriguez?", "current": "What is MongoDB?", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "How does TLS work?", "label": 0}
+{"previous": "", "current": "What is auto-scaling?", "label": 0}
+{"previous": "What is encryption at rest?", "current": "Right", "label": 2}
+{"previous": "", "current": "Tell me about Explain JWT tokens", "label": 0}
+{"previous": "Where is UIT kuravankonam?", "current": "Okay", "label": 2}
+{"previous": "What is MongoDB?", "current": "Explain caching", "label": 0}
+{"previous": "What are the types of scaling?", "current": "Makes sense", "label": 2}
+{"previous": "Explain cloud computing", "current": "When?", "label": 1}
+{"previous": "What is MVCC?", "current": "What is Kubernetes?", "label": 0}
+{"previous": "What is SQL injection?", "current": "Where?", "label": 1}
+{"previous": "What is PostgreSQL?", "current": "What is auto-scaling?", "label": 0}
+{"previous": "What does Redis do?", "current": "Great", "label": 2}
+{"previous": "What is microservices?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "", "current": "Tell me about PostgreSQL", "label": 0}
+{"previous": "What are the types of scaling?", "current": "Nice", "label": 2}
+{"previous": "What does Redis do?", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "Explain ACID transactions", "current": "How does it scale?", "label": 1}
+{"previous": "What is PostgreSQL?", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "Explain ACID transactions", "current": "What about X?", "label": 1}
+{"previous": "What is sharding?", "current": "Sure", "label": 2}
+{"previous": "What is computer vision?", "current": "How?", "label": 1}
+{"previous": "What is a load balancer?", "current": "What is MVCC?", "label": 0}
+{"previous": "What are microservices benefits?", "current": "What does Redis do?", "label": 0}
+{"previous": "Who teaches at MIT?", "current": "Interesting", "label": 2}
+{"previous": "", "current": "Explain JWT tokens", "label": 0}
+{"previous": "", "current": "Explain What are consensus algorithms", "label": 0}
+{"previous": "Who is Professor Chen?", "current": "Thanks", "label": 2}
+{"previous": "How does TLS work?", "current": "Who?", "label": 1}
+{"previous": "What is BigTable?", "current": "Hi", "label": 2}
+{"previous": "What is deep learning?", "current": "What else?", "label": 1}
+{"previous": "Explain round-robin algorithm", "current": "Explain load balancing", "label": 0}
+{"previous": "", "current": "Awesome", "label": 2}
+{"previous": "What is encryption at rest?", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "What is vertical scaling?", "current": "How so?", "label": 1}
+{"previous": "Define horizontal scaling", "current": "What are consensus algorithms?", "label": 0}
+{"previous": "What does Jitha teacher teach?", "current": "Who?", "label": 1}
+{"previous": "What is Byzantine fault tolerance?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What is NoSQL?", "current": "What is eventual consistency?", "label": 0}
+{"previous": "What does Jitha teacher teach?", "current": "How so?", "label": 1}
+{"previous": "What is NoSQL?", "current": "What is distributed systems?", "label": 0}
+{"previous": "What is machine learning?", "current": "How does OAuth work?", "label": 0}
+{"previous": "What is deep learning?", "current": "Give me an example", "label": 1}
+{"previous": "Explain cloud computing", "current": "See you", "label": 2}
+{"previous": "Who is Professor Chen?", "current": "What are microservices benefits?", "label": 0}
+{"previous": "What is BigTable?", "current": "Perfect", "label": 2}
+{"previous": "What is microservices?", "current": "How does that work?", "label": 1}
+{"previous": "What is PostgreSQL?", "current": "No thanks", "label": 2}
+{"previous": "Explain cloud computing", "current": "Why?", "label": 1}
+{"previous": "What is Byzantine fault tolerance?", "current": "Alright", "label": 2}
+{"previous": "What are microservices benefits?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What is MongoDB?", "current": "What are the types?", "label": 1}
+{"previous": "Explain ACID transactions", "current": "How does OAuth work?", "label": 0}
+{"previous": "What is Byzantine fault tolerance?", "current": "Where?", "label": 1}
+{"previous": "", "current": "Tell me about Define horizontal scaling", "label": 0}
+{"previous": "Explain cloud computing", "current": "How so?", "label": 1}
+{"previous": "Explain cloud computing", "current": "Where?", "label": 1}
+{"previous": "Explain ACID transactions", "current": "What is sharding?", "label": 0}
+{"previous": "What is sharding?", "current": "What's the difference?", "label": 1}
+{"previous": "Where is UIT kuravankonam?", "current": "What are microservices benefits?", "label": 0}
+{"previous": "Explain JWT tokens", "current": "Later", "label": 2}
+{"previous": "What is Docker?", "current": "What is NoSQL?", "label": 0}
+{"previous": "What is Byzantine fault tolerance?", "current": "Where?", "label": 1}
+{"previous": "How does OAuth work?", "current": "Can you explain more?", "label": 1}
+{"previous": "What does Jitha teacher teach?", "current": "Maybe later", "label": 2}
+{"previous": "Explain cloud computing", "current": "Hello", "label": 2}
+{"previous": "What is BigTable?", "current": "What are the alternatives?", "label": 1}
+{"previous": "Define horizontal scaling", "current": "What are the types?", "label": 1}
+{"previous": "What is distributed systems?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "Who is Professor Chen?", "current": "How so?", "label": 1}
+{"previous": "Explain load balancing", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What is auto-scaling?", "current": "What is machine learning?", "label": 0}
+{"previous": "What is Spanner?", "current": "What does Redis do?", "label": 0}
+{"previous": "What does Redis do?", "current": "What is encryption at rest?", "label": 0}
+{"previous": "Explain caching", "current": "What are consensus algorithms?", "label": 0}
+{"previous": "What does Jitha teacher teach?", "current": "How does it scale?", "label": 1}
+{"previous": "Who is Professor Chen?", "current": "What is microservices?", "label": 0}
+{"previous": "What is Kubernetes?", "current": "What is vertical scaling?", "label": 0}
+{"previous": "What is Docker?", "current": "What's up?", "label": 2}
+{"previous": "What is PostgreSQL?", "current": "How are you?", "label": 2}
+{"previous": "How does OAuth work?", "current": "How?", "label": 1}
+{"previous": "What is SQL injection?", "current": "What's the difference?", "label": 1}
+{"previous": "What are consensus algorithms?", "current": "What are the alternatives?", "label": 1}
+{"previous": "What is Docker?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What is computer vision?", "current": "What is PostgreSQL?", "label": 0}
+{"previous": "Explain JWT tokens", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "Explain ACID transactions", "current": "How does it scale?", "label": 1}
+{"previous": "What is Docker?", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "", "current": "Tell me about sharding", "label": 0}
+{"previous": "What is Byzantine fault tolerance?", "current": "Yep", "label": 2}
+{"previous": "What does Jitha teacher teach?", "current": "See you", "label": 2}
+{"previous": "Explain caching", "current": "Sounds good", "label": 2}
+{"previous": "", "current": "What is SQL injection?", "label": 0}
+{"previous": "What is load balancing?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What is Docker?", "current": "How does it scale?", "label": 1}
+{"previous": "", "current": "Great", "label": 2}
+{"previous": "What is BigTable?", "current": "Can you explain more?", "label": 1}
+{"previous": "What is Spanner?", "current": "What about X?", "label": 1}
+{"previous": "How does OAuth work?", "current": "Explain load balancing", "label": 0}
+{"previous": "What is microservices?", "current": "Nice", "label": 2}
+{"previous": "What are consensus algorithms?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What does Redis do?", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "Explain caching", "current": "See you", "label": 2}
+{"previous": "What is sharding?", "current": "Give me an example", "label": 1}
+{"previous": "What is distributed systems?", "current": "Great", "label": 2}
+{"previous": "Explain cloud computing", "current": "How so?", "label": 1}
+{"previous": "", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "What is MongoDB?", "current": "Where is UIT kuravankonam?", "label": 0}
+{"previous": "What is Kubernetes?", "current": "Why is that important?", "label": 1}
+{"previous": "", "current": "Explain Define horizontal scaling", "label": 0}
+{"previous": "Explain cloud computing", "current": "Sure", "label": 2}
+{"previous": "Explain caching", "current": "What does Jitha teacher teach?", "label": 0}
+{"previous": "", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "Sounds good", "label": 2}
+{"previous": "What is machine learning?", "current": "Yep", "label": 2}
+{"previous": "What is MVCC?", "current": "What's the difference?", "label": 1}
+{"previous": "What is Docker?", "current": "What is deep learning?", "label": 0}
+{"previous": "What is Kubernetes?", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What is BigTable?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is MVCC?", "current": "How does that work?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "Why?", "label": 1}
+{"previous": "Who is Professor Chen?", "current": "Hi", "label": 2}
+{"previous": "What is PostgreSQL?", "current": "Explain ACID transactions", "label": 0}
+{"previous": "What is MongoDB?", "current": "Sure", "label": 2}
+{"previous": "What is OAuth?", "current": "What are access tokens?", "label": 1}
+{"previous": "What is MongoDB?", "current": "How does it scale?", "label": 1}
+{"previous": "", "current": "Tell me about Explain caching", "label": 0}
+{"previous": "What is horizontal scaling?", "current": "What are the types?", "label": 1}
+{"previous": "What is Spanner?", "current": "What are the types?", "label": 1}
+{"previous": "What is eventual consistency?", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "Who is Professor Rodriguez?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What is sharding?", "current": "What else?", "label": 1}
+{"previous": "Who is Professor Rodriguez?", "current": "Why is that important?", "label": 1}
+{"previous": "", "current": "Explain Explain caching", "label": 0}
+{"previous": "Explain JWT tokens", "current": "Yep", "label": 2}
+{"previous": "What is deep learning?", "current": "No thanks", "label": 2}
+{"previous": "", "current": "Nice", "label": 2}
+{"previous": "How does OAuth work?", "current": "Cool", "label": 2}
+{"previous": "Explain cloud computing", "current": "What is computer vision?", "label": 0}
+{"previous": "Explain load balancing", "current": "How does OAuth work?", "label": 0}
+{"previous": "What is Byzantine fault tolerance?", "current": "Nope", "label": 2}
+{"previous": "Explain load balancing", "current": "Sure", "label": 2}
+{"previous": "What is eventual consistency?", "current": "Can you explain more?", "label": 1}
+{"previous": "Explain cloud computing", "current": "What are the disadvantages?", "label": 1}
+{"previous": "Explain cloud computing", "current": "Where?", "label": 1}
+{"previous": "What is AWS?", "current": "What is microservices?", "label": 0}
+{"previous": "", "current": "No thanks", "label": 2}
+{"previous": "What is Docker?", "current": "How does TLS work?", "label": 0}
+{"previous": "Who is Professor Rodriguez?", "current": "Why is that important?", "label": 1}
+{"previous": "", "current": "Tell me about auto-scaling", "label": 0}
+{"previous": "", "current": "Explain Explain JWT tokens", "label": 0}
+{"previous": "What is microservices?", "current": "What is eventual consistency?", "label": 0}
+{"previous": "What is Byzantine fault tolerance?", "current": "How so?", "label": 1}
+{"previous": "What is machine learning?", "current": "What is Docker?", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "What are the alternatives?", "label": 1}
+{"previous": "", "current": "Cool", "label": 2}
+{"previous": "What is SQL injection?", "current": "No thanks", "label": 2}
+{"previous": "What is auto-scaling?", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "Maybe later", "label": 2}
+{"previous": "Explain load balancing", "current": "Interesting", "label": 2}
+{"previous": "Explain caching", "current": "What is sharding?", "label": 0}
+{"previous": "Explain JWT tokens", "current": "Thanks", "label": 2}
+{"previous": "How does OAuth work?", "current": "How does TLS work?", "label": 0}
+{"previous": "What are the types of scaling?", "current": "Give me an example", "label": 1}
+{"previous": "Explain round-robin algorithm", "current": "Bye", "label": 2}
+{"previous": "Who is Professor Rodriguez?", "current": "What else?", "label": 1}
+{"previous": "", "current": "What's up?", "label": 2}
+{"previous": "What does Jitha teacher teach?", "current": "How does it compare?", "label": 1}
+{"previous": "What is auto-scaling?", "current": "Why?", "label": 1}
+{"previous": "What are consensus algorithms?", "current": "Hi", "label": 2}
+{"previous": "What is deep learning?", "current": "Who is Professor Rodriguez?", "label": 0}
+{"previous": "What is Spanner?", "current": "Great", "label": 2}
+{"previous": "", "current": "Cheers", "label": 2}
+{"previous": "What are microservices benefits?", "current": "Yeah", "label": 2}
+{"previous": "", "current": "Tell me about microservices", "label": 0}
+{"previous": "", "current": "What does Redis do?", "label": 0}
+{"previous": "How does TLS work?", "current": "Who is Professor Chen?", "label": 0}
+{"previous": "What is sharding?", "current": "What are the types?", "label": 1}
+{"previous": "What is NoSQL?", "current": "What is deep learning?", "label": 0}
+{"previous": "What is sharding?", "current": "Cheers", "label": 2}
+{"previous": "What are the types of scaling?", "current": "Explain load balancing", "label": 0}
+{"previous": "What is auto-scaling?", "current": "What are consensus algorithms?", "label": 0}
+{"previous": "What is microservices?", "current": "How does OAuth work?", "label": 0}
+{"previous": "What is NoSQL?", "current": "Right", "label": 2}
+{"previous": "Who is Professor Chen?", "current": "What about X?", "label": 1}
+{"previous": "", "current": "What is a load balancer?", "label": 0}
+{"previous": "Explain load balancing", "current": "Explain caching", "label": 0}
+{"previous": "", "current": "See you", "label": 2}
+{"previous": "How does OAuth work?", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "What is MongoDB?", "current": "What consistency model does it use?", "label": 1}
+{"previous": "Who teaches at MIT?", "current": "What are microservices benefits?", "label": 0}
+{"previous": "What is AWS?", "current": "Exactly", "label": 2}
+{"previous": "Explain cloud computing", "current": "Explain caching", "label": 0}
+{"previous": "", "current": "Explain Explain load balancing", "label": 0}
+{"previous": "", "current": "What is MVCC?", "label": 0}
+{"previous": "What is NoSQL?", "current": "How?", "label": 1}
+{"previous": "What is machine learning?", "current": "Who?", "label": 1}
+{"previous": "", "current": "Hi", "label": 2}
+{"previous": "Who is Professor Rodriguez?", "current": "Good to know", "label": 2}
+{"previous": "What is NoSQL?", "current": "When?", "label": 1}
+{"previous": "What is machine learning?", "current": "How?", "label": 1}
+{"previous": "What is sharding?", "current": "What are the benefits?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "How does OAuth work?", "label": 0}
+{"previous": "What is Byzantine fault tolerance?", "current": "Give me an example", "label": 1}
+{"previous": "What is Spanner?", "current": "How are you?", "label": 2}
+{"previous": "What is SQL injection?", "current": "What are the alternatives?", "label": 1}
+{"previous": "What is Byzantine fault tolerance?", "current": "What is computer vision?", "label": 0}
+{"previous": "What is MongoDB?", "current": "What are the alternatives?", "label": 1}
+{"previous": "What is AWS?", "current": "How does that work?", "label": 1}
+{"previous": "What is machine learning?", "current": "What does Jitha teacher teach?", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "What is sharding?", "label": 0}
+{"previous": "What are the types of scaling?", "current": "Later", "label": 2}
+{"previous": "", "current": "Bye", "label": 2}
+{"previous": "", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "", "current": "Tell me about What does Redis do", "label": 0}
+{"previous": "", "current": "Explain Byzantine fault tolerance", "label": 0}
+{"previous": "Who teaches at MIT?", "current": "Where is UIT kuravankonam?", "label": 0}
+{"previous": "Who is Professor Chen?", "current": "How does OAuth work?", "label": 0}
+{"previous": "What is encryption at rest?", "current": "What are the benefits?", "label": 1}
+{"previous": "", "current": "Explain MVCC", "label": 0}
+{"previous": "What is eventual consistency?", "current": "What does Redis do?", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "What are consensus algorithms?", "label": 0}
+{"previous": "Define horizontal scaling", "current": "How does it compare?", "label": 1}
+{"previous": "What is microservices?", "current": "How are you?", "label": 2}
+{"previous": "What is auto-scaling?", "current": "Who is Professor Rodriguez?", "label": 0}
+{"previous": "What are microservices benefits?", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What is vertical scaling?", "current": "What is auto-scaling?", "label": 0}
+{"previous": "What is microservices?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is AWS?", "current": "When?", "label": 1}
+{"previous": "What is deep learning?", "current": "How does it scale?", "label": 1}
+{"previous": "What is PostgreSQL?", "current": "What about X?", "label": 1}
+{"previous": "Explain round-robin algorithm", "current": "What are the types?", "label": 1}
+{"previous": "Who is Professor Rodriguez?", "current": "What's the difference?", "label": 1}
+{"previous": "What is vertical scaling?", "current": "What are microservices benefits?", "label": 0}
+{"previous": "Explain caching", "current": "Explain load balancing", "label": 0}
+{"previous": "", "current": "Tell me about Byzantine fault tolerance", "label": 0}
+{"previous": "What does Redis do?", "current": "What is encryption at rest?", "label": 0}
+{"previous": "Explain caching", "current": "What is MongoDB?", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "What is deep learning?", "label": 0}
+{"previous": "Explain ACID transactions", "current": "Who is Professor Rodriguez?", "label": 0}
+{"previous": "What are microservices benefits?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What is Byzantine fault tolerance?", "current": "Who is Professor Rodriguez?", "label": 0}
+{"previous": "What does Redis do?", "current": "What is NoSQL?", "label": 0}
+{"previous": "How does OAuth work?", "current": "What are the types?", "label": 1}
+{"previous": "", "current": "Who is Professor Rodriguez?", "label": 0}
+{"previous": "What is MVCC?", "current": "Cool", "label": 2}
+{"previous": "Explain ACID transactions", "current": "How does it compare?", "label": 1}
+{"previous": "What is deep learning?", "current": "What is distributed systems?", "label": 0}
+{"previous": "Where is UIT kuravankonam?", "current": "What is NoSQL?", "label": 0}
+{"previous": "What is vertical scaling?", "current": "Where is UIT kuravankonam?", "label": 0}
+{"previous": "What is eventual consistency?", "current": "Explain cloud computing", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "What are the alternatives?", "label": 1}
+{"previous": "What is deep learning?", "current": "Why?", "label": 1}
+{"previous": "What is PostgreSQL?", "current": "What are the benefits?", "label": 1}
+{"previous": "", "current": "Goodbye", "label": 2}
+{"previous": "How does TLS work?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What is distributed systems?", "current": "Why is that important?", "label": 1}
+{"previous": "Explain cloud computing", "current": "What is Docker?", "label": 0}
+{"previous": "What is MongoDB?", "current": "No thanks", "label": 2}
+{"previous": "What is vertical scaling?", "current": "Sure", "label": 2}
+{"previous": "What is machine learning?", "current": "What is SQL injection?", "label": 0}
+{"previous": "", "current": "Explain caching", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "What are the disadvantages?", "label": 1}
+{"previous": "Who is Professor Chen?", "current": "How does it scale?", "label": 1}
+{"previous": "What is sharding?", "current": "What is AWS?", "label": 0}
+{"previous": "What is Docker?", "current": "Makes sense", "label": 2}
+{"previous": "", "current": "Yeah", "label": 2}
+{"previous": "What does Redis do?", "current": "Who is Professor Chen?", "label": 0}
+{"previous": "What is auto-scaling?", "current": "What is SQL injection?", "label": 0}
+{"previous": "Where is UIT kuravankonam?", "current": "What does Jitha teacher teach?", "label": 0}
+{"previous": "What is MongoDB?", "current": "Goodbye", "label": 2}
+{"previous": "What is MVCC?", "current": "Why is it useful?", "label": 1}
+{"previous": "Explain caching", "current": "What's the difference?", "label": 1}
+{"previous": "", "current": "How does TLS work?", "label": 0}
+{"previous": "", "current": "Tell me about Docker", "label": 0}
+{"previous": "", "current": "What is MongoDB?", "label": 0}
+{"previous": "How does OAuth work?", "current": "What else?", "label": 1}
+{"previous": "Who is Professor Rodriguez?", "current": "Why?", "label": 1}
+{"previous": "", "current": "What are microservices benefits?", "label": 0}
+{"previous": "What does Redis do?", "current": "Got it", "label": 2}
+{"previous": "What is deep learning?", "current": "Can you explain more?", "label": 1}
+{"previous": "What is AWS?", "current": "What is computer vision?", "label": 0}
+{"previous": "How does TLS work?", "current": "What is AWS?", "label": 0}
+{"previous": "What is deep learning?", "current": "Good to know", "label": 2}
+{"previous": "What is computer vision?", "current": "Explain cloud computing", "label": 0}
+{"previous": "What is NoSQL?", "current": "What is deep learning?", "label": 0}
+{"previous": "What are microservices benefits?", "current": "Thank you", "label": 2}
+{"previous": "", "current": "How are you?", "label": 2}
+{"previous": "Explain round-robin algorithm", "current": "Great", "label": 2}
+{"previous": "What is deep learning?", "current": "What else?", "label": 1}
+{"previous": "Where is UIT kuravankonam?", "current": "What is microservices?", "label": 0}
+{"previous": "What is AWS?", "current": "Thank you", "label": 2}
+{"previous": "Who is Professor Rodriguez?", "current": "Give me an example", "label": 1}
+{"previous": "Explain round-robin algorithm", "current": "Where?", "label": 1}
+{"previous": "", "current": "Tell me about Explain load balancing", "label": 0}
+{"previous": "What is SQL injection?", "current": "Where?", "label": 1}
+{"previous": "What is vertical scaling?", "current": "What is eventual consistency?", "label": 0}
+{"previous": "What is sharding?", "current": "Who?", "label": 1}
+{"previous": "Explain ACID transactions", "current": "What is vertical scaling?", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "Perfect", "label": 2}
+{"previous": "Explain cloud computing", "current": "What are the alternatives?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "What is Kubernetes?", "label": 0}
+{"previous": "What is eventual consistency?", "current": "Who is Professor Rodriguez?", "label": 0}
+{"previous": "What is encryption at rest?", "current": "What is NoSQL?", "label": 0}
+{"previous": "", "current": "I see", "label": 2}
+{"previous": "", "current": "Explain Docker", "label": 0}
+{"previous": "What is Spanner?", "current": "Hello", "label": 2}
+{"previous": "What are consensus algorithms?", "current": "What is encryption at rest?", "label": 0}
+{"previous": "What is eventual consistency?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is Docker?", "current": "How does it scale?", "label": 1}
+{"previous": "What is distributed systems?", "current": "Got it", "label": 2}
+{"previous": "What are consensus algorithms?", "current": "What else?", "label": 1}
+{"previous": "What is machine learning?", "current": "What is MongoDB?", "label": 0}
+{"previous": "What does Redis do?", "current": "What is NoSQL?", "label": 0}
+{"previous": "Define horizontal scaling", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What does Redis do?", "current": "How does that work?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "Later", "label": 2}
+{"previous": "What is MongoDB?", "current": "Define horizontal scaling", "label": 0}
+{"previous": "Explain ACID transactions", "current": "Maybe later", "label": 2}
+{"previous": "What is computer vision?", "current": "What is distributed systems?", "label": 0}
+{"previous": "Explain load balancing", "current": "Can you explain more?", "label": 1}
+{"previous": "What is AWS?", "current": "What is deep learning?", "label": 0}
+{"previous": "", "current": "Tell me about MVCC", "label": 0}
+{"previous": "What does Redis do?", "current": "How?", "label": 1}
+{"previous": "What is deep learning?", "current": "Perfect", "label": 2}
+{"previous": "What is deep learning?", "current": "How?", "label": 1}
+{"previous": "Who teaches at MIT?", "current": "Why is that important?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "Who is Professor Rodriguez?", "current": "What is distributed systems?", "label": 0}
+{"previous": "What is AWS?", "current": "Thank you", "label": 2}
+{"previous": "Who is Professor Rodriguez?", "current": "When?", "label": 1}
+{"previous": "What is Byzantine fault tolerance?", "current": "What is Spanner?", "label": 0}
+{"previous": "What is Kubernetes?", "current": "What is deep learning?", "label": 0}
+{"previous": "What is sharding?", "current": "What are the benefits?", "label": 1}
+{"previous": "What does Jitha teacher teach?", "current": "When?", "label": 1}
+{"previous": "Explain round-robin algorithm", "current": "Thanks", "label": 2}
+{"previous": "What is BigTable?", "current": "What is NoSQL?", "label": 0}
+{"previous": "What is SQL injection?", "current": "What are consensus algorithms?", "label": 0}
+{"previous": "Explain ACID transactions", "current": "Perfect", "label": 2}
+{"previous": "What are microservices benefits?", "current": "Give me an example", "label": 1}
+{"previous": "What does Redis do?", "current": "Interesting", "label": 2}
+{"previous": "What is deep learning?", "current": "Why is that important?", "label": 1}
+{"previous": "What is deep learning?", "current": "Sounds good", "label": 2}
+{"previous": "What does Redis do?", "current": "Makes sense", "label": 2}
+{"previous": "", "current": "Tell me about Who teaches at MIT", "label": 0}
+{"previous": "Where is UIT kuravankonam?", "current": "What is NoSQL?", "label": 0}
+{"previous": "What is BigTable?", "current": "Thanks", "label": 2}
+{"previous": "Explain round-robin algorithm", "current": "What are the benefits?", "label": 1}
+{"previous": "What is computer vision?", "current": "What is NoSQL?", "label": 0}
+{"previous": "", "current": "Appreciate it", "label": 2}
+{"previous": "", "current": "Interesting", "label": 2}
+{"previous": "Who is Professor Rodriguez?", "current": "How does it compare?", "label": 1}
+{"previous": "What is computer vision?", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "How does TLS work?", "current": "Perfect", "label": 2}
+{"previous": "What is Docker?", "current": "How does OAuth work?", "label": 0}
+{"previous": "Explain cloud computing", "current": "Yep", "label": 2}
+{"previous": "What does Redis do?", "current": "Perfect", "label": 2}
+{"previous": "Explain caching", "current": "Bye", "label": 2}
+{"previous": "Explain caching", "current": "How does that work?", "label": 1}
+{"previous": "What is BigTable?", "current": "What is MongoDB?", "label": 0}
+{"previous": "Explain caching", "current": "What is BigTable?", "label": 0}
+{"previous": "What is Docker?", "current": "What is computer vision?", "label": 0}
+{"previous": "What is Byzantine fault tolerance?", "current": "What is MVCC?", "label": 0}
+{"previous": "", "current": "Explain Who teaches at MIT", "label": 0}
+{"previous": "What is Byzantine fault tolerance?", "current": "Explain caching", "label": 0}
+{"previous": "Who teaches at MIT?", "current": "What is distributed systems?", "label": 0}
+{"previous": "What are the types of scaling?", "current": "What is deep learning?", "label": 0}
+{"previous": "What is computer vision?", "current": "What's the difference?", "label": 1}
+{"previous": "What are the types of scaling?", "current": "What is Spanner?", "label": 0}
+{"previous": "What is NoSQL?", "current": "Give me an example", "label": 1}
+{"previous": "", "current": "Tell me about What are consensus algorithms", "label": 0}
+{"previous": "What is auto-scaling?", "current": "Give me an example", "label": 1}
+{"previous": "What is deep learning?", "current": "What is eventual consistency?", "label": 0}
+{"previous": "What is Docker?", "current": "How does it compare?", "label": 1}
+{"previous": "What does Jitha teacher teach?", "current": "When?", "label": 1}
+{"previous": "What is Kubernetes?", "current": "Who?", "label": 1}
+{"previous": "What is vertical scaling?", "current": "Awesome", "label": 2}
+{"previous": "Explain ACID transactions", "current": "How are you?", "label": 2}
+{"previous": "What is Kubernetes?", "current": "What is deep learning?", "label": 0}
+{"previous": "What does Redis do?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What is MongoDB?", "current": "What are microservices benefits?", "label": 0}
+{"previous": "", "current": "Thanks", "label": 2}
+{"previous": "What is Docker?", "current": "What are the alternatives?", "label": 1}
+{"previous": "What is Byzantine fault tolerance?", "current": "Goodbye", "label": 2}
+{"previous": "How does OAuth work?", "current": "What is microservices?", "label": 0}
+{"previous": "", "current": "What is vertical scaling?", "label": 0}
+{"previous": "Explain JWT tokens", "current": "What is machine learning?", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "Explain ACID transactions", "label": 0}
+{"previous": "What is a load balancer?", "current": "Who is Professor Chen?", "label": 0}
+{"previous": "What is machine learning?", "current": "What is Docker?", "label": 0}
+{"previous": "", "current": "Exactly", "label": 2}
+{"previous": "Explain ACID transactions", "current": "What algorithms are used?", "label": 1}
+{"previous": "Explain load balancing", "current": "How does that work?", "label": 1}
+{"previous": "Explain load balancing", "current": "No thanks", "label": 2}
+{"previous": "", "current": "Explain Explain ACID transactions", "label": 0}
+{"previous": "What is AWS?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What are consensus algorithms?", "current": "Sounds good", "label": 2}
+{"previous": "What is MongoDB?", "current": "What is sharding?", "label": 0}
+{"previous": "What is MongoDB?", "current": "Hi", "label": 2}
+{"previous": "What is AWS?", "current": "Bye", "label": 2}
+{"previous": "", "current": "What is distributed systems?", "label": 0}
+{"previous": "Who teaches at MIT?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What is JWT?", "current": "Where is it used?", "label": 1}
+{"previous": "What is Kubernetes?", "current": "Okay", "label": 2}
+{"previous": "Explain ACID transactions", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "Interesting", "label": 2}
+{"previous": "", "current": "Explain MongoDB", "label": 0}
+{"previous": "Define horizontal scaling", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "", "current": "What is machine learning?", "label": 0}
+{"previous": "What is distributed systems?", "current": "Perfect", "label": 2}
+{"previous": "What is microservices?", "current": "Explain ACID transactions", "label": 0}
+{"previous": "", "current": "What does Jitha teacher teach?", "label": 0}
+{"previous": "What does Jitha teacher teach?", "current": "What does Redis do?", "label": 0}
+{"previous": "What is AWS?", "current": "Right", "label": 2}
+{"previous": "What are the types of scaling?", "current": "What is BigTable?", "label": 0}
+{"previous": "What is MVCC?", "current": "How?", "label": 1}
+{"previous": "", "current": "Explain sharding", "label": 0}
+{"previous": "", "current": "Explain SQL injection", "label": 0}
+{"previous": "What are the types of scaling?", "current": "What is auto-scaling?", "label": 0}
+{"previous": "What is encryption at rest?", "current": "What algorithms are used?", "label": 1}
+{"previous": "", "current": "Nope", "label": 2}
+{"previous": "", "current": "Tell me about What are the types of scaling", "label": 0}
+{"previous": "What is BigTable?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What does Redis do?", "current": "Explain ACID transactions", "label": 0}
+{"previous": "What are the types of scaling?", "current": "Makes sense", "label": 2}
+{"previous": "What is auto-scaling?", "current": "What is eventual consistency?", "label": 0}
+{"previous": "Explain ACID transactions", "current": "When?", "label": 1}
+{"previous": "Explain cloud computing", "current": "What are the alternatives?", "label": 1}
+{"previous": "Where is UIT kuravankonam?", "current": "Explain ACID transactions", "label": 0}
+{"previous": "What is MVCC?", "current": "Nice", "label": 2}
+{"previous": "Explain caching", "current": "What does Jitha teacher teach?", "label": 0}
+{"previous": "What is a load balancer?", "current": "Later", "label": 2}
+{"previous": "What is Kubernetes?", "current": "Cool", "label": 2}
+{"previous": "Who is Professor Rodriguez?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What is AWS?", "current": "Why is that important?", "label": 1}
+{"previous": "What is MVCC?", "current": "What's the difference?", "label": 1}
+{"previous": "What is microservices?", "current": "No thanks", "label": 2}
+{"previous": "What is a load balancer?", "current": "Who?", "label": 1}
+{"previous": "What is auto-scaling?", "current": "Where?", "label": 1}
+{"previous": "What is microservices?", "current": "What are the types of scaling?", "label": 0}
+{"previous": "What is Spanner?", "current": "What about X?", "label": 1}
+{"previous": "What is PostgreSQL?", "current": "What is Spanner?", "label": 0}
+{"previous": "Who is Professor Chen?", "current": "What is eventual consistency?", "label": 0}
+{"previous": "What is AWS?", "current": "What about X?", "label": 1}
+{"previous": "How does OAuth work?", "current": "When?", "label": 1}
+{"previous": "What does Redis do?", "current": "Give me an example", "label": 1}
+{"previous": "Who is Professor Rodriguez?", "current": "When?", "label": 1}
+{"previous": "", "current": "Sounds good", "label": 2}
+{"previous": "Explain cloud computing", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What is SQL injection?", "current": "Hey", "label": 2}
+{"previous": "How does OAuth work?", "current": "What are the alternatives?", "label": 1}
+{"previous": "Define horizontal scaling", "current": "What about X?", "label": 1}
+{"previous": "What is AWS?", "current": "Yep", "label": 2}
+{"previous": "What is microservices?", "current": "Maybe later", "label": 2}
+{"previous": "How does OAuth work?", "current": "Cheers", "label": 2}
+{"previous": "What is distributed systems?", "current": "Great", "label": 2}
+{"previous": "What is a load balancer?", "current": "Where is UIT kuravankonam?", "label": 0}
+{"previous": "Who is Professor Rodriguez?", "current": "See you", "label": 2}
+{"previous": "What is a load balancer?", "current": "Later", "label": 2}
+{"previous": "What are consensus algorithms?", "current": "What does Redis do?", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "What are microservices benefits?", "label": 0}
+{"previous": "What is sharding?", "current": "Later", "label": 2}
+{"previous": "", "current": "Hello", "label": 2}
+{"previous": "What is encryption at rest?", "current": "How does it compare?", "label": 1}
+{"previous": "What are the types of scaling?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "Give me an example", "label": 1}
+{"previous": "What is AWS?", "current": "See you", "label": 2}
+{"previous": "What is eventual consistency?", "current": "Interesting", "label": 2}
+{"previous": "Who teaches at MIT?", "current": "What is AWS?", "label": 0}
+{"previous": "", "current": "Explain What are the types of scaling", "label": 0}
+{"previous": "What is MongoDB?", "current": "Maybe later", "label": 2}
+{"previous": "", "current": "Got it", "label": 2}
+{"previous": "Explain caching", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What is Spanner?", "current": "What is Kubernetes?", "label": 0}
+{"previous": "", "current": "What is BigTable?", "label": 0}
+{"previous": "What does Redis do?", "current": "Interesting", "label": 2}
+{"previous": "What is encryption at rest?", "current": "Yeah", "label": 2}
+{"previous": "Explain JWT tokens", "current": "What is AWS?", "label": 0}
+{"previous": "Define horizontal scaling", "current": "What is BigTable?", "label": 0}
+{"previous": "What is NoSQL?", "current": "Give me an example", "label": 1}
+{"previous": "What is auto-scaling?", "current": "Can you explain more?", "label": 1}
+{"previous": "What does Jitha teacher teach?", "current": "How does it compare?", "label": 1}
+{"previous": "What is Docker?", "current": "What is PostgreSQL?", "label": 0}
+{"previous": "What does Jitha teacher teach?", "current": "Later", "label": 2}
+{"previous": "Explain caching", "current": "What is microservices?", "label": 0}
+{"previous": "What is distributed systems?", "current": "How does it compare?", "label": 1}
+{"previous": "Explain caching", "current": "What is sharding?", "label": 0}
+{"previous": "", "current": "Tell me about Who is Professor Chen", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "Explain load balancing", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "Explain caching", "label": 0}
+{"previous": "Explain caching", "current": "How does it compare?", "label": 1}
+{"previous": "What is deep learning?", "current": "What is auto-scaling?", "label": 0}
+{"previous": "What is vertical scaling?", "current": "How does it scale?", "label": 1}
+{"previous": "What is PostgreSQL?", "current": "Right", "label": 2}
+{"previous": "", "current": "Yep", "label": 2}
+{"previous": "What is AWS?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What is BigTable?", "current": "Sure", "label": 2}
+{"previous": "What is SQL injection?", "current": "What is MongoDB?", "label": 0}
+{"previous": "Define horizontal scaling", "current": "Yep", "label": 2}
+{"previous": "What does Jitha teacher teach?", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "Define horizontal scaling", "current": "What's up?", "label": 2}
+{"previous": "What is sharding?", "current": "How does it improve performance?", "label": 1}
+{"previous": "Explain cloud computing", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What are the types of scaling?", "current": "Got it", "label": 2}
+{"previous": "What is machine learning?", "current": "What are the types?", "label": 1}
+{"previous": "What is Byzantine fault tolerance?", "current": "Why is it important?", "label": 1}
+{"previous": "", "current": "What is eventual consistency?", "label": 0}
+{"previous": "What does Redis do?", "current": "Nice", "label": 2}
+{"previous": "", "current": "Makes sense", "label": 2}
+{"previous": "What is sharding?", "current": "Sounds good", "label": 2}
+{"previous": "What is deep learning?", "current": "How?", "label": 1}
+{"previous": "What is Kubernetes?", "current": "When?", "label": 1}
+{"previous": "", "current": "Tell me about MongoDB", "label": 0}
+{"previous": "What is vertical scaling?", "current": "Explain load balancing", "label": 0}
+{"previous": "What is MongoDB?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "Who teaches at MIT?", "current": "Explain caching", "label": 0}
+{"previous": "", "current": "Thank you", "label": 2}
+{"previous": "", "current": "Hey", "label": 2}
+{"previous": "What is Kubernetes?", "current": "What is encryption at rest?", "label": 0}
+{"previous": "What are the types of scaling?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is machine learning?", "current": "Thanks", "label": 2}
+{"previous": "How does TLS work?", "current": "What is sharding?", "label": 0}
+{"previous": "What are microservices benefits?", "current": "What is eventual consistency?", "label": 0}
+{"previous": "What is a load balancer?", "current": "How so?", "label": 1}
+{"previous": "", "current": "What are the types of scaling?", "label": 0}
+{"previous": "What is a load balancer?", "current": "Give me an example", "label": 1}
+{"previous": "What is BigTable?", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "What is Kubernetes?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "Explain JWT tokens", "current": "Explain cloud computing", "label": 0}
+{"previous": "What is vertical scaling?", "current": "Where?", "label": 1}
+{"previous": "Explain JWT tokens", "current": "What are the benefits?", "label": 1}
+{"previous": "What is NoSQL?", "current": "What are the benefits?", "label": 1}
+{"previous": "", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "Where is UIT kuravankonam?", "current": "What algorithms are used?", "label": 1}
+{"previous": "What is vertical scaling?", "current": "How are you?", "label": 2}
+{"previous": "What is deep learning?", "current": "How?", "label": 1}
+{"previous": "What are the types of scaling?", "current": "Sounds good", "label": 2}
+{"previous": "", "current": "Explain auto-scaling", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "What about X?", "label": 1}
+{"previous": "Explain ACID transactions", "current": "Why?", "label": 1}
+{"previous": "Explain JWT tokens", "current": "Where?", "label": 1}
+{"previous": "Explain caching", "current": "Who?", "label": 1}
+{"previous": "What is deep learning?", "current": "Right", "label": 2}
+{"previous": "", "current": "Explain What does Redis do", "label": 0}
+{"previous": "What does Redis do?", "current": "What is MongoDB?", "label": 0}
+{"previous": "What is computer vision?", "current": "What is auto-scaling?", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "Great", "label": 2}
+{"previous": "What is computer vision?", "current": "What are microservices benefits?", "label": 0}
+{"previous": "How does TLS work?", "current": "What is encryption at rest?", "label": 0}
+{"previous": "What is BigTable?", "current": "No thanks", "label": 2}
+{"previous": "What is SQL injection?", "current": "Goodbye", "label": 2}
+{"previous": "What is SQL injection?", "current": "What are the alternatives?", "label": 1}
+{"previous": "What is BigTable?", "current": "What are the alternatives?", "label": 1}
+{"previous": "Where is UIT kuravankonam?", "current": "Interesting", "label": 2}
+{"previous": "Explain load balancing", "current": "What is Spanner?", "label": 0}
+{"previous": "Who is Professor Chen?", "current": "What is Docker?", "label": 0}
+{"previous": "", "current": "Explain ACID transactions", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "Explain caching", "label": 0}
+{"previous": "", "current": "What is PostgreSQL?", "label": 0}
+{"previous": "What does Jitha teacher teach?", "current": "What algorithms are used?", "label": 1}
+{"previous": "How does OAuth work?", "current": "Yeah", "label": 2}
+{"previous": "Explain load balancing", "current": "Awesome", "label": 2}
+{"previous": "What is machine learning?", "current": "Yep", "label": 2}
+{"previous": "What is distributed systems?", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "", "current": "Right", "label": 2}
+{"previous": "What is machine learning?", "current": "How so?", "label": 1}
+{"previous": "What are consensus algorithms?", "current": "How does TLS work?", "label": 0}
+{"previous": "", "current": "What is NoSQL?", "label": 0}
+{"previous": "What does Redis do?", "current": "No thanks", "label": 2}
+{"previous": "What is Byzantine fault tolerance?", "current": "What is distributed systems?", "label": 0}
+{"previous": "What is MongoDB?", "current": "What is MVCC?", "label": 0}
+{"previous": "Explain round-robin algorithm", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What is NoSQL?", "current": "Good to know", "label": 2}
+{"previous": "What is Byzantine fault tolerance?", "current": "Who is Professor Chen?", "label": 0}
+{"previous": "What is AWS?", "current": "Explain cloud computing", "label": 0}
+{"previous": "", "current": "What is AWS?", "label": 0}
+{"previous": "What is BigTable?", "current": "What is NoSQL?", "label": 0}
+{"previous": "What is OAuth?", "current": "How does it work?", "label": 1}
+{"previous": "What is AWS?", "current": "Alright", "label": 2}
+{"previous": "How does TLS work?", "current": "Yep", "label": 2}
+{"previous": "How does OAuth work?", "current": "What does Redis do?", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "How does it handle concurrency?", "label": 1}
+{"previous": "What is Kubernetes?", "current": "Sounds good", "label": 2}
+{"previous": "What is Kubernetes?", "current": "What's the difference?", "label": 1}
+{"previous": "", "current": "Explain microservices", "label": 0}
+{"previous": "What is encryption at rest?", "current": "What are the benefits?", "label": 1}
+{"previous": "", "current": "What is Kubernetes?", "label": 0}
+{"previous": "What does Jitha teacher teach?", "current": "Explain caching", "label": 0}
+{"previous": "Explain cloud computing", "current": "How does it scale?", "label": 1}
+{"previous": "Explain round-robin algorithm", "current": "What is microservices?", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "What is Docker?", "label": 0}
+{"previous": "What does Redis do?", "current": "What are the types?", "label": 1}
+{"previous": "What is MVCC?", "current": "What is distributed systems?", "label": 0}
+{"previous": "Who teaches at MIT?", "current": "Can you explain more?", "label": 1}
+{"previous": "What is AWS?", "current": "What are the benefits?", "label": 1}
+{"previous": "Explain caching", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What is computer vision?", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What is Kubernetes?", "current": "Who is Professor Chen?", "label": 0}
+{"previous": "What is Kubernetes?", "current": "Hello", "label": 2}
+{"previous": "Explain round-robin algorithm", "current": "Who is Professor Rodriguez?", "label": 0}
+{"previous": "What is MVCC?", "current": "What algorithms are used?", "label": 1}
+{"previous": "How does TLS work?", "current": "Okay", "label": 2}
+{"previous": "What is sharding?", "current": "What is a load balancer?", "label": 0}
+{"previous": "What is vertical scaling?", "current": "What's the difference?", "label": 1}
+{"previous": "What is horizontal scaling?", "current": "Why is it preferred?", "label": 1}
+{"previous": "What is BigTable?", "current": "What are the types?", "label": 1}
+{"previous": "What is BigTable?", "current": "What else?", "label": 1}
+{"previous": "", "current": "Tell me about How does OAuth work", "label": 0}
+{"previous": "What is Spanner?", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "What is Spanner?", "current": "Explain cloud computing", "label": 0}
+{"previous": "What is BigTable?", "current": "How so?", "label": 1}
+{"previous": "Explain load balancing", "current": "What is machine learning?", "label": 0}
+{"previous": "Define horizontal scaling", "current": "What does Jitha teacher teach?", "label": 0}
+{"previous": "What is NoSQL?", "current": "Who?", "label": 1}
+{"previous": "What is SQL injection?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What is PostgreSQL?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is Kubernetes?", "current": "How does it work?", "label": 1}
+{"previous": "How does OAuth work?", "current": "Sounds good", "label": 2}
+{"previous": "What is encryption at rest?", "current": "Explain ACID transactions", "label": 0}
+{"previous": "What is a load balancer?", "current": "Exactly", "label": 2}
+{"previous": "Explain caching", "current": "What are the alternatives?", "label": 1}
+{"previous": "How does TLS work?", "current": "How does it compare?", "label": 1}
+{"previous": "What are the types of scaling?", "current": "What about X?", "label": 1}
+{"previous": "What is sharding?", "current": "Nope", "label": 2}
+{"previous": "What is vertical scaling?", "current": "What is machine learning?", "label": 0}
+{"previous": "What is computer vision?", "current": "What is AWS?", "label": 0}
+{"previous": "How does TLS work?", "current": "What's the difference?", "label": 1}
+{"previous": "How does TLS work?", "current": "Nice", "label": 2}
+{"previous": "What are the types of scaling?", "current": "Sounds good", "label": 2}
+{"previous": "Define horizontal scaling", "current": "How does TLS work?", "label": 0}
+{"previous": "Explain cloud computing", "current": "What else?", "label": 1}
+{"previous": "What is Docker?", "current": "Who is Professor Rodriguez?", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What is Kubernetes?", "current": "Okay", "label": 2}
+{"previous": "What is Docker?", "current": "Yeah", "label": 2}
+{"previous": "Define horizontal scaling", "current": "Maybe later", "label": 2}
+{"previous": "Explain round-robin algorithm", "current": "What are microservices benefits?", "label": 0}
+{"previous": "Who is Professor Rodriguez?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What are consensus algorithms?", "current": "What about X?", "label": 1}
+{"previous": "Where is UIT kuravankonam?", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "Explain ACID transactions", "current": "Cheers", "label": 2}
+{"previous": "", "current": "Alright", "label": 2}
+{"previous": "What is a load balancer?", "current": "What does Jitha teacher teach?", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "What are the alternatives?", "label": 1}
+{"previous": "", "current": "Explain Who is Professor Chen", "label": 0}
+{"previous": "What are microservices benefits?", "current": "Why?", "label": 1}
+{"previous": "Explain caching", "current": "Nice", "label": 2}
+{"previous": "Who teaches at MIT?", "current": "What is machine learning?", "label": 0}
+{"previous": "What is a load balancer?", "current": "Maybe later", "label": 2}
+{"previous": "Explain load balancing", "current": "What else?", "label": 1}
+{"previous": "Where is UIT kuravankonam?", "current": "Alright", "label": 2}
+{"previous": "", "current": "Later", "label": 2}
+{"previous": "Who teaches at MIT?", "current": "What is machine learning?", "label": 0}
+{"previous": "What is machine learning?", "current": "Explain JWT tokens", "label": 0}
+{"previous": "What is eventual consistency?", "current": "Where is UIT kuravankonam?", "label": 0}
+{"previous": "What is deep learning?", "current": "See you", "label": 2}
+{"previous": "What is auto-scaling?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is MongoDB?", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What does Redis do?", "current": "What are the benefits?", "label": 1}
+{"previous": "What is deep learning?", "current": "Bye", "label": 2}
+{"previous": "What is distributed systems?", "current": "Explain cloud computing", "label": 0}
+{"previous": "What is PostgreSQL?", "current": "What else?", "label": 1}
+{"previous": "", "current": "What is Spanner?", "label": 0}
+{"previous": "What is MVCC?", "current": "Hi", "label": 2}
+{"previous": "What is microservices?", "current": "Exactly", "label": 2}
+{"previous": "What is eventual consistency?", "current": "What about X?", "label": 1}
+{"previous": "Where is UIT kuravankonam?", "current": "Bye", "label": 2}
+{"previous": "What is a load balancer?", "current": "How does it compare?", "label": 1}
+{"previous": "What is microservices?", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "What is encryption at rest?", "current": "Bye", "label": 2}
+{"previous": "What is Kubernetes?", "current": "What is NoSQL?", "label": 0}
+{"previous": "", "current": "Tell me about Explain ACID transactions", "label": 0}
+{"previous": "What are the types of scaling?", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What is a load balancer?", "current": "Explain round-robin algorithm", "label": 0}
+{"previous": "What is vertical scaling?", "current": "What is Spanner?", "label": 0}
+{"previous": "How does OAuth work?", "current": "What is Byzantine fault tolerance?", "label": 0}
+{"previous": "Explain ACID transactions", "current": "Why?", "label": 1}
+{"previous": "What is Spanner?", "current": "Interesting", "label": 2}
+{"previous": "What is machine learning?", "current": "What is NoSQL?", "label": 0}
+{"previous": "What is eventual consistency?", "current": "Explain load balancing", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "Where is UIT kuravankonam?", "label": 0}
+{"previous": "What is machine learning?", "current": "Define horizontal scaling", "label": 0}
+{"previous": "What is a load balancer?", "current": "What is Spanner?", "label": 0}
+{"previous": "", "current": "What is sharding?", "label": 0}
+{"previous": "Who teaches at MIT?", "current": "What is Kubernetes?", "label": 0}
+{"previous": "What is AWS?", "current": "What else?", "label": 1}
+{"previous": "How does TLS work?", "current": "How does that work?", "label": 1}
+{"previous": "What is SQL injection?", "current": "Appreciate it", "label": 2}
+{"previous": "Explain caching", "current": "Give me an example", "label": 1}
+{"previous": "What are microservices benefits?", "current": "What are consensus algorithms?", "label": 0}
+{"previous": "What is computer vision?", "current": "What are the benefits?", "label": 1}
+{"previous": "", "current": "Sure", "label": 2}
+{"previous": "Explain caching", "current": "Nice", "label": 2}
+{"previous": "Define horizontal scaling", "current": "What's up?", "label": 2}
+{"previous": "What is microservices?", "current": "Later", "label": 2}
+{"previous": "", "current": "Okay", "label": 2}
+{"previous": "What is machine learning?", "current": "What is computer vision?", "label": 0}
+{"previous": "What is deep learning?", "current": "Got it", "label": 2}
+{"previous": "What is NoSQL?", "current": "What does Redis do?", "label": 0}
+{"previous": "What is encryption at rest?", "current": "Okay", "label": 2}
+{"previous": "Explain cloud computing", "current": "What else?", "label": 1}
+{"previous": "Who is Professor Rodriguez?", "current": "Where did he work before?", "label": 1}
+{"previous": "What is eventual consistency?", "current": "When?", "label": 1}
+{"previous": "Explain load balancing", "current": "See you", "label": 2}
+{"previous": "What are the types of scaling?", "current": "How does OAuth work?", "label": 0}
+{"previous": "What is computer vision?", "current": "Cool", "label": 2}
+{"previous": "What is computer vision?", "current": "Give me an example", "label": 1}
+{"previous": "What is Kubernetes?", "current": "What is Spanner?", "label": 0}
+{"previous": "What is horizontal scaling?", "current": "How does it compare to vertical?", "label": 1}
+{"previous": "What is eventual consistency?", "current": "What are the alternatives?", "label": 1}
+{"previous": "What is distributed systems?", "current": "Right", "label": 2}
+{"previous": "What is auto-scaling?", "current": "What about X?", "label": 1}
+{"previous": "What is auto-scaling?", "current": "What is Kubernetes?", "label": 0}
+{"previous": "What are consensus algorithms?", "current": "Explain cloud computing", "label": 0}
+{"previous": "What is microservices?", "current": "What is machine learning?", "label": 0}
+{"previous": "What is MVCC?", "current": "Can you explain more?", "label": 1}
+{"previous": "What is machine learning?", "current": "Who?", "label": 1}
+{"previous": "How does OAuth work?", "current": "What is machine learning?", "label": 0}
+{"previous": "What is SQL injection?", "current": "What is Docker?", "label": 0}
+{"previous": "What is auto-scaling?", "current": "What is SQL injection?", "label": 0}
+{"previous": "How does TLS work?", "current": "Awesome", "label": 2}
+{"previous": "What does Jitha teacher teach?", "current": "How?", "label": 1}
+{"previous": "What is Byzantine fault tolerance?", "current": "Who?", "label": 1}
+{"previous": "What are microservices benefits?", "current": "I see", "label": 2}
+{"previous": "What is BigTable?", "current": "Interesting", "label": 2}
+{"previous": "What is Byzantine fault tolerance?", "current": "What is distributed systems?", "label": 0}
+{"previous": "What are the types of scaling?", "current": "Who teaches at MIT?", "label": 0}
+{"previous": "What is auto-scaling?", "current": "When should you use it?", "label": 1}
+{"previous": "", "current": "Good to know", "label": 2}
+{"previous": "What is eventual consistency?", "current": "What are the disadvantages?", "label": 1}
+{"previous": "What is SQL injection?", "current": "What is MongoDB?", "label": 0}
+{"previous": "Explain cloud computing", "current": "What is vertical scaling?", "label": 0}
