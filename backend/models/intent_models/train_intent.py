@@ -38,11 +38,19 @@ class IntentDataset(Dataset):
 
     def __getitem__(self, idx):
         item = self.samples[idx]
+        
+        # 🔧 NEW: Format with previous context
+        prev = item.get("previous", "")
+        curr = item["current"]
+        
+        # Combine previous and current with special tokens
+        text = f"[PREV] {prev} [SEP] [CURR] {curr}"
+        
         enc = self.tokenizer(
-            item["text"],
+            text,  # ✅ NEW FORMAT
             truncation=True,
             padding="max_length",
-            max_length=64,
+            max_length=128,  # Increased from 64
             return_tensors="pt",
         )
         return {
